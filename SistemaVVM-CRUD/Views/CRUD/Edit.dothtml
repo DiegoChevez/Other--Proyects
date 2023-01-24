@@ -1,0 +1,62 @@
+﻿@viewModel DotVVMcrud.ViewModels.CRUD.EditViewModel, DotVVMcrud
+@masterPage Views/MasterPage.dotmaster
+@import DotVVMcrud.Resources
+
+<dot:Content ContentPlaceHolderID="MainContent">
+
+    <div class="page-center">
+
+        <dot:RouteLink RouteName="Default" Text="Regresar" class="page-button btn-back btn-long"/>
+
+        <div class="page-box">
+
+            <h1>{{resource: Texts.Editar}}</h1>
+
+            <div Validator.Value="{value: Contacto.Nombres}"
+                 Validator.InvalidCssClass="has-error"
+                 Validator.SetToolTipText="true"
+                 class="page-input-box">
+                {{resource: Texts.txt_nombres}}
+                <dot:TextBox Text="{value: Contacto.Nombres}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: Contacto.Apellidos}"
+                 Validator.InvalidCssClass="has-error"
+                 Validator.SetToolTipText="true"
+                 class="page-input-box">
+                {{resource: Texts.txt_apellidos}}
+                <dot:TextBox Text="{value: Contacto.Apellidos}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: Contacto.Nacimiento}"
+                 Validator.InvalidCssClass="has-error"
+                 Validator.SetToolTipText="true"
+                 class="page-input-box">
+                {{resource: Texts.txt_nacimiento}}
+                <dot:TextBox Text="{value: Contacto.Nacimiento}"
+                             ValueType="DateTime"
+                             FormatString="dd/MM/yyyy" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: Contacto.Email}"
+                 Validator.InvalidCssClass="has-error"
+                 Validator.SetToolTipText="true"
+                 class="page-input-box">
+                {{resource: Texts.txt_correo}}
+                <dot:TextBox Text="{value: Contacto.Email}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: Contacto.Telefono}"
+                 Validator.InvalidCssClass="has-error"
+                 Validator.SetToolTipText="true"
+                 class="page-input-box">
+                {{resource: Texts.txt_telefono}}
+                <dot:TextBox Text="{value: Contacto.Telefono}" class="page-input" />
+            </div>
+
+            <dot:Button Text="{resource: Texts.txt_guardar}" Click="{command: EditContacto()}" class="page-button" /> <!--Se realiza el update segun ID-->
+        </div>
+    </div>
+</dot:Content>
+
+

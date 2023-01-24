@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Don Bosco</title>
+
+	<!--LINKEO DE FUENTE DE GOOGLE-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<!--LINKEO DE CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--LINKEO DE FONT-AWESOME-->
+	<script src="https://kit.fontawesome.com/0fc218370a.js" crossorigin="anonymous"></script>
+	
+	
+</head>
+
+<body>
+	<script>alert("TALLER #2 - DAW");</script>
+	<div class="contenedor">
+
+		<header class="header" id="home">
+			<!--Creacion de la estructura del NAVBAR-->
+			<div class="navbar">
+				<div class="logo">
+					<img src="img/udb-logo.png" alt="">
+				</div>
+				<div class="menu">
+					<i class="fa-solid fa-bars" id="btn_menu"></i>
+					<div id="back_menu">
+					</div>
+					<nav class="nav" id="nav">
+						<img src="img/udb-logo.png" alt="">
+						<ul>
+							<li><a href="#home" id="selected">Inicio</a></li>
+							<li><a href="#carreras" id="hover">Carreras</a></li>
+							<li><a href="materias.html" id="hover">Materias</a></li>
+							<li><a href="info+.html" id="hover">Mas Informacion</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		</header>
+
+		<main class="contenido">
+			<br>
+			<h1>Institucion</h1>
+			<br>
+			<p>
+				La Universidad Don Bosco es una institución apolítica, de inspiración cristiana, sin fines de lucro, creada con carácter permanente y perteneciente a la Institución Salesiana, por fundación y carisma. Fundada en 1984 es continuadora del esfuerzo iniciado por Don Bosco y se orienta hacia la centralidad de la persona y la educación integral de los jóvenes.     
+				<br>
+				<br>
+				Es una entidad sólida enfocada en la educación superior con estilo salesiano a través de iniciativas institucionales significativas, tales como: un Modelo Educativo, la planificación estratégica y táctica de mediano plazo, y a la vez, la construcción de una institucionalidad e integridad cada vez más orientada a mejorar continuamente.
+				<br>
+				<br>
+				La UDB le apuesta continuamente a la excelencia académica y la responsabilidad social en su contexto geográfico e histórico; con una apuesta sólida por la innovación que le ha permitido adentrarse progresivamente en la internacionalización y dar su aporte a la sociedad del conocimiento.
+			</p>
+			<br>
+		</main>
+
+		<aside class="sidebar">
+			<div class="gallery">
+				<div class="image-container">
+					<img src="img/galeria/galeria1.jpg" id="content1" class="active img-gallery">
+					<img src="img/galeria/galeria2.jpg" id="content2" class="img-gallery">
+					<img src="img/galeria/galeria3.png" id="content3" class="img-gallery">
+					<img src="img/galeria/galeria4.jpg" id="content4" class="img-gallery">
+				</div>
+				<div class="dot-container">
+					<button onclick = "dot(1)"></button>
+					<button onclick = "dot(2)"></button>
+					<button onclick = "dot(3)"></button>
+					<button onclick = "dot(4)"></button>
+				</div>
+				<button id="prev" onclick="prev()"> &lt; </button>
+				<button id="next" onclick="next()"> &gt; </button>
+			</div>
+		</aside>
+		<div class="widget-1" id="widget-1-index">
+			<h1>HISTORIA</h1>
+		</div>
+		<div class="widget-2">
+			<br>
+			<h3>La Historia:</h3>
+			<br>
+			<p>
+				Corría la década de 1980 y El Salvador enfrentaba una difícil situación social y educativa. En este contexto, un grupo de salesianos visionarios deciden fundar una institución superior con los rasgos característicos de la obra salesiana: innovación, calidad y el carisma de Don Bosco enfocado en los jóvenes.
+				<br> <br>
+				La Universidad Don Bosco fue creada el 8 de marzo de 1984, por impulso de monseñor José Carmen Di Pietro, primer Obispo de Sonsonate; monseñor Pedro Arnoldo Aparicio, Obispo de San Vicente y de los padres Giuseppe Coró, Settimo Rossoni, Alfonso Evertsz, Salvador Cafarelli y Pierre Muyshondt; que junto a laicos como el Dr. Rafael Flores y Flores, la Dra. Celina de Cañas y el Lic. Gilberto Aguilar Avilés, primer rector, crearon la parte jurídico-estructural de la Universidad.
+				<br> <br>
+				El 14 de enero de 1986 iniciaron las clases con alumnos de ingeniería y humanidades. Los primeros años de la UDB se desarrollaron en el Instituto Filosófico Internacional Don Rúa, en la Escuela Domingo Savio y en el Instituto Técnico Ricaldone, en San Salvador.
+				<br> <br>
+				En 1986 un terremoto afectó varias obras salesianas dando vida a la idea de la Ciudadela Don Bosco, en Soyapango, cuya ubicación fue producto de la reflexión a la luz del carisma salesiano de optar por un sector popular para la promoción de sus habitantes.
+				<br>
+				La sociedad salvadoreña recibió los primeros profesionales UDB en 1990: un grupo de profesores en teología pastoral y, el 23 de noviembre de 1991, a los primeros graduados de ingeniería, de educación así como diplomados en las ramas tecnológicas de electrónica, mecánica y computación.
+				<br> <br>
+				Para 1992, daría inicio el año académico en el nuevo campus con los primeros edificios de aulas, la biblioteca y el Centro de Investigación y Transferencia de Tecnología (CITT).
+				<br> <br>
+				El 16 de febrero de 2007 fue inaugurado el campus Antiguo Cuscatlán, con el fín de acercar los servicios educativos de calidad a una población del sector productivo que le era más difícil trasladarse al campus en Soyapango. En principio, acogió la oferta de maestrías que fue surgiendo desde el año 2000; actualmente, en dicho campus se imparten también diplomados especializados, cursos y certificaciones de idiomas así como carreras de grado.
+				<br> <br>
+				La Universidad brinda programas a nivel de grado (32 especializaciones entre ingenierías, licenciaturas, técnicos y profesorados; distribuidas en cinco Facultades y 9 de estos programas impartidos también en modalidad a distancia a través de la UDB Virtual, creada en 2019). Además, ofrece nueve maestrías y tres doctorados.
+				<br> <br>
+				La UDB fue la primera universidad acreditada a nivel nacional en el año 2001, y la primera en re-acreditarse en 2006, 2011 y 2017. Una de sus apuestas estratégicas es la acreditación de programas a través de procesos de autoevaluación y reflexión interna con base en parámetros regionales e internacionales.
+				<br> <br>
+				Posee una población anual promedio que oscila entre 8,500 a 9,000 estudiantes en los diversos programas. Mantiene fuertes vínculos con el sector productivo y la sociedad, a través de programas de transferencia de tecnología, cursos de educación continua, servicios de consultoría para compañías, investigación y proyección social.
+				<br> <br>
+				La Universidad Don Bosco es miembro de las Instituciones Salesianas de Educación Superior (IUS), una red de más de 80 instituciones promovidas por la Congregación Salesiana, repartidas en los diversos continentes y regiones: América, Europa, África, Asia Sur y Asia Este-Oceanía y de la Organización de Universidades Católicas de América Latina y el Caribe, ODUCAL.
+			</p>
+			<br>
+		</div>
+
+		<div class="widget-3" id="carreras">
+			<section class="carreras"> 
+				<h2 class="carreras-category">Carreras UDB</h2>
+				<button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+				<button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+				<div class="contenedor-carreras">
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/anuncioUDB.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target="#modal"><a href="#" class="a-btn-bw">+ Informacion</a></button>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Carreras UDB</h2>
+							<p class="carrera-short-description">Estudia tus Carreras de corta y larga Duración</p>
+						</div>
+					</div>
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/computacion2.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target="#modal-ing-compu">+ Informacion</button>
+							<div class="modal" id="modal-ing-compu">
+								<div class="modal-header">
+									<div class="title">Ingenieria en Computacion</div>
+									<button data-close-button class="close-button">&times;</button>
+								</div>
+								<div class="modal-body">
+									<hr>
+									<br>
+									<h3>Titulo a Otorgar</h3>
+									<h2>Ingeniero en Ciencias de la Computacion</h2>
+									<br>
+									<hr>
+									<br>
+									<h3>Especificaciones</h3>
+									<ul>
+										<li>Duracion: 5 años [10 ciclos]</li>
+										<li>Numero de Asignaturas: 44 Materias</li>
+										<li>Unidades Valorativas: 178 UV</li>
+										<li>Disponibilidad: C.Antiguo Cuscatlan y C. Soyapango</li>
+									</ul>
+									<br>
+									<div class="info-carrera">
+										<h4>Objetivo de la Carrera</h4>
+										<br>
+										<p>El/la Ingeniero/a en Ciencias de la Computación de la Universidad Don Bosco estará cualificado para desempeñarse en situaciones complejas en tres ámbitos de actuación: el desarrollo de software, la generación de Tenologías de Información y la gestión de redes y comunicación de datos.</p>
+										<br>
+										<h4>Area de Desempeño</h4>
+										<br>
+										<p>La actuación del profesional formado en Ciencias de la COmputación es multidisciplinar, moviliza saberes y herramientas de diferentes disciplinas del conociemiento en el dominio administrativo, tecnológico y cientifico; se puede desarrollar en los ámbitos de desarrollo de software, gestión de tecnologías de información y en el ámbito de gestión de redes y comunicación de datos.</p>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button><a href="#" class="a-btn btn-rojo">Iniciar Proceso</a></button>
+								</div>
+							</div>
+							<div id="overlay"></div>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Ingenieria en Computacion</h2>
+							<p class="carrera-short-description">Duración en años y ciclos: 5 años (10 ciclos)</p>
+						</div>
+					</div>
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/industrial2.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target='#modal-Industrial'="">+ Informacion</button>
+							<div class="modal" id="modal-Industrial">
+								<div class="modal-header">
+									<div class="title">Ingenieria Industiral</div>
+									<button data-close-button class="close-button">&times;</button>
+								</div>
+								<div class="modal-body">
+									<hr>
+									<br>
+									<h3>Titulo a Otorgar</h3>
+									<h2>Ingeniero Industiral</h2>
+									<br>
+									<hr>
+									<br>
+									<h3>Especificaciones</h3>
+									<ul>
+										<li>Duracion: 5 años [10 ciclos]</li>
+										<li>Numero de Asignaturas: 44 Materias</li>
+										<li>Unidades Valorativas: 178 UV</li>
+										<li>Disponibilidad: C.Antiguo Cuscatlan y C. Soyapango</li>
+									</ul>
+									<br>
+									<div class="info-carrera">
+										<h4>Objetivo de la Carrera</h4>
+										<br>
+										<p>El/la Ingeniero/a en Ciencias de la Computación de la Universidad Don Bosco estará cualificado para desempeñarse en situaciones complejas en tres ámbitos de actuación: el desarrollo de software, la generación de Tenologías de Información y la gestión de redes y comunicación de datos.</p>
+										<br>
+										<h4>Area de Desempeño</h4>
+										<br>
+										<p>La actuación del profesional formado en Ciencias de la COmputación es multidisciplinar, moviliza saberes y herramientas de diferentes disciplinas del conociemiento en el dominio administrativo, tecnológico y cientifico; se puede desarrollar en los ámbitos de desarrollo de software, gestión de tecnologías de información y en el ámbito de gestión de redes y comunicación de datos.</p>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button><a href="#" class="a-btn btn-rojo">Iniciar Proceso</a></button>
+								</div>
+							</div>
+							<div id="overlay"></div>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Ingenieria Industrial</h2>
+							<p class="carrera-short-description">Duración en años y ciclos: 5 años (10 ciclos)</p>
+						</div>
+					</div>
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/telecomunicaciones2.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target="#modal-telecom">+ Informacion</button>
+							<div class="modal" id="modal-telecom">
+								<div class="modal-header">
+									<div class="title">Ingenieria en Telecomunicaciones</div>
+									<button data-close-button class="close-button">&times;</button>
+								</div>
+								<div class="modal-body">
+									<hr>
+									<br>
+									<h3>Titulo a Otorgar</h3>
+									<h2>Ingeniero en Telecomunicaciones</h2>
+									<br>
+									<hr>
+									<br>
+									<h3>Especificaciones</h3>
+									<ul>
+										<li>Duracion: 5 años [10 ciclos]</li>
+										<li>Numero de Asignaturas: 44 Materias</li>
+										<li>Unidades Valorativas: 178 UV</li>
+										<li>Disponibilidad: C.Antiguo Cuscatlan y C. Soyapango</li>
+									</ul>
+									<br>
+									<div class="info-carrera">
+										<h4>Objetivo de la Carrera</h4>
+										<br>
+										<p>El/la Ingeniero/a en Ciencias de la Computación de la Universidad Don Bosco estará cualificado para desempeñarse en situaciones complejas en tres ámbitos de actuación: el desarrollo de software, la generación de Tenologías de Información y la gestión de redes y comunicación de datos.</p>
+										<br>
+										<h4>Area de Desempeño</h4>
+										<br>
+										<p>La actuación del profesional formado en Ciencias de la COmputación es multidisciplinar, moviliza saberes y herramientas de diferentes disciplinas del conociemiento en el dominio administrativo, tecnológico y cientifico; se puede desarrollar en los ámbitos de desarrollo de software, gestión de tecnologías de información y en el ámbito de gestión de redes y comunicación de datos.</p>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button><a href="#" class="a-btn btn-rojo">Iniciar Proceso</a></button>
+								</div>
+							</div>
+							<div id="overlay"></div>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Licenciatura en Telecomunicaciones</h2>
+							<p class="carrera-short-description">Duración en años y ciclos: 5 años (10 ciclos)</p>
+						</div>
+					</div>
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/diseñoGrafico2.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target="#modal-diseño">+ Informacion</button>
+							<div class="modal" id="modal-diseño">
+								<div class="modal-header">
+									<div class="title">Licenciatura en Diseño Grafico</div>
+									<button data-close-button class="close-button">&times;</button>
+								</div>
+								<div class="modal-body">
+									<hr>
+									<br>
+									<h3>Titulo a Otorgar</h3>
+									<h2>Licenciatura en Diseño Grafico</h2>
+									<br>
+									<hr>
+									<br>
+									<h3>Especificaciones</h3>
+									<ul>
+										<li>Duracion: 5 años [10 ciclos]</li>
+										<li>Numero de Asignaturas: 44 Materias</li>
+										<li>Unidades Valorativas: 178 UV</li>
+										<li>Disponibilidad: C.Antiguo Cuscatlan y C. Soyapango</li>
+									</ul>
+									<br>
+									<div class="info-carrera">
+										<h4>Objetivo de la Carrera</h4>
+										<br>
+										<p>El/la Ingeniero/a en Ciencias de la Computación de la Universidad Don Bosco estará cualificado para desempeñarse en situaciones complejas en tres ámbitos de actuación: el desarrollo de software, la generación de Tenologías de Información y la gestión de redes y comunicación de datos.</p>
+										<br>
+										<h4>Area de Desempeño</h4>
+										<br>
+										<p>La actuación del profesional formado en Ciencias de la COmputación es multidisciplinar, moviliza saberes y herramientas de diferentes disciplinas del conociemiento en el dominio administrativo, tecnológico y cientifico; se puede desarrollar en los ámbitos de desarrollo de software, gestión de tecnologías de información y en el ámbito de gestión de redes y comunicación de datos.</p>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button><a href="#" class="a-btn btn-rojo">Iniciar Proceso</a></button>
+								</div>
+							</div>
+							<div id="overlay"></div>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Licenciatura en Diseño Grafico</h2>
+							<p class="carrera-short-description">Duración en años y ciclos: 5 años (10 ciclos)</p>
+						</div>
+					</div>
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/TECComputer2.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target="#modal-tecCOM">+ Informacion</button>
+							<div class="modal" id="modal-tecCOM">
+								<div class="modal-header">
+									<div class="title">Tecnico en Computacion</div>
+									<button data-close-button class="close-button">&times;</button>
+								</div>
+								<div class="modal-body">
+									<hr>
+									<br>
+									<h3>Titulo a Otorgar</h3>
+									<h2>Tecnico en Computacion</h2>
+									<br>
+									<hr>
+									<br>
+									<h3>Especificaciones</h3>
+									<ul>
+										<li>Duracion: 5 años [10 ciclos]</li>
+										<li>Numero de Asignaturas: 44 Materias</li>
+										<li>Unidades Valorativas: 178 UV</li>
+										<li>Disponibilidad: C.Antiguo Cuscatlan y C. Soyapango</li>
+									</ul>
+									<br>
+									<div class="info-carrera">
+										<h4>Objetivo de la Carrera</h4>
+										<br>
+										<p>El/la Ingeniero/a en Ciencias de la Computación de la Universidad Don Bosco estará cualificado para desempeñarse en situaciones complejas en tres ámbitos de actuación: el desarrollo de software, la generación de Tenologías de Información y la gestión de redes y comunicación de datos.</p>
+										<br>
+										<h4>Area de Desempeño</h4>
+										<br>
+										<p>La actuación del profesional formado en Ciencias de la COmputación es multidisciplinar, moviliza saberes y herramientas de diferentes disciplinas del conociemiento en el dominio administrativo, tecnológico y cientifico; se puede desarrollar en los ámbitos de desarrollo de software, gestión de tecnologías de información y en el ámbito de gestión de redes y comunicación de datos.</p>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button><a href="#" class="a-btn btn-rojo">Iniciar Proceso</a></button>
+								</div>
+							</div>
+							<div id="overlay"></div>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Técnico en Computación</h2>
+							<p class="carrera-short-description">Duración en años y ciclos: 5 años (10 ciclos)</p>
+						</div>
+					</div>
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/controlCalidad2.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target="#modal-CCADD">+ Informacion</button>
+							<div class="modal" id="modal-CCADD">
+								<div class="modal-header">
+									<div class="title">Licenciatura en Control de Calidad</div>
+									<button data-close-button class="close-button">&times;</button>
+								</div>
+								<div class="modal-body">
+									<hr>
+									<br>
+									<h3>Titulo a Otorgar</h3>
+									<h2>Licenciatura en Control de Calidad</h2>
+									<br>
+									<hr>
+									<br>
+									<h3>Especificaciones</h3>
+									<ul>
+										<li>Duracion: 5 años [10 ciclos]</li>
+										<li>Numero de Asignaturas: 44 Materias</li>
+										<li>Unidades Valorativas: 178 UV</li>
+										<li>Disponibilidad: C.Antiguo Cuscatlan y C. Soyapango</li>
+									</ul>
+									<br>
+									<div class="info-carrera">
+										<h4>Objetivo de la Carrera</h4>
+										<br>
+										<p>El/la Ingeniero/a en Ciencias de la Computación de la Universidad Don Bosco estará cualificado para desempeñarse en situaciones complejas en tres ámbitos de actuación: el desarrollo de software, la generación de Tenologías de Información y la gestión de redes y comunicación de datos.</p>
+										<br>
+										<h4>Area de Desempeño</h4>
+										<br>
+										<p>La actuación del profesional formado en Ciencias de la COmputación es multidisciplinar, moviliza saberes y herramientas de diferentes disciplinas del conociemiento en el dominio administrativo, tecnológico y cientifico; se puede desarrollar en los ámbitos de desarrollo de software, gestión de tecnologías de información y en el ámbito de gestión de redes y comunicación de datos.</p>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button><a href="#" class="a-btn btn-rojo">Iniciar Proceso</a></button>
+								</div>
+							</div>
+							<div id="overlay"></div>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Técnico en Control de la Calidad</h2>
+							<p class="carrera-short-description">Duración en años y ciclos: 5 años (10 ciclos)</p>
+						</div>
+					</div>
+
+					<div class="carrera-card">
+						<div class="carrera-image">
+							<img src="img/carreras/anuncioUDB2.jpg" class="carrera-thumb" alt="">
+							<button class="card-btn" data-modal-target="#modal"><a href="#" class="a-btn-bw">+ Informacion</a></button>
+						</div>
+						<div class="carrera-info">
+							<h2 class="carrera-brand">Carreras UDB</h2>
+							<p class="carrera-short-description">Estudia tus Carreras de corta y larga Duración</p>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<br>
+			<div class="contenedor-redes">
+				<ul>
+					<li class="btn-facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+					<li class="btn-instagram"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+					<li class="btn-twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+					<li class="btn-linkedIn"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+					<li class="btn-youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+				</ul>
+			</div>
+			<br>
+			<p>©Universidad Don Bosco</p>
+			<br>
+		</footer>
+
+		
+	</div>
+
+	<!--Menu Oculto o Hident Button-->
+	<div class="contenedor-hiddent-menu">
+		<div class="hiddent-menu">
+			<input type="checkbox" id="btn-mas">
+			<div class="hiddent-menu-vinculos">
+				<a href="#home" class="fa-solid fa-house"></a>
+				<a href="#carreras" class="fa-solid fa-graduation-cap"></a>
+				<a href="#" class="fa-solid fa-book-bookmark"></a>
+				<a href="#" class="fa-solid fa-plus"></a>
+			</div>
+			<div class="btn-mas">
+				<label for="btn-mas" class="fa fa-plus"></label>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<!-- Configuracion JS -->
+	<script src="js/configuraciones.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

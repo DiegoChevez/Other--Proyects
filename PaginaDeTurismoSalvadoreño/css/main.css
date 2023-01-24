@@ -1,0 +1,614 @@
+@import url(mapa.css);
+@import url(basic.css);
+@import url(responsive.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f1f1f1;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+
+
+/*************************************/
+/**** Estilizado del NAV, HEADER ****/
+/************************************/
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+nav .logo {
+    float: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    display: inline-block;
+    background: #12203E;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    line-height: 70px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+nav ul li a:hover {
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+        0 0 10px #66ffff;
+}
+nav ul ul li a:hover {
+    box-shadow: none;
+}
+nav ul ul {
+    position: absolute;
+    top: 90px;
+    border-top: 3px solid cyan;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+    z-index: 999;
+}
+nav ul ul ul {
+    border-top: none;
+}
+nav ul li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 180px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul ul li a {
+    line-height: 50px;
+}
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 180px;
+}
+.show,
+.icon,
+input {
+    display: none;
+}
+.fa-plus {
+    font-size: 15px;
+    margin-left: 40px;
+}
+@media all and (max-width: 968px) {
+    nav ul {
+        margin-right: 0px;
+        float: left;
+    }
+
+    nav .logo {
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    .show+a,
+    ul {
+        display: none;
+    }
+
+    nav ul li,
+    nav ul ul li {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul li a:hover {
+        box-shadow: none;
+    }
+
+    .show {
+        display: block;
+        color: white;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+
+    .show:hover {
+        color: cyan;
+    }
+
+    .icon {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 40px;
+        line-height: 70px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+    nav ul ul {
+        top: 70px;
+        border-top: 0px;
+        float: none;
+        position: static;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    nav ul ul a {
+        padding-left: 40px;
+    }
+
+    nav ul ul ul a {
+        padding-left: 80px;
+    }
+
+    nav ul ul ul li {
+        position: static;
+    }
+
+    [id^=btn]:checked+ul {
+        display: block;
+    }
+
+    nav ul ul li {
+        border-bottom: 0px;
+    }
+
+    span.cancel:before {
+        content: '\f00d';
+    }
+}
+.content {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+header {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+/********************************/
+/**** Estilizado del FOOTER  ****/
+/*******************************/
+.footer {
+    text-align: center;
+}
+.contenedor-redes ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-redes ul li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px white solid;
+    float: left;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-redes ul li i {
+    color: white;
+    transition: all 0.5s ease;
+}
+.contenedor-redes ul li:hover.btn-facebook {
+    border: 5px solid #0439D9;
+    box-shadow: 0 0 15px #0439D9;
+    transition: 0.5s all ease;
+    color: #0439D9;
+}
+.contenedor-redes ul li:hover.btn-twitter {
+    border: 5px solid #2793F2;
+    box-shadow: 0 0 15px #2793F2;
+    transition: 0.5s all ease;
+}
+.contenedor-redes ul li:hover.btn-instagram {
+    border: 5px solid #FF19EF;
+    box-shadow: 0 0 15px #FF19EF;
+    transition: 0.5s all ease;
+}
+.contenedor-redes ul li:hover.btn-linkedIn {
+    border: 5px solid #04C4D9;
+    box-shadow: 0 0 15px #04C4D9;
+    transition: 0.5s all ease;
+}
+.contenedor-redes ul li:hover.btn-youtube {
+    border: 5px solid #D90404;
+    box-shadow: 0 0 15px #D90404;
+    transition: 0.5s all ease;
+}
+@media screen and (max-width: 768px) {
+    .contenedor-redes ul li .btn-linkedIn {
+        margin-left: 60px;
+    }
+}
+
+
+
+
+/************************************/
+/**** Estilizado del Contactos  ****/
+/***********************************/
+.txtcontainer {
+    background-image: url("../img/paisaje.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    position: relative;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txtcontainer::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+}
+
+
+
+
+/***********************************/
+/**** Estilizado del Nosotros  ****/
+/**********************************/
+.programadoresimg {
+    width: 30%;
+    padding: 1.5rem;
+}
+.progradiv {
+    border: solid 3px #000;
+    margin: 0.5em;
+    transition: transform .2s;
+    /* Animation */
+    height: 25%;
+    display: flex;
+}
+.progradiv:hover {
+    transform: scale(1.04);
+}
+#Diego {
+    font-size: 50px;
+    padding-right: 4%;
+    margin-top: 19%;
+    float: right;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    position: static;
+
+}
+#Diego:hover {
+    color: white;
+    box-shadow: inset 13em 0 0 0 #54b3d6;
+}
+#Erick {
+    font-size: 50px;
+    padding-right: 7%;
+    margin-top: 15%;
+    float: right;
+    background: linear-gradient(0deg, #54b3d6, #54b3d6) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+    position: static;
+}
+#Erick:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+    color: white;
+}
+#Bryan {
+    font-size: 50px;
+    padding-right: 3%;
+    margin-top: 15%;
+    float: right;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    position: static;
+}
+#Bryan:hover {
+    color: white;
+    box-shadow: inset 13em 0 0 0 #54b3d6;
+
+}
+
+
+
+
+/****************************************/
+/**** Estilizado del Departamentos  ****/
+/***************************************/
+
+/**SLIDER BANNER**/
+.DepaContainer .widget-3 {
+    position: relative;
+}
+.DepaContainer .widget-1,
+.DepaContainer .widget-2 {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.DepaContainer .widget-1 img,
+.DepaContainer .widget-2 img {
+    width: 100%;
+}
+.txt-slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 99;
+}
+.slider-banner {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-banner::before{
+    content: "";
+    width: 98.6%;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    opacity: 0.7;
+    overflow: hidden;
+    z-index: 9;
+}
+.slider-banner ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: linear;
+}
+.slider-banner li {
+    width: 100%;
+    list-style: none;
+}
+.slider-banner li img {
+    width: 100%;
+    height: auto;
+}
+@supports (object-fit: cover) {
+    .slider-banner img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/**** Configuracion Visibilidad del Departamentos  ****/
+
+/**Sliders**/
+.DepaContainer .widget-3 #Ahuachapan,
+.DepaContainer .widget-3 #Cabañas,
+.DepaContainer .widget-3 #Libertad,
+.DepaContainer .widget-3 #Paz,
+.DepaContainer .widget-3 #Sonsonate,
+.DepaContainer .widget-3 #Salvador,
+.DepaContainer .widget-3 #Union,
+.DepaContainer .widget-3 #Morazan,
+.DepaContainer .widget-3 #Miguel,
+.DepaContainer .widget-3 #Vicente,
+.DepaContainer .widget-3 #Chalatenango,
+.DepaContainer .widget-3 #SantaAna,
+.DepaContainer .widget-3 #Cuscatlan,
+.DepaContainer .widget-3 #Usualutan{
+    display: none;
+}
+
+.DepaContainer .widget-3 #Ahuachapan-text,
+.DepaContainer .widget-3 #Cabañas-text,
+.DepaContainer .widget-3 #Libertad-text,
+.DepaContainer .widget-3 #Paz-text,
+.DepaContainer .widget-3 #Sonsonate-text,
+.DepaContainer .widget-3 #Salvador-text,
+.DepaContainer .widget-3 #Union-text,
+.DepaContainer .widget-3 #Morazan-text,
+.DepaContainer .widget-3 #Miguel-text,
+.DepaContainer .widget-3 #Vicente-text,
+.DepaContainer .widget-3 #Chalatenango-text,
+.DepaContainer .widget-3 #SantaAna-text,
+.DepaContainer .widget-3 #Cuscatlan-text,
+.DepaContainer .widget-3 #Usualutan-text{
+    display: none;
+    text-transform: uppercase;
+}
+
+/**Informacion**/
+.DepaContainer .contenido #info-Ahuachapan,
+.DepaContainer .contenido #info-Ahuachapan,
+.DepaContainer .contenido #info-Cabañas,
+.DepaContainer .contenido #info-Libertad,
+.DepaContainer .contenido #info-Paz,
+.DepaContainer .contenido #info-Sonsonate,
+.DepaContainer .contenido #info-Salvador,
+.DepaContainer .contenido #info-Union,
+.DepaContainer .contenido #info-Morazan,
+.DepaContainer .contenido #info-Miguel,
+.DepaContainer .contenido #info-Vicente,
+.DepaContainer .contenido #info-Chalatenango,
+.DepaContainer .contenido #info-SantaAna,
+.DepaContainer .contenido #info-Cuscatlan,
+.DepaContainer .contenido #info-Usualutan{
+    display: none;
+}
+
+/**IMG MAPA DE DEPARTAMENTO**/
+.DepaContainer .widget-2 #mapa-Ahuachapan,
+.DepaContainer .widget-2 #mapa-Cabañas,
+.DepaContainer .widget-2 #mapa-Libertad,
+.DepaContainer .widget-2 #mapa-Paz,
+.DepaContainer .widget-2 #mapa-Sonsonate,
+.DepaContainer .widget-2 #mapa-Salvador,
+.DepaContainer .widget-2 #mapa-Union,
+.DepaContainer .widget-2 #mapa-Morazan,
+.DepaContainer .widget-2 #mapa-Miguel,
+.DepaContainer .widget-2 #mapa-Vicente,
+.DepaContainer .widget-2 #mapa-Chalatenango,
+.DepaContainer .widget-2 #mapa-SantaAna,
+.DepaContainer .widget-2 #mapa-Cuscatlan,
+.DepaContainer .widget-2 #mapa-Usualutan{
+    display: none;
+}
+
+.DepaContainer .widget-1 #img-Ahuachapan,
+.DepaContainer .widget-1 #img-Cabañas,
+.DepaContainer .widget-1 #img-Libertad,
+.DepaContainer .widget-1 #img-Paz,
+.DepaContainer .widget-1 #img-Sonsonate,
+.DepaContainer .widget-1 #img-Salvador,
+.DepaContainer .widget-1 #img-Union,
+.DepaContainer .widget-1 #img-Morazan,
+.DepaContainer .widget-1 #img-Miguel,
+.DepaContainer .widget-1 #img-Vicente,
+.DepaContainer .widget-1 #img-Chalatenango,
+.DepaContainer .widget-1 #img-SantaAna,
+.DepaContainer .widget-1 #img-Cuscatlan,
+.DepaContainer .widget-1 #img-Usualutan{
+    display: none;
+}
+.contenedor-Importante-depa{
+    background-color: rgba(122, 180, 215, 0.573);
+    text-align: center;
+    border-radius: 10px;
+    border: #3498db solid;
+    padding: 10px 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*********************************/
+/**** Estilizado del Objetos  ****/
+/********************************/
+
+/**Slider Dinamico**/
+.container-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-cards .card{
+    padding: 5px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container-cards .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-cards .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container-cards .card h4{
+    font-weight: 600;
+}
+
+.container-cards .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container-cards .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Don Bosco</title>
+
+	<!--LINKEO DE FUENTE DE GOOGLE-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!--LINKEO DE CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--LINKEO DE FONT-AWESOME-->
+	<script src="https://kit.fontawesome.com/0fc218370a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+	<div class="contenedor">
+
+		<header class="header" id="home">
+			<!--Creacion de la estructura del NAVBAR-->
+			<div class="navbar">
+				<div class="logo">
+					<img src="img/udb-logo.png" alt="">
+				</div>
+				<div class="menu">
+					<i class="fa-solid fa-bars" id="btn_menu"></i>
+					<div id="back_menu">
+					</div>
+					<nav class="nav" id="nav">
+						<img src="img/udb-logo.png" alt="">
+						<ul>
+							<li><a href="index.html" id="hover">Inicio</a></li>
+							<li><a href="index.html" id="hover">Carreras</a></li>
+							<li><a href="materias.html" id="selected">Materias</a></li>
+							<li><a href="#" id="hover">Mas Informacion</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		</header>
+
+		<div class="widget-1" id="form-inscripcion">
+			<form action="">
+				<label class="lbl-form" for="nombre">Nombre</label>
+				<input class="form-boxs" type="text" id="nombre">
+				<br>
+				<label class="lbl-form" for="correo">Correo</label>
+				<input class="form-boxs" type="email" name="correo" id="correo">
+				<br>
+				<label class="lbl-form" for="telefono">telefono</label>
+				<input class="form-boxs" type="text" name="telefono" id="telefono">
+
+				<label class="lbl-form" for="msj">Mensaje</label>
+				<textarea class="text-boxs" id="my-text" rows="8" placeholder="Type something here..."></textarea>
+				<p id="count-result">Total characters: 0</p>
+
+			</form>
+		</div>
+
+		<div class="widget-2">
+			<section>
+				<div class="row">
+					<h1>Our Team</h1>
+				</div>
+				<div class="row">
+					<!-- Column 1-->
+					<div class="column">
+						<div class="card">
+							<div class="img-container">
+								<img src="img/DANIELPRO-modified.png" />
+							</div>
+							<h3>Daniel</h3>
+							<p>CO</p>
+				
+						</div>
+					</div>
+					<!-- Column 2-->
+					<div class="column">
+						<div class="card">
+							<div class="img-container">
+								<img src="img/INGEPRO-modified.png" />
+							</div>
+							<h3>Aida Quintanilla</h3>
+							<p>Ingenieria</p>
+						</div>
+					</div>
+					<!-- Column 3-->
+					<div class="column">
+						<div class="card">
+							<div class="img-container">
+								<img src="img/DiegoPRO-modified.png" />
+							</div>
+							<h3>Diego Chevez</h3>
+							<p>CO</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+
+		<footer class="footer">
+			<br>
+			<div class="contenedor-redes">
+				<ul>
+					<li class="btn-facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+					<li class="btn-instagram"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+					<li class="btn-twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+					<li class="btn-linkedIn"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+					<li class="btn-youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+				</ul>
+			</div>
+			<br>
+			<p>©Universidad Don Bosco</p>
+			<br>
+		</footer>
+
+
+	</div>
+</body>
+
+</html>

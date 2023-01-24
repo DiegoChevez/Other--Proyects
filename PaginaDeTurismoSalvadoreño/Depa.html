@@ -1,0 +1,2139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Don Bosco</title>
+
+    <!--LINKEO DE FUENTE DE GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--LINKEO DE CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--LINKEO DE FONT-AWESOME-->
+    <script src="https://kit.fontawesome.com/0fc218370a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+
+    <div class="DepaContainer">
+
+        <header class="header" id="home">
+            <nav>
+                <div class="logo">MERCS</div>
+                <label for="btn" class="icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="btn">
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li>
+                        <label for="btn-2" class="show">Departamentos +</label>
+                        <a href="#">Departamentos</a>
+                        <input type="checkbox" id="btn-2">
+                        <ul>
+                            <li>
+                                <label for="btn-3" class="show">Central</label>
+                                <a href="#">Central <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="#" onclick="DepLibertad()">La Libertad</a></li>
+                                    <li><a href="#" onclick="DepChalatenango()">Chalatenango</a></li>
+                                    <li><a href="#" onclick="DepCuscatlan()">Cuscatlán</a></li>
+                                    <li><a href="#" onclick="DepSalvador()">San Salvador</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="btn-3" class="show">Paracentral</label>
+                                <a href="#">Paracentral <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="#" onclick="DepPaz()">La Paz</a></li>
+                                    <li><a href="#" onclick="DepCabañas()">Cabañas</a></li>
+                                    <li><a href="#" onclick="DepVicente()">San Vicente</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="btn-3" class="show">Oriental</label>
+                                <a href="#">Oriental <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="#" onclick="DepUsualutan()">Usulután</a></li>
+                                    <li><a href="#" onclick="DepMiguel()">San Miguel</a></li>
+                                    <li><a href="#" onclick="DepMorazan()">Morazan</a></li>
+                                    <li><a href="#" onclick="DepUnion()">La Union</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="btn-3" class="show">Occidental</label>
+                                <a href="#">Occidental <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="#" onclick="DepSantaAna()">Santa Ana</a></li>
+                                    <li><a href="#" onclick="DepAhuachapan()">Ahuachapan</a></li>
+                                    <li><a href="#" onclick="DepSonsonate()">Sonsonate</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="Contactos.html">Contactos</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+            <script>
+                $('.icon').click(function () {
+                    $('span').toggleClass("cancel");
+                });
+            </script>
+
+        </header>
+
+        <div class="widget-3">
+            <!--Ahuachapan-->
+            <div class="txt-slider" id="Ahuachapan-text">
+                <h1 class="titulo-banner">Ahuachapán</h1>
+            </div>
+            <div class="slider-banner" id="Ahuachapan">
+                <ul>
+                    <li><img src="img/Collection/Ahuachapan4.jpeg" alt="" /></li>
+                    <li><img src="img/Collection/Ahuachapan1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Ahuachapan2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Ahuachapan3.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--Cabañas-->
+            <div class="txt-slider " id="Cabañas-text">
+                <h1 class="titulo-banner">CABAÑAS</h1>
+            </div>
+            <div class="slider-banner " id="Cabañas">
+                <ul>
+                    <li><img src="img/Collection/cabañas1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/cabañas2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/cabañas3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/cabañas4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--Cuscatlan-->
+            <div class="txt-slider " id="Cuscatlan-text">
+                <h1 class="titulo-banner">Cuscatlán</h1>
+            </div>
+            <div class="slider-banner " id="Cuscatlan">
+                <ul>
+                    <li><img src="img/Collection/cuscatlan1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/cuscatlan2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/cuscatlan3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/cuscatlan4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--La Libertad-->
+            <div class="txt-slider " id="Libertad-text">
+                <h1 class="titulo-banner">LA LIBERTAD</h1>
+            </div>
+            <div class="slider-banner " id="Libertad">
+                <ul>
+                    <li><img src="img/Collection/LaLibertad1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaLibertad2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaLibertad3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaLibertad4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--La Paz-->
+            <div class="txt-slider " id="Paz-text">
+                <h1 class="titulo-banner">LA PAZ</h1>
+            </div>
+            <div class="slider-banner " id="Paz">
+                <ul>
+                    <li><img src="img/Collection/LaPaz1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaPaz2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaPaz3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaPaz4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--Sonsonate-->
+            <div class="txt-slider " id="Sonsonate-text">
+                <h1 class="titulo-banner">Sonsonate</h1>
+            </div>
+            <div class="slider-banner " id="Sonsonate">
+                <ul>
+                    <li><img src="img/Collection/Sonsonate1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Sonsonate2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Sonsonate3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Sonsonate4.jpeg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--San Salvador-->
+            <div class="txt-slider " id="Salvador-text">
+                <h1 class="titulo-banner">San Salvador</h1>
+            </div>
+            <div class="slider-banner " id="Salvador">
+                <ul>
+                    <li><img src="img/Collection/SanSalvador1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanSalvador2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanSalvador3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanSalvador4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--la Unión-->
+            <div class="txt-slider " id="Union-text">
+                <h1 class="titulo-banner">La Unión</h1>
+            </div>
+            <div class="slider-banner " id="Union">
+                <ul>
+                    <li><img src="img/Collection/LaUnion1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaUnion2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaUnion3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/LaUnion4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--Morazán-->
+            <div class="txt-slider " id="Morazan-text">
+                <h1 class="titulo-banner">Morazán</h1>
+            </div>
+            <div class="slider-banner " id="Morazan">
+                <ul>
+                    <li><img src="img/Collection/Morazan.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Morazan2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Morazan3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/Morazan4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--San Miguel-->
+            <div class="txt-slider " id="Miguel-text">
+                <h1 class="titulo-banner">San Miguel</h1>
+            </div>
+            <div class="slider-banner " id="Miguel">
+                <ul>
+                    <li><img src="img/Collection/SanMiguel1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanMiguel2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanMiguel3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanMiguel4.png" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--San Vicente-->
+            <div class="txt-slider " id="Vicente-text">
+                <h1 class="titulo-banner">San Vicente</h1>
+            </div>
+            <div class="slider-banner " id="Vicente">
+                <ul>
+                    <li><img src="img/Collection/SanVicente1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanVicente2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanVicente3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SanVicente4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--Usulután-->
+            <div class="txt-slider " id="Usualutan-text">
+                <h1 class="titulo-banner">Usulután</h1>
+            </div>
+            <div class="slider-banner " id="Usualutan">
+                <ul>
+                    <li><img src="img/Collection/usulutan1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/usulutan2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/usulutan3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/usulutan4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--Chalatenango-->
+            <div class="txt-slider " id="Chalatenango-text">
+                <h1 class="titulo-banner">Chalatenango</h1>
+            </div>
+            <div class="slider-banner " id="Chalatenango">
+                <ul>
+                    <li><img src="img/Collection/chalate1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/chalate2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/chalate3.jpg" alt="" /></li>
+                    <li><img src="img/Collection/chalate4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+            <!--Santa Ana-->
+            <div class="txt-slider " id="SantaAna-text">
+                <h1 class="titulo-banner">San Ana</h1>
+            </div>
+            <div class="slider-banner " id="SantaAna">
+                <ul>
+                    <li><img src="img/Collection/SantaAna1.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SantaAna2.jpg" alt="" /></li>
+                    <li><img src="img/Collection/SantaAna3.jpeg" alt="" /></li>
+                    <li><img src="img/Collection/SantaAna4.jpg" alt="" /></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <main class="contenido">
+            <div class="InfoDepa" id="info-Ahuachapan">
+                <br>
+                <center>
+                    <H1 class="titulo1">Conoscamos Ahuachapán</H1>
+                </center>
+                <br>
+                <p class="text4">El departamento de Ahuachapán es uno de los 14 que conforman la República de El
+                    Salvador. Su cabecera departamental es precisamente la ciudad de Ahuachapán, la cual se ubica
+                    aproximadamente a unos 100 kilómetros de la capital del país, la ciudad de San Salvador. Su
+                    ubicación geográfica lo posiciona como el departamento que se encuentra más al occidente de este
+                    país de Centroamérica.
+                    <br>
+                    Este departamento cuenta con una extensión territorial de 1.239,60 kilómetros cuadrados. Este lugar
+                    se caracteriza por ser una región fronteriza, colindando por el Este y el Noreste con la República
+                    de Guatemala, específicamente con su departamento de Jutiapa. Por el lado Norte limita con el
+                    departamento salvadoreño de Santa Ana. Así mismo, colinda con el departamento de Sonsonate por el
+                    Oeste. Finalmente, en su extremo Sur limita con el Océano Pacífico.
+                    ​
+                </p>
+                <br>
+                <center>
+                    <h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de Ahuachapan?</h2>
+                </center>
+                <br>
+                <ol class="lista-ordenada text4">
+                    <li>Ahuachapán </li>
+                    <li>Apaneca </li>
+                    <li>Atiquizaya </li>
+                    <li>Concepción de Ataco </li>
+                    <li>El Refugio </li>
+                    <li>Guaymango </li>
+                    <li>Jujutla </li>
+                    <li>San Francisco Menéndez </li>
+                    <li>San Lorenzo </li>
+                    <li>San Pedro Puxtla </li>
+                    <li>Tacuba </li>
+                    <li>Turín </li>
+                </ol>
+                <br>
+
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo2">Historia</h1>
+                    <p class="text2">"Primero que todo, se debe saber que el nombre de este departamento es el resultado
+                        de lo que se conoce como un topónimo. En este sentido, tenemos que proviene de los vocablos en
+                        lengua náhuatl –ahua, que significa encino o roble, –cha, que significa casa o morada y –pan,
+                        que significa sitio o lugar. Por esta razón se puede traducir como “el lugar de las casas de
+                        roble”.
+                        <br>
+                        El mismo se fundó mientras se daba la administración del presidente Doctor Francisco Dueñas, con
+                        lo cual se procedió a su creación por medio decreto legislativo que entró en vigencia el 9 de
+                        febrero del año 1869.
+                        <br>
+                        Siendo su cabecera departamental la ciudad de Ahuachapán, el departamento está dividido en dos
+                        grandes partidos o distritos. Estos son el distrito de Ahuachapán y el distrito de Atiquizaya.
+                        Siendo el primero fundado por las leyes del 4 de julio de 1832, mientras que el segundo fue
+                        instituido por una ley el 26 de febrero de 1869".
+                    </p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+                <center>
+                    <h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2>
+                </center>
+                <br>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ConcepcionAtaco.jpg">
+                        <h4 class="subtitulo4">Concepción de Ataco</h4>
+                        <p class="text5">¡Uno de los destinos más coloridos de El Salvador te espera! Con sus calles
+                            empedradas, coloridos murales, artesanías, gastronomía y un clima fresco, así es Ataco, otro
+                            destino de la Ruta de Las Flores.
+                        </p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/ataco/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ElImposible.jpg">
+                        <h4 class="subtitulo4">Parque El Imposible</h4>
+                        <p class="text5">El Imposible es una selva, en partes tropical y en otras sub-tropical. Ubicada
+                            sobre la Sierra de Apaneca-Ilamatepeque, posee la mayor biodiversidad en el país como parte
+                            de un bosque maduro, típico de los inicios de Mesoamérica.
+                        </p>
+                        <a class="btn-link"
+                            href="https://elsalvador.travel/destination/parque-nacional-el-imposible/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AguasTermales.jpg">
+                        <h4 class="subtitulo4">Aguas Termales Santa Teresa</h4>
+                        <p class="text5">Termales Santa Teresa es un Hotel & Natural Spa ubicado en Ahuachapán con 30
+                            piscinas termales y 4 restaurantes para relajarte, ofrece masajes relajantes y baños de
+                            caolinita para brindar vitalidad y rejuvenecer.</p>
+                        <a class="btn-link" href="https://termalesdesantateresa.com/">Leer más</a>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Ahuachapan tierras donde abunda el commercio e internacional, tierras con un clima calido, sera porque es un departamento de origen montañoso, ya que es este cuenta con gran cantidad de relieves como lo son el Cerro Apaneca, Volcán Apaneca o Chichicastepeque, el cerro Ataco, Cerro de Oro y Los Alpes. <br> Ademas de que este tambien cuenta con muchas fuentes de aguas naturales como lo es el Rio Paz, sus playaz:  Barra de Santiago y la Garita Palmera, y sus lagunas: El Espino, La Laguna Verde y  Las Ninfas.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <center>
+                    <h2 class="subtitulo1">Personas Interesantes de Ahuachapan</h2>
+                </center>
+                <br>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text5">Poeta salvadoreño que a partir de la publicación de su único libro, Jícaras
+                            Tristes, ha sido uno de los líricos más leídos en su país y está considerado como uno de los
+                            autores clásicos de la literatura centroamericana.</p>
+                        <a class="btn-link"
+                            href="https://www.biografiasyvidas.com/biografia/e/espino.htm#:~:text=(Edgardo%20Alfredo%20Espino%20Najarro%3B%20Ahuachapán,clásicos%20de%20la%20literatura%20centroamericana">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/Arturo-Romero.jpg">
+                        <h4 class="subtitulo4">Dr. Arturo Romero</h4>
+                        <p class="text5">Médico oriundo de Tacuba, Ahuachapán, con estudios en la Universidad La Sorbona
+                            de París, Francia. nombrado jefe de una unidad en el Hospital Rosales y, al mismo tiempo,
+                            escribe en la prensa sobre temas sociales. Considerado “El hombre símbolo”, fundó en 1944 el
+                            Partido Unión Democrática</p>
+                        <a class="btn-link"
+                            href="https://joaquinlarioslibros.blogspot.com/2020/12/drarturo-romero-el-hombre-simbolo-de-la.html">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/FranciscoMenendez.jpg">
+                        <h4 class="subtitulo4">General Francisco Menendez</h4>
+                        <p class="text5">A los 30 años de edad comenzó la carrera militar, estando primeramente a la
+                            órdenes de Gerardo Barrios, Fue conocido como uno de los presidentes de El Salvador, quien
+                            cumplió funciones desde el año 1885 al año 1890.</p>
+                        <a class="btn-link" href="https://wikisivar.com/francisco-menendez/">Leer más</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="InfoDepa" id="info-Paz">
+                <br>
+                <center>
+                    <H1 class="titulo1">Conoscamos La Paz</H1>
+                </center>
+                <p class="text4">Cuna de personajes que marcaron la historia de El Salvador, poseedor de muchas playas y
+                    ciudades llenas de tradiciones, La Paz es uno de los departamentos de la zona central que te espera
+                    con los brazos abiertos.​</p> <br>
+                <p class="text4">Su nombre en náhuat significa: la morada de los pececitos, de allí que cuente con
+                    muchos sitios turísticos con nacimientos de aguas, como el Parque Acuático Ichanmichen. Su cabecera
+                    es Zacatecoluca y sus habitantes son conocidos como viroleños.</p>
+                <br>
+                <center>
+                    <h2 class="subtitulo1">¿Cuantos Municipios tiene el Departameto de la Paz?</h2>
+                </center>
+                <ol class="lista-ordenada text4">
+                    <li>Cuyultitán </li>
+                    <li>El Rosario </li>
+                    <li>Jerusalen </li>
+                    <li>Mercedes de la Ceiba </li>
+                    <li>Olocuilta </li>
+                    <li>Paraiso de Osorio </li>
+                    <li>San Antonio Masahuat </li>
+                    <li>San Emigdio </li>
+                    <li>San Francisco Chinameca</li>
+					<li>San Juan Nonualco</li>
+					<li>San Juan Nonualco</li>
+					<li>San Juan Talpa</li>
+					<li>San Juan Tepezontes</li>
+					<li>San Luis Talpa</li>
+					<li>San Luis La Herradura</li>
+					<li>San Miguel Tepezontes</li>
+					<li>San Pedro Masahuat</li>
+					<li>San Pedro Nonualco</li>
+					<li>San Rafael Obrajuelo</li>
+					<li>Santa Maria Ostuma</li>
+					<li>Santiago Nonualco</li>
+					<li>Tapalhuaca</li>
+					<li>Zacatecoluca</li>
+                </ol>
+                <br>
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Históricamente, se comprobó gracias a diversos hallazgos arqueológicos, que esta
+                        zona estuvo habitada para finales del siglo XI por una serie de comunidades de procedencia
+                        mayas-quiches o también conocidos como mayances. Así mismo, también se sabe que cerca de esta
+                        fecha fue cuando se produjo la primera ola de invasiones de pueblos centroamericanos de cultura
+                        nahuas.</p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center>
+                    <h2 class="subtitulo1">La Paz tiene sitios Interesantes?</h2>
+                </center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaPaz/LosBlancos.jpg">
+                        <h4 class="subtitulo4">Playa los Blancos</h4>
+                        <p class="text5">La fresca brisa marina, arenas grises y una playa de grandes oleajes se
+                            conjugan para darnos la bienvenida a uno de los principales atractivos turísticos de El
+                            Salvador, ubicado en la costa del sol</p>
+                        <a class="btn-link" href="https://elsalvadoravanza.com/tours-de-la-paz-playa-los-blancos/">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/LaPaz/CostaSol.jpg">
+                        <h4 class="subtitulo4">Costa del Sol</h4>
+                        <p class="text5">Si buscas un lugar para disfrutar del sol desde el amanecer al atardecer, una
+                            playa de arena blanca y los atractivos adicionales como olas para practicar buen surf, esta
+                            debe ser tu elección.</p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/costa-del-sol/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/LaPaz/Ichanmichen.jpg">
+                        <h4 class="subtitulo4">Turicentro Ichanmichen</h4>
+                        <p class="text5">Un parque acuático salvadoreño que a lo largo de los años ha ido ganando
+                            prestigio. Su gran tamaño y su surtido de aguas naturales lo convierten en uno de los
+                            turicentros más particulares del país.</p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/costa-del-sol/">Leer más</a>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <br>
+                <p class="text4">Este departamento se ubica en una region montañosa, por lo que cuenta con ciertos
+                    lugares interesantes para visitar como lo son los cerros El Volcancito y La Carbonera, es mas tiene
+                    el Volcan de Chichontepec ubicado en un extremo de sus limites.</p> <br>
+                <p class="text4">Al igual que su geografia, La Paz cuenta con una Hidrografia super extensas entre las
+                    mas importantes Estero Jaltepeque, que se ubica en las desembocaduras del rio Jiboa y Lempa, rios de
+                    este departamento o tambien podriamos mencionar algunas de sus lagunas: Nahualapa y Solomilla y El
+                    Patrono.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <h2>Personas Interesantes de Ahuachapan</h2>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaPaz/JoseCañas.jpg">
+                        <h4 class="subtitulo4">José Simeón Cañas</h4>
+                        <p class="text5">Fue rector, filósofo, teólogo y humanista, y ahora en la actualidad los
+                            salvadoreños recuerdan a este padre de la Patria, que con sus cualidades humanas y
+                            profesionales dio otro rumbo a la historia de América.</p>
+                        <a class="btn-link"
+                            href="https://www.buscabiografias.com/biografia/verDetalle/8490/Jose%20Simeon%20Canas">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaPaz/CamiloMinero.jpg">
+                        <h4 class="subtitulo4">Camilo Minero</h4>
+                        <p class="text5">Fue un pintor, muralista y grabador salvadoreño. Se incursiono en el arte a
+                            temprana edad y realizó trabajos en el área de los óleos, grabados, serigrafías, acuarelas y
+                            murales.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/camilo-minero-biografia">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaPaz/Aquino.jpg">
+                        <h4 class="subtitulo4">Anastacio Aquino</h4>
+                        <p class="text5">Aquino pertenecía a la comunidad indígena de los nonualcos y formaba parte de
+                            la cuna de los Taites. Por lo que estaba destinado a liderar por derecho propio. Se le
+                            atribuyó y ostentó el título de «Comandante General de las Armas Libertadoras de Santiago
+                            Nonualco»</p>
+                        <a class="btn-link"
+                            href="https://revistaculturel.com/articulos/quien-fue-anastasio-aquino/">Leer más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Cabañas">
+                <br>
+                <center>
+                    <H1 class="titulo1">Conoscamos Cabañas</H1>
+                </center>
+                <br>
+                <p class="text4">Conoce el departamento más joven del país, su creación data del 10 de febrero de 1873:
+                    Cabañas, en este lugar disfrutarás de muchas tradiciones y artesanías, que muestran el legado de los
+                    salvadoreños. Sus parajes (sitios al aire libre), son una invitación a los amantes del ecoturismo.​
+                </p> <br>
+                <p class="text4">Entre las tradiciones más destacadas están los Fogones, que se realiza cada 7 de
+                    diciembre desde las 6:00 p.m. La celebración es durante la víspera de la Virgen de la Concepción y
+                    consiste en juntar hojas y quemarlas en puntos estratégicos.</p>
+                <br>
+                <center>
+                    <h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de Cabañas?</h2>
+                </center>
+                <ol class="lista-ordenada text4">
+                    <li>Cinquera </li>
+                    <li>Dolores </li>
+                    <li>Guacotecti </li>
+                    <li>Ilobasco </li>
+                    <li>Jutiapa </li>
+                    <li>San Isidro </li>
+                    <li>Sensuntepeque </li>
+                    <li>Tejutepeque </li>
+                    <li>Victoria</li>
+                </ol>
+                <br>
+
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Sobre el aspecto histórico de esta región hay varias cosas que se deben resaltar.
+                        Primeramente, que se trata de uno de los departamentos más nuevos en la República de El
+                        Salvador. En este sentido, su creación es fechada el 10 de febrero del año de 1873. Cuando le
+                        fue dado el nombre por medio de un decreto legislativo a manera de homenaje de un político
+                        hondureño centroamericano llamado José Trinidad Cabañas.</p><br>
+                    <p class="text4">La historia cuenta que este hombre de procedencia hondureña fue siempre leal a sus
+                        ideales centroamericanos, labor al cual dedicó toda su vida. Esto motivó a los legisladores a
+                        pronunciar un decreto legislativo en el año de 1873 donde se estipulaba el nombre que recibiría
+                        dicho departamento.</p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center>
+                    <h2 class="subtitulo1">Cabañas tiene sitios Interesantes?</h2>
+                </center>
+                <br>
+                <p class="text4">Cabañas es un lugar donde reina la cultura hogareña, es un departamento que cuenta con
+                    muchos sitios emblemáticos como lo son sus iglesias o monumentos, también este cuenta con un
+                    santuario de la flora y fauna el cual es el bosque de Cinquera además tenemos que mencionar que
+                    cabañas cuenta con hermoso ríos y lagos como lo son el Rio Titihuapa o su lago Suchitlán o su cerro
+                    hermoso de Ávila</p>
+                <br>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/ParroquiaSantaBárbara.jpg">
+                        <h4 class="subtitulo4">Parroquia de Santa Bárbara</h4>
+                        <a class="btn-link"
+                            href="https://masalladelos400cerros.wordpress.com/2012/05/01/la-iglesia-santa-barbara-mas-alla-de-la-misa/">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/PuenteTitihuapa.jpg">
+                        <h4 class="subtitulo4">Puente de arco de Titihuapa</h4>
+                        <a class="btn-link" href="https://elsalvadorviajar.com/departamentos/cabanas/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/BoscoCinquera.jpg">
+                        <h4 class="subtitulo4">Bosque de Cinquera</h4>
+                        <a class="btn-link" href="https://www.ardmcinquera.org/?page_id=173">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/RioTitihuapa.jpg">
+                        <h4 class="subtitulo4">Rio Titihuapa</h4>
+                        <a class="btn-link"
+                            href="https://www.tuexperiencia.com/sensuntepeque/excursion-en-el-rio-titihuapa">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/LagoSuchitlán.jpg">
+                        <h4 class="subtitulo4">Lago Suchitlán</h4>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/lago-suchitlan/">Leer
+                            más</a>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Cabañas es un departamento qe cuebnta con un diverso relive, este departamento cuenta con los cerros La Cruz y el cerro el Ocotillo, ademas de que cuenta con otros sitios interesantes como lo son los embalses del Cerrón Grande y la presa hidroeléctrica 5 de Noviembre.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <center>
+                    <h2 class="subtitulo1">Personas Interesantes de Cabañas</h2>
+                </center>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/BenjaminBarreraReyes.jpg">
+                        <h4 class="subitulo4">Monseyor Benajmin Barrera</h4>
+                        <p class="text5">fue sacerdote en Roma el 29 de julio de 1934. Fue consagrado obispo titular y
+                            auxiliar de Santa Ana el 15 de noviembre de 1942, en la catedral de San Salvador.</p>
+                        <a class="btn-link" href="https://es.wikipedia.org/wiki/Benjamín_Barrera_y_Reyes">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/CarlosBonilla.jpg">
+                        <h4 class="subitulo4">Doctor Juan Carlos Bonilla</h4>
+                        <p class="text5">Ha desempeñado los cargos de médico forense, diputado propietario y suplente
+                            por Cabañas, alcalde y jefe del distrito en 1936-1937.</p>
+                        <a class="btn-link"
+                            href="http://www2.ues.edu.sv/CENTROSEINSTITUTOS/album/pages/Carlos_Bonilla_jpg.htm#:~:text=Como%20catedrático%20de%20la%20Universidad,y%20cirujano%20del%20Hospital%20General.">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/Larreynaga.jpg">
+                        <h4 class="subitulo4">Doctor Juan Carlos Bonilla</h4>
+                        <p class="text5">Ocupó en tres períodos el cargo de alcalde, en los cuales desarrolló importante
+                            labor, como establecer numerosos centros educativos en el área rural, luchando al mismo
+                            tiempo por la apertura del Plan Básico</p>
+                        <a class="btn-link" href="https://es.wikipedia.org/wiki/Miguel_Larreynaga">Leer más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Libertad">
+                <br>
+                <center>
+                    <H1 class="titulo1">Conoscamos La Libertad</H1>
+                </center>
+                <br>
+                <p class="text4">Si la playa es lo tuyo, La Libertad es uno de los departamentos que deberás recorrer,
+                    ya que en él encontrarás diferentes destinos si amas el surf o si quieres relajarte.
+
+                    Ubicado en la zona central, su cercanía a la capital y la accesibilidad son algunos de los motivos
+                    por lo que muchos llegan a La Libertad, ya que a menos de una hora estarás degustando de un manjar
+                    de mariscos frescos, te desconectarás del bullicio de la ciudad y disfrutarás de un bello
+                    atardecer.​</p>
+                <br>
+                <center>
+                    <h2 class="subtitulo1">¿Cuantos Municipios tiene el Departamento de La Libertad?</h2>
+                </center>
+                <br>
+                <ol class="lista-ordenada text4">
+                    <li>Antiguo Cuscatlan </li>
+                    <li>Chiltiupán </li>
+                    <li>Ciudad Arce </li>
+                    <li>Colón </li>
+                    <li>Comasagua </li>
+                    <li>Huizúcar </li>
+                    <li>Jayaque </li>
+                    <li>Jicalapa </li>
+                    <li>La Libertad </li>
+                    <li>Santa Tecla </li>
+                    <li>Nuevo Cuscatlan</li>
+                    <li>San Juan Opico</li>
+					<li>Quezaltepeque</li>
+					<li>Sacacoyo</li>
+					<li>San José Villanueva</li>
+					<li>San Matias</li>
+					<li>San Pablo Tecachico</li>
+					<li>Talnique</li>
+					<li>Temanique</li>
+					<li>Teoteque</li>
+					<li>Tepecoyo</li>
+					<li>Zaragoza</li>
+                </ol>
+
+                <br>
+                <hr><br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Fue fundado el día 28 de enero del año 1865. Este departamento alberga algunos
+                        legados que se remontan a la época de sus primitivos habitante los lencas. Podemos apreciar
+                        algunas ruinas prehispánicas y varias edificaciones que datan de la época colonial.</p><br>
+                    <p class="text4">La fundación de este departamento se ejecutó por el entonces presidente de la
+                        República, José María de San Martín con el nombre de Nueva San Salvador, el día 8 de agosto de
+                        1854. Más adelante sería cambiado por departamento La Libertad.</p> <br>
+                    <p class="text4">La fundación de este departamento se hizo con la deliberada intención de
+                        convertirlo en la ciudad capital de El Salvador; ya que San Salvador había sido destruida casi
+                        en su totalidad por un gran terremoto. Más adelante estos planes fueron abortados por el
+                        gobierno.</p>
+                </div>
+                <br>
+                <hr><br>
+
+                <center>
+                    <h2 class="subtitulo1">La Libertad tiene sitios Interesantes?</h2>
+                </center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad1.jpg">
+                        <h4 class="subtitulo4">Parque Walter Thilo Deininger</h4>
+                        <p class="text5">es una reserva natural que posee diferentes tipos de flora: Bosque de galería,
+                            seco caducifolio y bosque secundario.</p>
+                        <a class="btn-link" href="https://wikisivar.com/parque-walter-thilo-deininger/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad2.jpg">
+                        <h4 class="subtitulo4">Eco Parque el Espino</h4>
+                        <p class="text5">Es un destino turístico de montaña que está situado a unos 10 kilómetros de la
+                            ciudad de Santa Tecla</p>
+                        <a class="btn-link" href="https://wikisivar.com/eco-parque-el-espino/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad3.jpg">
+                        <h4 class="subtitulo4">Joya de Ceren</h4>
+                        <p class="text5">ofrece un viaje a través de la historia y el misticismo de la cultura maya de
+                            Centroamérica, el cual impacta por su perfecta conservación.</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/joya-de-ceren/">Leer
+                            más</a>
+                    </div>
+                </div>
+                <br>
+                <hr><br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <br>
+                <p class="text4">La libertad es un departamento que tiene muchos destinos interesantes como lo son sus playas, tales como El Tunco, El Sunzal, El Zonte, y si bien piensas que esto es poco tambien contamos con el Parque Ecologia El Boqueron y tambien nuestro Volcan "El Boqueron"</p>
+                <br>
+                <hr><br>
+
+                <h2>Personas Interesantes de La Libertad</h2>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/ToñoSalazar.jpg">
+                        <h4 class="subtitulo4">Toño Salazar</h4>
+                        <p class="text5">Fue huérfano de padre y madre. Salazar fue un ilustrador, caricaturista y
+                            diplomático salvadoreño de mucha renombra en el siglo XX.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/tono-salazar-biografia">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/JuanAberle.jpg">
+                        <h4 class="subtitulo4">Juan Aberle Viscardi</h4>
+                        <p class="text5">director y compositor del Himno Nacional de la República de El Salvador</p>
+                        <a class="btn-link"
+                            href="https://historico.elsalvador.com/historico/635626/los-tres-creadores-del-himno-nacional-de-el-salvador.html">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/aubuisson.jpg">
+                        <h4 class="subtitulo4">Roberto D'Aubuisson</h4>
+                        <p class="text5">Militar y político salvadoreño. Líder carismático y controvertido, se significó
+                            como inspirador de bandas paramilitares de extrema derecha</p>
+                        <a class="btn-link" href="https://www.biografiasyvidas.com/biografia/a/aubuisson.htm">Leer
+                            más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Sonsonate">
+                <br>
+                <center>
+                    <h1 class="titulo1">Conoscamos La Libertad</h1>
+                </center>
+                <br>
+                <p class="text4">El departamento de Sonsonate es otro de los 14 que conforman la República de El
+                    Salvador. El mismo tiene como cabecera departamental a la ciudad de Sonsonate. Esta para el censo
+                    del año 2013 registró un total de 110.501 habitantes. Este departamento se encuentra al poniente de
+                    El Salvador y se divide en 16 municipios.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de Sonsonate?</h2></center>
+                <br>
+                <ol class="lista-ordenada text4">
+                    <li>Acajutla </li>
+                    <li>Armenia </li>
+                    <li>Caluco </li>
+                    <li>Cuisnahuat </li>
+                    <li>Izalco </li>
+                    <li>Juayúa </li>
+                    <li>Nahuizalco </li>
+                    <li>Salcoatitán </li>
+                    <li>San Antonio del Monte </li>
+                    <li>San Julian </li>
+                    <li>Santa Catarina Masahuat </li>
+                    <li>Santa Isabel Ishuatán </li>
+					<li>Sabto Domingo de Guzman </li>
+					<li>Sonsonate</li>
+					<li>Sonzacate</li>
+                </ol>
+
+                <br>
+                <hr><br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Históricamente, Sonsonate era una vieja provincia de la Capitanía General de Guatemala. Sin embargo, pudo alcanzar la independencia de los españoles en el año 1821. Pero no fue sino hasta 1824 cuando pudo, conjuntamente con la provincia de San Salvador, llegar a formar lo que hoy se conoce como la República de El Salvador.</p><br>
+                    <p class="text4">Según los historiadores, la ciudad de Sonsonate se fundó hacia el año 1552. Pero bajo el nombre de Villa de la Santísima Trinidad de Sonsonate. En este sentido,  para la época de la colonia sirvió como sede de la Alcaldía Mayor de Sonsonate. Ya cuando se alcanzó la independencia de los españoles, hacia el año de 1824, se le asignó el título de ciudad, siendo como la cabecera departamental del departamento de Sonsonate.</p>
+                </div>
+                <br>
+                <hr><br>
+
+                <center><h2 class="subtitulo1">Sonsonate tiene sitios Interesantes?</h2></center>
+                <br>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Sonsonate/LosCobanos.jpg">
+                        <h4 class="subtitulo5">Playa los Cobanos</h4>
+                        <p class="text5">Una playa con arenas doradas que resaltan frente a otros destinos turísticos. Entre sus principales actividades acuáticas se encuentran el Snorkel, buceo, fútbol playa.</p>
+                        <a class="btn-link" href="https://wikisivar.com/playa-los-cobanos-2/">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Sonsonate/VolcanIzalco.jpg">
+                        <h4 class="subtitulo5">Volcan de Izalco</h4>
+                        <p class="text5">Conocido como “El faro del Pacífico”. Esto último porque durante 196 años hizo erupción constante, tanto que sus flamas se observaban hasta el océano.</p>
+                        <a class="btn-link"
+                            href="https://www.elsalvador.com/entretenimiento/turismo/sonsonate-destinos-turisticos-que-debes-conocer/994658/2022/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Sonsonate/TuricentroCaluco.jpg">
+                        <h4 class="subtitulo5">Turicentro de Caluco</h4>
+                        <p class="text5">buscado por sus nacimientos de agua, que llevan frescura a quienes en ellos se sumergen, a través de sus dos piscinas. Es un lugra familiar para ir a disfrutar de un lugar semi natural con sus aguas y zonas recreativas</p>
+                        <a class="btn-link" href="https://elsalvadorviajar.com/parques-acuaticos/turicentro-caluco-shutecath/#:~:text=El%20Turicentro%20Caluco%2C%20Shutecath%2C%20también,para%20pasar%20un%20día%20agradable.">Leer más</a>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Sonsonote es un departamento donde se riegan numerosas quebradas y ríos, entre los cuales se encuentran: Grande o Sensunapán, Ceniza, Las Marías, Tepechapa. <br>Ademas este cuenta con otros sitios como los esteros de Barra Salada o la playa de Los Cóbanos.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Sonsonate</h2></center>
+                <br>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Sonsonate/Rafael-Barrientos.jpg">
+                        <h4 class="subtitulo5">Rafael Barrientos</h4>
+                        <p class="text5">Era un músico excepcional, cumbia compositor, y promotor del folclore
+                            costumbrista en el país</p>
+                        <a class="btn-link" href="https://www.ecured.cu/Rafael_Barrientos">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Sonsonate/Claudia-Lars.jpg">
+                        <h4 class="subtitulo5">Claudio Lars</h4>
+                        <p class="text5">Fue una poetisa salvadoreña. Su obra es considerada de un depurado lirismo y
+                            destaca por su dominio de la métrica.</p>
+                        <a class="btn-link" href="https://www.biografiasyvidas.com/biografia/l/lars.htm">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Sonsonate/Salazar-Arrue.jpg">
+                        <h4 class="subtitulo5">Salazar Arrue</h4>
+                        <p class="text5">Fue un artista salvadoreño. Trabajó en el campo de la literatura y las artes
+                            plásticas</p>
+                        <a class="btn-link" href="https://www.biografiasyvidas.com/biografia/s/salazar_arrue.htm">Leer
+                            más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Salvador">
+                <center><H1 class="titulo1">Conoscamos La San Salvador</H1></center>
+                <p class="text4">El departamento de Libertad (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14
+                    departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de
+                    Libertad, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una
+                    extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este
+                    con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el
+                    departamento de Sonsonate.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de San Salvador?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Aguilares </li>
+                    <li>Apopa </li>
+                    <li>Ayutuxtepeque </li>
+                    <li>Cuscatancingo </li>
+                    <li>Ciudad Delgado </li>
+                    <li>El Paisnal </li>
+                    <li>Guazapa </li>
+                    <li>Ilopango </li>
+                    <li>Mejicanos </li>
+                    <li>Nejapa </li>
+                    <li>Panchimalco </li>
+                    <li>Rosario de Mora </li>
+					<li>San Marcos </li>
+					<li>San Martin </li>
+					<li>San Salvador</li>
+					<li>Santiago Texacuangos</li>
+					<li>Santo Tomas</li>
+					<li>Soyapango</li>
+					<li>Tonacatepeque</li>
+                </ol>
+
+                <br>
+
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo2">Historia</h1>
+                    <p class="text2">"Primero que todo, se debe saber que el nombre de este departamento es el resultado
+                        de lo que se conoce como un topónimo. En este sentido, tenemos que proviene de los vocablos en
+                        lengua náhuatl –ahua, que significa encino o roble, –cha, que significa casa o morada y –pan,
+                        que significa sitio o lugar. Por esta razón se puede traducir como “el lugar de las casas de
+                        roble”.
+                        <br>
+                        El mismo se fundó mientras se daba la administración del presidente Doctor Francisco Dueñas, con
+                        lo cual se procedió a su creación por medio decreto legislativo que entró en vigencia el 9 de
+                        febrero del año 1869.
+                        <br>
+                        Siendo su cabecera departamental la ciudad de Ahuachapán, el departamento está dividido en dos
+                        grandes partidos o distritos. Estos son el distrito de Ahuachapán y el distrito de Atiquizaya.
+                        Siendo el primero fundado por las leyes del 4 de julio de 1832, mientras que el segundo fue
+                        instituido por una ley el 26 de febrero de 1869".
+                    </p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">San Salvador tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ConcepcionAtaco.jpg">
+                        <h4 class="subtitulo4">Concepción de Ataco</h4>
+                        <p class="text5">¡Uno de los destinos más coloridos de El Salvador te espera! Con sus calles
+                            empedradas, coloridos murales, artesanías, gastronomía y un clima fresco, así es Ataco, otro
+                            destino de la Ruta de Las Flores.
+                        </p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/ataco/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ConcepcionAtaco.jpg">
+                        <h4 class="subtitulo4">Concepción de Ataco</h4>
+                        <p class="text5">¡Uno de los destinos más coloridos de El Salvador te espera! Con sus calles
+                            empedradas, coloridos murales, artesanías, gastronomía y un clima fresco, así es Ataco, otro
+                            destino de la Ruta de Las Flores.
+                        </p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/ataco/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ConcepcionAtaco.jpg">
+                        <h4 class="subtitulo4">Concepción de Ataco</h4>
+                        <p class="text5">¡Uno de los destinos más coloridos de El Salvador te espera! Con sus calles
+                            empedradas, coloridos murales, artesanías, gastronomía y un clima fresco, así es Ataco, otro
+                            destino de la Ruta de Las Flores.
+                        </p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/ataco/">Leer más</a>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Ahuachapan tierras donde abunda el commercio e internacional, tierras con un clima calido, sera porque es un departamento de origen montañoso, ya que es este cuenta con gran cantidad de relieves como lo son el Cerro Apaneca, Volcán Apaneca o Chichicastepeque, el cerro Ataco, Cerro de Oro y Los Alpes. <br> Ademas de que este tambien cuenta con muchas fuentes de aguas naturales como lo es el Rio Paz, sus playaz:  Barra de Santiago y la Garita Palmera, y sus lagunas: El Espino, La Laguna Verde y  Las Ninfas.</p>
+                <br>
+                <hr>
+
+
+                <h2>Personas Interesantes de San Salvador</h2>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text5">Poeta salvadoreño que a partir de la publicación de su único libro, Jícaras
+                            Tristes, ha sido uno de los líricos más leídos en su país y está considerado como uno de los
+                            autores clásicos de la literatura centroamericana.</p>
+                        <a class="btn-link"
+                            href="https://www.biografiasyvidas.com/biografia/e/espino.htm#:~:text=(Edgardo%20Alfredo%20Espino%20Najarro%3B%20Ahuachapán,clásicos%20de%20la%20literatura%20centroamericana">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text5">Poeta salvadoreño que a partir de la publicación de su único libro, Jícaras
+                            Tristes, ha sido uno de los líricos más leídos en su país y está considerado como uno de los
+                            autores clásicos de la literatura centroamericana.</p>
+                        <a class="btn-link"
+                            href="https://www.biografiasyvidas.com/biografia/e/espino.htm#:~:text=(Edgardo%20Alfredo%20Espino%20Najarro%3B%20Ahuachapán,clásicos%20de%20la%20literatura%20centroamericana">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text5">Poeta salvadoreño que a partir de la publicación de su único libro, Jícaras
+                            Tristes, ha sido uno de los líricos más leídos en su país y está considerado como uno de los
+                            autores clásicos de la literatura centroamericana.</p>
+                        <a class="btn-link"
+                            href="https://www.biografiasyvidas.com/biografia/e/espino.htm#:~:text=(Edgardo%20Alfredo%20Espino%20Najarro%3B%20Ahuachapán,clásicos%20de%20la%20literatura%20centroamericana">Leer
+                            más</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Union">
+                <center><H1 class="titulo1">Conoscamos La Libertad</H1></center>
+                <p class="text4">El departamento de Libertad (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14
+                    departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de
+                    Libertad, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una
+                    extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este
+                    con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el
+                    departamento de Sonsonate.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Anamorós </li>
+                    <li>Bolivas </li>
+                    <li>Concepcion de Oriente </li>
+                    <li>Conchagua </li>
+                    <li>El Carmen </li>
+                    <li>El Sauce </li>
+                    <li>Intipuca </li>
+                    <li>La Union </li>
+                    <li>Lislique</li>
+					<li>Meanguera del Golfo</li>
+					<li>Nueva Esparta</li>
+					<li>Pasaquina</li>
+					<li>Poloros </li>
+					<li>San Alejo</li>
+					<li>San Jose</li>
+					<li>Santa Rosa de lima</li>
+					<li>Yayantique</li>
+					<li>Yucuaiquin</li>
+                </ol>
+
+                <br>
+                <hr><br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Fue fundado el día 28 de enero del año 1865. Este departamento alberga algunos
+                        legados que se remontan a la época de sus primitivos habitante los lencas. Podemos apreciar
+                        algunas ruinas prehispánicas y varias edificaciones que datan de la época colonial.</p><br>
+                    <p class="text4">La fundación de este departamento se ejecutó por el entonces presidente de la
+                        República, José María de San Martín con el nombre de Nueva San Salvador, el día 8 de agosto de
+                        1854. Más adelante sería cambiado por departamento La Libertad.</p> <br>
+                    <p class="text4">La fundación de este departamento se hizo con la deliberada intención de
+                        convertirlo en la ciudad capital de El Salvador; ya que San Salvador había sido destruida casi
+                        en su totalidad por un gran terremoto. Más adelante estos planes fueron abortados por el
+                        gobierno.</p>
+                </div>
+                <br>
+                <hr><br>
+
+                <center><h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad1.jpg">
+                        <h4 class="subtitulo4">Parque Walter Thilo Deininger</h4>
+                        <p class="text5">es una reserva natural que posee diferentes tipos de flora: Bosque de galería,
+                            seco caducifolio y bosque secundario.</p>
+                        <a class="btn-link" href="https://wikisivar.com/parque-walter-thilo-deininger/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad2.jpg">
+                        <h4 class="subtitulo4">Eco Parque el Espino</h4>
+                        <p class="text5">Es un destino turístico de montaña que está situado a unos 10 kilómetros de la
+                            ciudad de Santa Tecla</p>
+                        <a class="btn-link" href="https://wikisivar.com/eco-parque-el-espino/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad3.jpg">
+                        <h4 class="subtitulo4">Joya de Ceren</h4>
+                        <p class="text5">ofrece un viaje a través de la historia y el misticismo de la cultura maya de
+                            Centroamérica, el cual impacta por su perfecta conservación.</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/joya-de-ceren/">Leer
+                            más</a>
+                    </div>
+                </div>
+
+                <br>
+                <hr><br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <br>
+                <p class="text4">La libertad es un departamento que tiene muchos destinos interesantes como lo son sus playas, tales como El Tunco, El Sunzal, El Zonte, y si bien piensas que esto es poco tambien contamos con el Parque Ecologia El Boqueron y tambien nuestro Volcan "El Boqueron"</p>
+                <br>
+                <hr><br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Ahuachapan</h2></center>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/ToñoSalazar.jpg">
+                        <h4 class="subtitulo4">Toño Salazar</h4>
+                        <p class="text5">Fue huérfano de padre y madre. Salazar fue un ilustrador, caricaturista y
+                            diplomático salvadoreño de mucha renombra en el siglo XX.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/tono-salazar-biografia">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/JuanAberle.jpg">
+                        <h4 class="subtitulo4">Juan Aberle Viscardi</h4>
+                        <p class="text5">director y compositor del Himno Nacional de la República de El Salvador</p>
+                        <a class="btn-link"
+                            href="https://historico.elsalvador.com/historico/635626/los-tres-creadores-del-himno-nacional-de-el-salvador.html">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/aubuisson.jpg">
+                        <h4 class="subtitulo4">Roberto D'Aubuisson</h4>
+                        <p class="text5">Militar y político salvadoreño. Líder carismático y controvertido, se significó
+                            como inspirador de bandas paramilitares de extrema derecha</p>
+                        <a class="btn-link" href="https://www.biografiasyvidas.com/biografia/a/aubuisson.htm">Leer
+                            más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Miguel">
+                <center><H1 class="titulo1">Conoscamos La Libertad</H1></center>
+                <p class="text4">El departamento de Libertad (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14
+                    departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de
+                    Libertad, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una
+                    extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este
+                    con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el
+                    departamento de Sonsonate.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Carolina </li>
+                    <li>Chapeltique </li>
+                    <li>Chinameca </li>
+                    <li>Chirilagua </li>
+                    <li>Ciudad Barrios </li>
+                    <li>Comacaran </li>
+                    <li>El Transito </li>
+                    <li>Lolotique </li>
+                    <li>Moncagua</li>
+					<li>Nueva Guadalupe</li>
+					<li>Nueva Eden de San Juan</li>
+					<li>Quelepa</li>
+					<li>San Antonio del Mosco</li>
+					<li>San Gerardo</li>
+					<li>San Jorge</li>
+					<li>San Luis de la Reina</li>
+					<li>San Miguel</li>
+					<li>San Rafael Oriente</li>
+					<li>Sesori</li>
+					<li>Uluazapa</li>
+                </ol>
+
+                <br>
+                <hr><br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Fue fundado el día 28 de enero del año 1865. Este departamento alberga algunos
+                        legados que se remontan a la época de sus primitivos habitante los lencas. Podemos apreciar
+                        algunas ruinas prehispánicas y varias edificaciones que datan de la época colonial.</p><br>
+                    <p class="text4">La fundación de este departamento se ejecutó por el entonces presidente de la
+                        República, José María de San Martín con el nombre de Nueva San Salvador, el día 8 de agosto de
+                        1854. Más adelante sería cambiado por departamento La Libertad.</p> <br>
+                    <p class="text4">La fundación de este departamento se hizo con la deliberada intención de
+                        convertirlo en la ciudad capital de El Salvador; ya que San Salvador había sido destruida casi
+                        en su totalidad por un gran terremoto. Más adelante estos planes fueron abortados por el
+                        gobierno.</p>
+                </div>
+                <br>
+                <hr><br>
+
+                <center><h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad1.jpg">
+                        <h4 class="subtitulo4">Parque Walter Thilo Deininger</h4>
+                        <p class="text5">es una reserva natural que posee diferentes tipos de flora: Bosque de galería,
+                            seco caducifolio y bosque secundario.</p>
+                        <a class="btn-link" href="https://wikisivar.com/parque-walter-thilo-deininger/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad2.jpg">
+                        <h4 class="subtitulo4">Eco Parque el Espino</h4>
+                        <p class="text5">Es un destino turístico de montaña que está situado a unos 10 kilómetros de la
+                            ciudad de Santa Tecla</p>
+                        <a class="btn-link" href="https://wikisivar.com/eco-parque-el-espino/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad3.jpg">
+                        <h4 class="subtitulo4">Joya de Ceren</h4>
+                        <p class="text5">ofrece un viaje a través de la historia y el misticismo de la cultura maya de
+                            Centroamérica, el cual impacta por su perfecta conservación.</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/joya-de-ceren/">Leer
+                            más</a>
+                    </div>
+                </div>
+
+                <br>
+                <hr><br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <br>
+                <p class="text4">La libertad es un departamento que tiene muchos destinos interesantes como lo son sus playas, tales como El Tunco, El Sunzal, El Zonte, y si bien piensas que esto es poco tambien contamos con el Parque Ecologia El Boqueron y tambien nuestro Volcan "El Boqueron"</p>
+                <br>
+                <hr><br>
+
+                <h2>Personas Interesantes de Ahuachapan</h2>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/ToñoSalazar.jpg">
+                        <h4 class="subtitulo4">Toño Salazar</h4>
+                        <p class="text5">Fue huérfano de padre y madre. Salazar fue un ilustrador, caricaturista y
+                            diplomático salvadoreño de mucha renombra en el siglo XX.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/tono-salazar-biografia">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/JuanAberle.jpg">
+                        <h4 class="subtitulo4">Juan Aberle Viscardi</h4>
+                        <p class="text5">director y compositor del Himno Nacional de la República de El Salvador</p>
+                        <a class="btn-link"
+                            href="https://historico.elsalvador.com/historico/635626/los-tres-creadores-del-himno-nacional-de-el-salvador.html">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/aubuisson.jpg">
+                        <h4 class="subtitulo4">Roberto D'Aubuisson</h4>
+                        <p class="text5">Militar y político salvadoreño. Líder carismático y controvertido, se significó
+                            como inspirador de bandas paramilitares de extrema derecha</p>
+                        <a class="btn-link" href="https://www.biografiasyvidas.com/biografia/a/aubuisson.htm">Leer
+                            más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Vicente">
+                <center><H1 class="titulo1">Conoscamos La Libertad</H1></center>
+                <p class="text4">El departamento de Libertad (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14
+                    departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de
+                    Libertad, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una
+                    extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este
+                    con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el
+                    departamento de Sonsonate.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Apastepeque </li>
+                    <li>Guadalupe </li>
+                    <li>San Cayetano Istepeque </li>
+                    <li>San Esteban Catarina </li>
+                    <li>San Ildefonso </li>
+                    <li>San Lorenzo </li>
+                    <li>San Sebastian </li>
+                    <li>San Vicente </li>
+                    <li>Santa Clara</li>
+					<li>Santo Domingo</li>
+					<li>Tecoluca</li>
+					<li>Tepetitán</li>
+					<li>Verapaz</li>
+                </ol>
+
+                <br>
+
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo2">Historia</h1>
+                    <p class="text2">"Primero que todo, se debe saber que el nombre de este departamento es el resultado
+                        de lo que se conoce como un topónimo. En este sentido, tenemos que proviene de los vocablos en
+                        lengua náhuatl –ahua, que significa encino o roble, –cha, que significa casa o morada y –pan,
+                        que significa sitio o lugar. Por esta razón se puede traducir como “el lugar de las casas de
+                        roble”.
+                        <br>
+                        El mismo se fundó mientras se daba la administración del presidente Doctor Francisco Dueñas, con
+                        lo cual se procedió a su creación por medio decreto legislativo que entró en vigencia el 9 de
+                        febrero del año 1869.
+                        <br>
+                        Siendo su cabecera departamental la ciudad de Ahuachapán, el departamento está dividido en dos
+                        grandes partidos o distritos. Estos son el distrito de Ahuachapán y el distrito de Atiquizaya.
+                        Siendo el primero fundado por las leyes del 4 de julio de 1832, mientras que el segundo fue
+                        instituido por una ley el 26 de febrero de 1869".
+                    </p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2></center>
+
+                <br>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ConcepcionAtaco.jpg">
+                        <h4 class="subtitulo4">Concepción de Ataco</h4>
+                        <p class="text5">¡Uno de los destinos más coloridos de El Salvador te espera! Con sus calles
+                            empedradas, coloridos murales, artesanías, gastronomía y un clima fresco, así es Ataco, otro
+                            destino de la Ruta de Las Flores.
+                        </p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/ataco/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ElImposible.jpg">
+                        <h4 class="subtitulo4">Parque El Imposible</h4>
+                        <p class="text5">El Imposible es una selva, en partes tropical y en otras sub-tropical. Ubicada
+                            sobre la Sierra de Apaneca-Ilamatepeque, posee la mayor biodiversidad en el país como parte
+                            de un bosque maduro, típico de los inicios de Mesoamérica.
+                        </p>
+                        <a class="btn-link"
+                            href="https://elsalvador.travel/destination/parque-nacional-el-imposible/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AguasTermales.jpg">
+                        <h4 class="subtitulo4">Aguas Termales Santa Teresa</h4>
+                        <p class="text5">Termales Santa Teresa es un Hotel & Natural Spa ubicado en Ahuachapán con 30
+                            piscinas termales y 4 restaurantes para relajarte, ofrece masajes relajantes y baños de
+                            caolinita para brindar vitalidad y rejuvenecer.</p>
+                        <a class="btn-link" href="https://termalesdesantateresa.com/">Leer más</a>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Ahuachapan tierras donde abunda el commercio e internacional, tierras con un clima calido, sera porque es un departamento de origen montañoso, ya que es este cuenta con gran cantidad de relieves como lo son el Cerro Apaneca, Volcán Apaneca o Chichicastepeque, el cerro Ataco, Cerro de Oro y Los Alpes. <br> Ademas de que este tambien cuenta con muchas fuentes de aguas naturales como lo es el Rio Paz, sus playaz:  Barra de Santiago y la Garita Palmera, y sus lagunas: El Espino, La Laguna Verde y  Las Ninfas.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Ahuachapan</h2></center>
+                <br>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/BenjaminBarreraReyes.jpg">
+                        <h4 class="subitulo4">Monseyor Benajmin Barrera</h4>
+                        <p class="text5">fue sacerdote en Roma el 29 de julio de 1934. Fue consagrado obispo titular y
+                            auxiliar de Santa Ana el 15 de noviembre de 1942, en la catedral de San Salvador.</p>
+                        <a class="btn-link" href="https://es.wikipedia.org/wiki/Benjamín_Barrera_y_Reyes">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/CarlosBonilla.jpg">
+                        <h4 class="subitulo4">Doctor Juan Carlos Bonilla</h4>
+                        <p class="text5">Ha desempeñado los cargos de médico forense, diputado propietario y suplente
+                            por Cabañas, alcalde y jefe del distrito en 1936-1937.</p>
+                        <a class="btn-link"
+                            href="http://www2.ues.edu.sv/CENTROSEINSTITUTOS/album/pages/Carlos_Bonilla_jpg.htm#:~:text=Como%20catedrático%20de%20la%20Universidad,y%20cirujano%20del%20Hospital%20General.">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Cabañas/Larreynaga.jpg">
+                        <h4 class="subitulo4">Doctor Juan Carlos Bonilla</h4>
+                        <p class="text5">Ocupó en tres períodos el cargo de alcalde, en los cuales desarrolló importante
+                            labor, como establecer numerosos centros educativos en el área rural, luchando al mismo
+                            tiempo por la apertura del Plan Básico</p>
+                        <a class="btn-link" href="https://es.wikipedia.org/wiki/Miguel_Larreynaga">Leer más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Chalatenango">
+                <center><H1 class="titulo1">Conoscamos La Libertad</H1></center>
+                <p class="text4">El departamento de Libertad (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14
+                    departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de
+                    Libertad, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una
+                    extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este
+                    con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el
+                    departamento de Sonsonate.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Agua Caliente </li>
+                    <li>Arcatao </li>
+                    <li>Azacualpa </li>
+                    <li>Cancasque</li>
+                    <li>Chalatenango </li>
+                    <li>Citala </li>
+                    <li>Comapala </li>
+                    <li>Concepcion Quezaltepeque </li>
+                    <li>Dulce Nombre de Maria </li>
+                    <li>El Carrizal </li>
+                    <li>El Paraiso</li>
+                    <li>La Laguna</li>
+					<li>La Palma</li>
+					<li>La Reina</li>
+					<li>Las Flores</li>
+					<li>Las Vueltas</li>
+					<li>Nombre de Jesus</li>
+					<li>Nueva Concepcion</li>
+					<li>Nueva Trinidad</li>
+					<li>Ojos de Agua</li>
+					<li>Potonico</li>
+					<li>San Antonio de la Cruz</li>
+					<li>San Antonio de los Ranchos</li>
+					<li>San Fernando</li>
+					<li>San Francisco Lempa</li>
+					<li>San Francisco Morazán</li>
+					<li>San Ignacio</li>
+					<li>San Isidro Labrador</li>
+					<li>San Luis del Carmen</li>
+					<li>San Miguel de Mercedes</li>
+					<li>San Rafael</li>
+					<li>Santa Rita</li>
+					<li>Tejutla</li>
+                </ol>
+
+                <br>
+
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo2">Historia</h1>
+                    <p class="text2">"Primero que todo, se debe saber que el nombre de este departamento es el resultado
+                        de lo que se conoce como un topónimo. En este sentido, tenemos que proviene de los vocablos en
+                        lengua náhuatl –ahua, que significa encino o roble, –cha, que significa casa o morada y –pan,
+                        que significa sitio o lugar. Por esta razón se puede traducir como “el lugar de las casas de
+                        roble”.
+                        <br>
+                        El mismo se fundó mientras se daba la administración del presidente Doctor Francisco Dueñas, con
+                        lo cual se procedió a su creación por medio decreto legislativo que entró en vigencia el 9 de
+                        febrero del año 1869.
+                        <br>
+                        Siendo su cabecera departamental la ciudad de Ahuachapán, el departamento está dividido en dos
+                        grandes partidos o distritos. Estos son el distrito de Ahuachapán y el distrito de Atiquizaya.
+                        Siendo el primero fundado por las leyes del 4 de julio de 1832, mientras que el segundo fue
+                        instituido por una ley el 26 de febrero de 1869".
+                    </p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/RutaDeLasFlores.jpg">
+                        <h4 class="subtitulo4">Ruta de las Flores</h4>
+                        <p class="text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/ruta-las-flores/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/RutaDeLasFlores.jpg">
+                        <h4 class="subtitulo4">Ruta de las Flores</h4>
+                        <p class="text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/ruta-las-flores/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/RutaDeLasFlores.jpg">
+                        <h4 class="subtitulo4">Ruta de las Flores</h4>
+                        <p class="text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/ruta-las-flores/">Leer más</a>
+                    </div>
+
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Ahuachapan tierras donde abunda el commercio e internacional, tierras con un clima calido, sera porque es un departamento de origen montañoso, ya que es este cuenta con gran cantidad de relieves como lo son el Cerro Apaneca, Volcán Apaneca o Chichicastepeque, el cerro Ataco, Cerro de Oro y Los Alpes. <br> Ademas de que este tambien cuenta con muchas fuentes de aguas naturales como lo es el Rio Paz, sus playaz:  Barra de Santiago y la Garita Palmera, y sus lagunas: El Espino, La Laguna Verde y  Las Ninfas.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Ahuachapan</h2></center>
+                <div class="container-cards">
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/ruta-las-flores/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/ruta-las-flores/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/ruta-las-flores/">Leer más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-SantaAna">
+                <center><H1 class="titulo1">Conoscamos Santa Ana</H1></center>
+                <p class="text4">Santa Ana fue erigido durante el gobierno del Coronel José María San Martín por Ley de 8 de febrero de 1855. <br> Su cabecera es la ciudad de Santa Ana y constó de los distritos o partidos de Santa Ana y Metapán, creados en 1786, y de Chalchuapa, establecido por Decretos Legislativo de 19 de marzo de 1880. ​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de Santa Ana?</h2></center>
+                <ol class="lista-ordenada text2">
+                    <li>Candelaria de la Frontera </li>
+                    <li>Chalchuapa </li>
+                    <li>Coatepeque </li>
+                    <li>El Congo </li>
+                    <li>El Porvenir </li>
+                    <li>Masahuat </li>
+                    <li>Metapan </li>
+                    <li>San Antonio Pajonal </li>
+                    <li>San Sebastian Salitrillo </li>
+                    <li>Santa Ana </li>
+                    <li>Santa Rosa Guachipilín</li>
+                    <li>Santiago de la Frontera</li>
+					<li>Texistepeque</li>
+                </ol>
+
+                <br>
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo2">Historia</h1>
+                    <p class="text2">El departamento de Santa Ana fue fundado en el año 1855 mientras transcurría el mandato presidencial de José María San Martín. Sin embargo, desde el periodo  preclásico estas tierras fueron habitadas por diferentes grupos de procedencia maya. Como prueba de esto se tienen a los yacimientos arqueológicos Casa Blanca, Tazumal y el Trapiche.<br>
+                    Es así como se sabe que hacia periodo clásico tardío fueron mayormente dos grupos de pueblos de cultura maya habitaron lo que ahora se conoce como el departamento de Santa Ana. Estos son; los pokomames, quienes se ubicaron tanto hacia la zona occidental como al sur de la ribera del río Lempa; y los Chortis, quienes por el contrario de los anteriores, se asentaron hacia el norte del río Lempa.
+                    </p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">Santa Ana tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/SantaAna/TeatroNacional.jpg">
+                        <h4 class="subtitulo4">El Teatro Nacional</h4>
+                        <p class="text5">Su estilo neoclásico francés le otorga una gran belleza y elegancia a su interior: El vestíbulo, la Gran Sala, el Salón Foyer, los escenarios, los palcos y la Terraza Española. Todo hecho con materiales como la caoba, decoración en yeso y las pinturas de artistas italianos.</p>
+                        <a class="btn-link" href="https://www.viajeroerrante.com/que-hacer-que-ver-en-santa-ana-el-salvador/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/SantaAna/LagoCoatepeque.jpg">
+                        <h4 class="subtitulo4">Lago Coatepeque</h4>
+                        <p class="text5">Este lago de origen volcánico surgió de una explosión hace entre 57.000 y 72.000 a.C. <br>
+                        Sus principales atractivos turísticos son las actividades acuáticas que se pueden realizar en sus aguas (vela, natación, piragüismo, buceo, etc).</p>
+                        <a class="btn-link" href="https://www.viajeroerrante.com/que-hacer-que-ver-en-santa-ana-el-salvador/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/SantaAna/RuinasTazumal.jpg">
+                        <h4 class="subtitulo4">Ruinas de Tazumal</h4>
+                        <p class="text5">Este conjunto arqueológico corresponde a un asentamiento que vivió en esta zona entre los años 1 - 1200 D.C.
+                            La pirámide Tolteca es el reclamo principal del recinto, además de un museo con los restos arqueológicos de las excavaciones. Un lugar interesante para los amantes de la historia y de la arqueología.</p>
+                        <a class="btn-link" href="https://www.viajeroerrante.com/que-hacer-que-ver-en-santa-ana-el-salvador/">Leer más</a>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Santa Ana es uno de los departamentos mas caracteristicos de El Salvador, por su cultura y por todo lo que puedes disfrutar en el, es un departamento que tiene mucho lugares donde puedes disfrutar como lo son su Volcan de Santa Ana o El Volcan Chingo, o podemos disfrutar de sus rios: Guajoyo y el río Suquiapa.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Santa Ana</h2></center>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/SantaAna/PanchoLara.jpg">
+                        <h4 class="subtitulo4">Pancho Lara</h4>
+                        <p class="text5">Francisco Antonio Lara mejor conocido como “Pancho Lara”. Poeta y músico al que se le atribuyen alrededor de 400 composiciones, muchas infantiles y las más famosas de perfil folclórico y popular.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/pancho-lara-biografia">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/SantaAna/DavidEscobar.jpg">
+                        <h4 class="subtitulo4">David Escobar Galindo</h4>
+                        <p class="text5">Es uno de los poetas más lúcidos y discutidos de la actualidad. Su poesía es vigorosa, vital y rica en contenidos humanos. Es Doctor en Jurisprudencia y Ciencias Sociales.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/david-escobar-galindo">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/SantaAna/ClaribelAlegria.jpg">
+                        <h4 class="subtitulo4">Claribel Alegria</h4>
+                        <p class="text5">Claribel Alegría fue una escritora, poeta, narradora, ensayista y traductora salvadoreña-nicaragüense. Claribel se consideraba a sí misma salvadoreña, ya que transcurrió su niñez en la ciudad de Santa Ana</p>
+                        <a class="btn-link" href="https://www.escritores.org/biografias/405-claribel-alegria">Leer más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Cuscatlan">
+                <center><H1 class="titulo1">Conoscamos La Libertad</H1></center>
+                <p class="text4">El departamento de Libertad (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14
+                    departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de
+                    Libertad, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una
+                    extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este
+                    con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el
+                    departamento de Sonsonate.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Candelaria </li>
+                    <li>Cojutepeque </li>
+                    <li>El Carmen </li>
+                    <li>El Rosario </li>
+                    <li>Monte San Juan </li>
+                    <li>Oratorio de Concepcion </li>
+                    <li>San Bartolome Purulapia </li>
+                    <li>San Cristobal </li>
+                    <li>San José Guayabal</li>
+                    <li>San Rafael Cedros</li>
+                    <li>San Ramón</li>
+                    <li>Santa Cruz Analquito </li>
+					<li>Santa Cruz Michapa</li>
+					<li>Suchitoto</li>
+					<li>Tenancingo</li>
+                </ol>
+
+                <br>
+                
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo2">Historia</h1>
+                    <p class="text2">"Primero que todo, se debe saber que el nombre de este departamento es el resultado
+                        de lo que se conoce como un topónimo. En este sentido, tenemos que proviene de los vocablos en
+                        lengua náhuatl –ahua, que significa encino o roble, –cha, que significa casa o morada y –pan,
+                        que significa sitio o lugar. Por esta razón se puede traducir como “el lugar de las casas de
+                        roble”.
+                        <br>
+                        El mismo se fundó mientras se daba la administración del presidente Doctor Francisco Dueñas, con
+                        lo cual se procedió a su creación por medio decreto legislativo que entró en vigencia el 9 de
+                        febrero del año 1869.
+                        <br>
+                        Siendo su cabecera departamental la ciudad de Ahuachapán, el departamento está dividido en dos
+                        grandes partidos o distritos. Estos son el distrito de Ahuachapán y el distrito de Atiquizaya.
+                        Siendo el primero fundado por las leyes del 4 de julio de 1832, mientras que el segundo fue
+                        instituido por una ley el 26 de febrero de 1869".
+                    </p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ConcepcionAtaco.jpg">
+                        <h4 class="subtitulo4">Concepción de Ataco</h4>
+                        <p class="text5">¡Uno de los destinos más coloridos de El Salvador te espera! Con sus calles
+                            empedradas, coloridos murales, artesanías, gastronomía y un clima fresco, así es Ataco, otro
+                            destino de la Ruta de Las Flores.
+                        </p>
+                        <a class="btn-link" href="https://elsalvador.travel/destination/ataco/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/ElImposible.jpg">
+                        <h4 class="subtitulo4">Parque El Imposible</h4>
+                        <p class="text5">El Imposible es una selva, en partes tropical y en otras sub-tropical. Ubicada
+                            sobre la Sierra de Apaneca-Ilamatepeque, posee la mayor biodiversidad en el país como parte
+                            de un bosque maduro, típico de los inicios de Mesoamérica.
+                        </p>
+                        <a class="btn-link"
+                            href="https://elsalvador.travel/destination/parque-nacional-el-imposible/">Leer más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AguasTermales.jpg">
+                        <h4 class="subtitulo4">Aguas Termales Santa Teresa</h4>
+                        <p class="text5">Termales Santa Teresa es un Hotel & Natural Spa ubicado en Ahuachapán con 30
+                            piscinas termales y 4 restaurantes para relajarte, ofrece masajes relajantes y baños de
+                            caolinita para brindar vitalidad y rejuvenecer.</p>
+                        <a class="btn-link" href="https://termalesdesantateresa.com/">Leer más</a>
+                    </div>
+
+                </div>
+                
+                <br>
+
+                <hr>
+                <br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <p class="text4">Ahuachapan tierras donde abunda el commercio e internacional, tierras con un clima calido, sera porque es un departamento de origen montañoso, ya que es este cuenta con gran cantidad de relieves como lo son el Cerro Apaneca, Volcán Apaneca o Chichicastepeque, el cerro Ataco, Cerro de Oro y Los Alpes. <br> Ademas de que este tambien cuenta con muchas fuentes de aguas naturales como lo es el Rio Paz, sus playaz:  Barra de Santiago y la Garita Palmera, y sus lagunas: El Espino, La Laguna Verde y  Las Ninfas.</p>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Ahuachapan</h2></center>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/AlfredoEspino.jpg">
+                        <h4 class="subtitulo4">Dr. Alfredo Espino</h4>
+                        <p class="text5">Poeta salvadoreño que a partir de la publicación de su único libro, Jícaras
+                            Tristes, ha sido uno de los líricos más leídos en su país y está considerado como uno de los
+                            autores clásicos de la literatura centroamericana.</p>
+                        <a class="btn-link"
+                            href="https://www.biografiasyvidas.com/biografia/e/espino.htm#:~:text=(Edgardo%20Alfredo%20Espino%20Najarro%3B%20Ahuachapán,clásicos%20de%20la%20literatura%20centroamericana">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/Arturo-Romero.jpg">
+                        <h4 class="subtitulo4">Dr. Arturo Romero</h4>
+                        <p class="text5">Médico oriundo de Tacuba, Ahuachapán, con estudios en la Universidad La Sorbona
+                            de París, Francia. nombrado jefe de una unidad en el Hospital Rosales y, al mismo tiempo,
+                            escribe en la prensa sobre temas sociales. Considerado “El hombre símbolo”, fundó en 1944 el
+                            Partido Unión Democrática</p>
+                        <a class="btn-link"
+                            href="https://joaquinlarioslibros.blogspot.com/2020/12/drarturo-romero-el-hombre-simbolo-de-la.html">Leer
+                            más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Sitios/Ahuachapan/FranciscoMenendez.jpg">
+                        <h4 class="subtitulo4">General Francisco Menendez</h4>
+                        <p class="text5">A los 30 años de edad comenzó la carrera militar, estando primeramente a la
+                            órdenes de Gerardo Barrios, Fue conocido como uno de los presidentes de El Salvador, quien
+                            cumplió funciones desde el año 1885 al año 1890.</p>
+                        <a class="btn-link" href="https://wikisivar.com/francisco-menendez/">Leer más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Usualutan">
+                <center><H1 class="titulo1">Conoscamos La Libertad</H1></center>
+                <p class="text4">El departamento de Libertad (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14
+                    departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de
+                    Libertad, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una
+                    extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este
+                    con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el
+                    departamento de Sonsonate.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Alegria </li>
+                    <li>Berlín </li>
+                    <li>California </li>
+                    <li>Concepcion Batres </li>
+                    <li>El Triunfo </li>
+                    <li>Ereguayquín </li>
+                    <li>Estanzuelas </li>
+                    <li>Jiquilisco </li>
+                    <li>Jucuapa</li>
+					<li>Jucuaran</li>
+					<li>Mercedes Umaña</li>
+					<li>Nueva Granada</li>
+					<li>Ozatlan</li>
+					<li>Puerto El Triunfo</li>
+					<li>San Agustin</li>
+					<li>San Buenaventura</li>
+					<li>San Dionisio</li>
+					<li>San Francisco Javier</li>
+					<li>Santa Elenaaa</li>
+					<li>Santa Maria</li>
+					<li>Santiago de Maria</li>
+					<li>Tecapán</li>
+					<li>Usulután</li>
+                </ol>
+
+                <br>
+                
+                <hr>
+                <br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Sobre el aspecto histórico de esta región hay varias cosas que se deben resaltar.
+                        Primeramente, que se trata de uno de los departamentos más nuevos en la República de El
+                        Salvador. En este sentido, su creación es fechada el 10 de febrero del año de 1873. Cuando le
+                        fue dado el nombre por medio de un decreto legislativo a manera de homenaje de un político
+                        hondureño centroamericano llamado José Trinidad Cabañas.</p><br>
+                    <p class="text4">La historia cuenta que este hombre de procedencia hondureña fue siempre leal a sus
+                        ideales centroamericanos, labor al cual dedicó toda su vida. Esto motivó a los legisladores a
+                        pronunciar un decreto legislativo en el año de 1873 donde se estipulaba el nombre que recibiría
+                        dicho departamento.</p>
+                </div>
+                <br>
+                <hr>
+
+                <br>
+
+                <center><h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad1.jpg">
+                        <h4 class="subtitulo4">Parque Walter Thilo Deininger</h4>
+                        <p class="text5">es una reserva natural que posee diferentes tipos de flora: Bosque de galería,
+                            seco caducifolio y bosque secundario.</p>
+                        <a class="btn-link" href="https://wikisivar.com/parque-walter-thilo-deininger/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad2.jpg">
+                        <h4 class="subtitulo4">Eco Parque el Espino</h4>
+                        <p class="text5">Es un destino turístico de montaña que está situado a unos 10 kilómetros de la
+                            ciudad de Santa Tecla</p>
+                        <a class="btn-link" href="https://wikisivar.com/eco-parque-el-espino/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad3.jpg">
+                        <h4 class="subtitulo4">Joya de Ceren</h4>
+                        <p class="text5">ofrece un viaje a través de la historia y el misticismo de la cultura maya de
+                            Centroamérica, el cual impacta por su perfecta conservación.</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/joya-de-ceren/">Leer
+                            más</a>
+                    </div>
+                </div>
+
+                <br>
+                <hr><br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <br>
+                <p class="text4">La libertad es un departamento que tiene muchos destinos interesantes como lo son sus playas, tales como El Tunco, El Sunzal, El Zonte, y si bien piensas que esto es poco tambien contamos con el Parque Ecologia El Boqueron y tambien nuestro Volcan "El Boqueron"</p>
+                <br>
+                <hr><br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Ahuachapan</h2></center>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/ToñoSalazar.jpg">
+                        <h4 class="subtitulo4">Toño Salazar</h4>
+                        <p class="text5">Fue huérfano de padre y madre. Salazar fue un ilustrador, caricaturista y
+                            diplomático salvadoreño de mucha renombra en el siglo XX.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/tono-salazar-biografia">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/JuanAberle.jpg">
+                        <h4 class="subtitulo4">Juan Aberle Viscardi</h4>
+                        <p class="text5">director y compositor del Himno Nacional de la República de El Salvador</p>
+                        <a class="btn-link"
+                            href="https://historico.elsalvador.com/historico/635626/los-tres-creadores-del-himno-nacional-de-el-salvador.html">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/aubuisson.jpg">
+                        <h4 class="subtitulo4">Roberto D'Aubuisson</h4>
+                        <p class="text5">Militar y político salvadoreño. Líder carismático y controvertido, se significó
+                            como inspirador de bandas paramilitares de extrema derecha</p>
+                        <a class="btn-link" href="https://www.biografiasyvidas.com/biografia/a/aubuisson.htm">Leer
+                            más</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="InfoDepa" id="info-Morazan">
+                <center><H1 class="titulo1">Conoscamos Morazan</H1></center>
+                <p class="text4">Al departamento se le dio el nombre actual por decreto el 14 de marzo de 1887, en honor del paladín
+                    de la Unión Centroamericana, general Francisco Morazán. Por ley del 5 de febrero de 1877 se otorgó a
+                    la villa de Gotera el título de ciudad. Fue fundado como departamento el 14 de julio de 1875. </p>
+                <br>
+                <p class="text4">Morazán se ubica en la zona geográfica oriental de la República. Está limitado al norte por Honduras,
+                    y al sur y al oriente por el departamento de San Miguel. Tiene una altitud de 245 metros sobre el
+                    nivel del mar y su extensión territorial es de 1,447 kilómetros cuadrados.​</p>
+                <br>
+                <center><h2 class="subtitulo1">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h2></center>
+                <ol class="lista-ordenada text4">
+                    <li>Arambala </li>
+                    <li>Cacaopera </li>
+                    <li>Chilanga </li>
+                    <li>Corinto </li>
+                    <li>Delicias de Concepcion </li>
+                    <li>El Divisadero </li>
+                    <li>El Rosario </li>
+                    <li>Gualococti </li>
+                    <li>Guatajiagua</li>
+					<li>Joateca</li>
+					<li>Jocoaitique</li>
+					<li>Jocoro</li>
+					<li>Lolotiquillo </li>
+					<li>Meanguera</li>
+					<li>Osicala</li>
+					<li>Perquin</li>
+					<li>San Carlos</li>
+					<li>San Fernando</li>
+					<li>San Francisco Gotera</li>
+					<li>San Isidro</li>
+					<li>San Simon</li>
+					<li>Sensembra</li>
+					<li>Sociedad</li>
+					<li>Torola</li>
+					<li>Yamabal</li>
+					<li>Yoloaiquin</li>
+                </ol>
+
+                <br>
+                <hr><br>
+                <div class="contenedor-Importante-depa">
+                    <h1 class="subtitulo1">Historia</h1>
+                    <p class="text4">Fue fundado el día 28 de enero del año 1865. Este departamento alberga algunos
+                        legados que se remontan a la época de sus primitivos habitante los lencas. Podemos apreciar
+                        algunas ruinas prehispánicas y varias edificaciones que datan de la época colonial.</p><br>
+                    <p class="text4">La fundación de este departamento se ejecutó por el entonces presidente de la
+                        República, José María de San Martín con el nombre de Nueva San Salvador, el día 8 de agosto de
+                        1854. Más adelante sería cambiado por departamento La Libertad.</p> <br>
+                    <p class="text4">La fundación de este departamento se hizo con la deliberada intención de
+                        convertirlo en la ciudad capital de El Salvador; ya que San Salvador había sido destruida casi
+                        en su totalidad por un gran terremoto. Más adelante estos planes fueron abortados por el
+                        gobierno.</p>
+                </div>
+                <br>
+                <hr><br>
+
+                <center><h2 class="subtitulo1">¿Ahuchapan tiene sitios Interesantes?</h2></center>
+
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad1.jpg">
+                        <h4 class="subtitulo4">Parque Walter Thilo Deininger</h4>
+                        <p class="text5">es una reserva natural que posee diferentes tipos de flora: Bosque de galería,
+                            seco caducifolio y bosque secundario.</p>
+                        <a class="btn-link" href="https://wikisivar.com/parque-walter-thilo-deininger/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad2.jpg">
+                        <h4 class="subtitulo4">Eco Parque el Espino</h4>
+                        <p class="text5">Es un destino turístico de montaña que está situado a unos 10 kilómetros de la
+                            ciudad de Santa Tecla</p>
+                        <a class="btn-link" href="https://wikisivar.com/eco-parque-el-espino/">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/LaLibertad3.jpg">
+                        <h4 class="subtitulo4">Joya de Ceren</h4>
+                        <p class="text5">ofrece un viaje a través de la historia y el misticismo de la cultura maya de
+                            Centroamérica, el cual impacta por su perfecta conservación.</p>
+                        <a class="btn-link" href="https://www.visitcentroamerica.com/visitar/joya-de-ceren/">Leer
+                            más</a>
+                    </div>
+                </div>
+
+                <br>
+                <hr><br>
+                <center><h1 class="subtitulo1">Importante</h1></center>
+                <br>
+                <p class="text4">La libertad es un departamento que tiene muchos destinos interesantes como lo son sus playas, tales como El Tunco, El Sunzal, El Zonte, y si bien piensas que esto es poco tambien contamos con el Parque Ecologia El Boqueron y tambien nuestro Volcan "El Boqueron"</p>
+                <br>
+                <hr><br>
+
+                <center><h2 class="subtitulo1">Personas Interesantes de Ahuachapan</h2></center>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/ToñoSalazar.jpg">
+                        <h4 class="subtitulo4">Toño Salazar</h4>
+                        <p class="text5">Fue huérfano de padre y madre. Salazar fue un ilustrador, caricaturista y
+                            diplomático salvadoreño de mucha renombra en el siglo XX.</p>
+                        <a class="btn-link" href="https://www.elsalvadormipais.com/tono-salazar-biografia">Leer más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/JuanAberle.jpg">
+                        <h4 class="subtitulo4">Juan Aberle Viscardi</h4>
+                        <p class="text5">director y compositor del Himno Nacional de la República de El Salvador</p>
+                        <a class="btn-link"
+                            href="https://historico.elsalvador.com/historico/635626/los-tres-creadores-del-himno-nacional-de-el-salvador.html">Leer
+                            más</a>
+                    </div>
+                    <div class="card">
+                        <img src="img/Sitios/LaLibertad/aubuisson.jpg">
+                        <h4 class="subtitulo4">Roberto D'Aubuisson</h4>
+                        <p class="text5">Militar y político salvadoreño. Líder carismático y controvertido, se significó
+                            como inspirador de bandas paramilitares de extrema derecha</p>
+                        <a class="btn-link" href="https://www.biografiasyvidas.com/biografia/a/aubuisson.htm">Leer
+                            más</a>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <div class="widget-1 img-Ahuachapan">
+            <img src="img/city/AhuachapanCity.jfif" alt="" srcset="" id="img-Ahuachapan">
+            <img src="img/city/CabañasCity.jpg" alt="" srcset="" id="img-Cabañas">
+            <img src="img/city/LaLibertadCity.JPG" alt="" srcset="" id="img-Libertad">
+            <img src="img/city/LaPazCity.jpg" alt="" srcset="" id="img-Paz">
+            <img src="img/city/SonsonateCity.jpg" alt="" srcset="" id="img-Sonsonate">
+            <img src="img/city/SanSalvadorCity.jpg" alt="" srcset="" id="img-Salvador">
+            <img src="img/city/LaUnionCity.jpg" alt="" srcset="" id="img-Union">
+            <img src="img/city/MorazaCity.jpg" alt="" srcset="" id="img-Morazan">
+            <img src="img/city/SanMiguelCity.jpg" alt="" srcset="" id="img-Miguel">
+            <img src="img/city/SanVicenteCity.jpg" alt="" srcset="" id="img-Vicente">
+            <img src="img/city/ChalatenangoCity.jpg" alt="" srcset="" id="img-Chalatenango">
+            <img src="img/city/SantaAnaCity.jpg" alt="" srcset="" id="img-SantaAna">
+            <img src="img/city/CuscatlanCity.jpg" alt="" srcset="" id="img-Cuscatlan">
+            <img src="img/city/UsulutanCity.jpg" alt="" srcset="" id="img-Usualutan">
+        </div>
+
+        <div class="widget-2">
+            <img src="img/depa/DepaAhuachapan.png" alt="" id="mapa-Ahuachapan">
+            <img src="img/depa/DepaCabañas.png" alt="" id="mapa-Cabañas">
+            <img src="img/depa/DepaLaLibertad.png" alt="" id="mapa-Libertad">
+            <img src="img/depa/DepaLaPaz.png" alt="" id="mapa-Paz">
+            <img src="img/depa/DepaSonsonate.png" alt="" id="mapa-Sonsonate">
+            <img src="img/depa/DepaSanSalvador.png" alt="" id="mapa-Salvador">
+            <img src="img/depa/DepaLaUnion.png" alt="" id="mapa-Union">
+            <img src="img/depa/DepaMorazan.png" alt="" id="mapa-Morazan">
+            <img src="img/depa/DepaSanMiguel.png" alt="" id="mapa-Miguel">
+            <img src="img/depa/DepaSanVicente.png" alt="" id="mapa-Vicente">
+            <img src="img/depa/DepaChalatenango.png" alt="" id="mapa-Chalatenango">
+            <img src="img/depa/DepaSantaAna.png" alt="" id="mapa-SantaAna">
+            <img src="img/depa/DepaCuscatlan.png" alt="" id="mapa-Cuscatlan">
+            <img src="img/depa/DepaUsulutan.png" alt="" id="mapa-Usualutan">
+
+        </div>
+
+        <footer class="footer">
+            <br>
+            <div class="contenedor-redes">
+                <ul>
+                    <li class="btn-facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="btn-instagram"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="btn-twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="btn-linkedIn"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="btn-youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <br>
+            <p>©Universidad Don Bosco</p>
+            <br>
+        </footer>
+    </div>
+
+    <!-- Configuracion JS -->
+
+    <script src="js/main.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

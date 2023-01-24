@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Don Bosco</title>
+
+    <!--LINKEO DE FUENTE DE GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--LINKEO DE CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--LINKEO DE FONT-AWESOME-->
+    <script src="https://kit.fontawesome.com/0fc218370a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="NosotrosContainer">
+
+        <header class="header" id="home">
+            <nav>
+                <div class="logo">MERCS</div>
+                <label for="btn" class="icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="btn">
+                <ul>
+                    <li><a href="Index.html">inicio</a></li>
+                    <li>
+                        <label for="btn-2" class="show">Departamentos +</label>
+                        <a href="#">Departamentos</a>
+                        <input type="checkbox" id="btn-2">
+                        <ul>
+                            <li>
+                                <label for="btn-3" class="show">Central</label>
+                                <a href="#">Central <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="Departamentos.html">La Libertad</a></li>
+                                    <li><a href="Departamentos.html">Chalatenango</a></li>
+                                    <li><a href="Departamentos.html">Cuscatlán</a></li>
+                                    <li><a href="Departamentos.html">San Salvador</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="btn-3" class="show">Paracentral</label>
+                                <a href="#">Paracentral <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="Departamentos.html">La Paz</a></li>
+                                    <li><a href="Departamentos.html">Cabañas</a></li>
+                                    <li><a href="Departamentos.html">San Vicente</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="btn-3" class="show">Oriental</label>
+                                <a href="#">Oriental <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="Departamentos.html">Usulután</a></li>
+                                    <li><a href="Departamentos.html">San Miguel</a></li>
+                                    <li><a href="Departamentos.html">Morazan</a></li>
+                                    <li><a href="Departamentos.html">La Union</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <label for="btn-3" class="show">Occidental</label>
+                                <a href="#">Occidental <span class="fa fa-plus"></span></a>
+                                <input type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><a href="Departamentos.html">Santa Ana</a></li>
+                                    <li><a href="Departamentos.html">Ahuachapan</a></li>
+                                    <li><a href="Departamentos.html">Sonsonate</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="Contactos.html">Contactos</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+            </nav>
+            <script>
+                $('.icon').click(function () {
+                    $('span').toggleClass("cancel");
+                });
+            </script>
+
+        </header>
+
+        <main class="contenido">
+            <h1>Creadores</h1>
+            <div class="progradiv">
+                <a id="Diego">Diego Chevez - Programador</a><img class="programadoresimg"
+                    src="img/programadores/diego.jpeg" alt="">
+            </div>
+            <div class="progradiv">
+                <a id="Erick">Erick Fuentes - Diseñador</a> <img class="programadoresimg"
+                    src="img/programadores/erick.jpeg" alt="">
+            </div>
+            <div class="progradiv">
+                <a id="Bryan">Bryan Cornejo - Programador</a> <img class="programadoresimg"
+                    src="img/programadores/bryan.png" alt="">
+            </div>
+        </main>
+
+        <aside class="sidebar">
+
+        </aside>
+
+        <footer class="footer">
+            <br>
+            <div class="contenedor-redes">
+                <ul>
+                    <li class="btn-facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="btn-instagram"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="btn-twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="btn-linkedIn"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="btn-youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <br>
+            <p>©Universidad Don Bosco</p>
+            <br>
+        </footer>
+    </div>
+
+    <!-- Configuracion JS -->
+    <script src="js/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

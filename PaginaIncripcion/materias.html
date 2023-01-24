@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <title>Don Bosco</title>
+    
+        <!--LINKEO DE FUENTE DE GOOGLE-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+        <!--LINKEO DE CSS-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--LINKEO DE FONT-AWESOME-->
+        <script src="https://kit.fontawesome.com/0fc218370a.js" crossorigin="anonymous"></script>
+        
+        
+    </head>
+<body>
+    <div class="contenedor">
+
+        <header class="header" id="home">
+			<!--Creacion de la estructura del NAVBAR-->
+			<div class="navbar">
+				<div class="logo">
+					<img src="img/udb-logo.png" alt="">
+				</div>
+				<div class="menu">
+					<i class="fa-solid fa-bars" id="btn_menu"></i>
+					<div id="back_menu">
+					</div>
+					<nav class="nav" id="nav">
+						<img src="img/udb-logo.png" alt="">
+						<ul>
+							<li><a href="index.html" id="hover">Inicio</a></li>
+							<li><a href="index.html#carreras" id="hover">Carreras</a></li>
+							<li><a href="#" id="selected">Materias</a></li>
+							<li><a href="info+.html" id="hover">Mas Informacion</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		</header>
+
+        <div class="widget-3" id="form-inscripcion">
+            <!--Solicitamos la carrera-->
+            <form class="form-carreras">
+                <div class="header-form">
+                    <hr>
+                    <br>
+                    <h2>Registrando te en la Mejor Universidad</h2>
+                    <h1>Universidad Don Bosco</h1>
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="body-form">
+                    <label class="lbl-form" for="carreras">Escoja su carrera</label>
+                    <select required class="form-boxs" name="carrera" id="carreras" aria-placeholder="CarreraS">
+                        <option value="0" disabled selected hidden>Carreras</option>
+                        <optgroup label="Ingenierias">
+                            <option value="IngeCompu">Ingenieria en Computacion</option>
+                            <option value="IngeIndustrial">Ingenieria Industiral</option>
+                            <option value="IngeTelecom">Ingenieria en Telecomunicaciones</option>
+                            <option value="LicDiseño">Licenciatura en Diseño Grafico</option>
+                        </optgroup>
+                        <optgroup label="Tecnicos">
+                            <option value="TecCompu">Tecnico en Computacion</option>
+                            <option value="TecCCADD">Tecnico en Control De Calidad</option>
+                        </optgroup>
+                    </select>
+                </div>
+                
+                <div class="form-next">
+                    <br>
+                    <input class="btn-amarillo" type="button" value="Siguiente" onclick="validarform1()">
+                    <br>
+                </div>
+            </form>
+
+            <!--Solicitamos el ciclo a Inscribir-->
+            <form class="form-IngeIndustrial">
+                <div class="header-form">
+                    <hr>
+                    <br>
+                    <h3>Registrando te en la Mejor Universidad</h4>
+                    <h2>Universidad Don Bosco</h2>
+                    <h1>Ingenieria Industiral</h1>
+                    <br>
+                    <hr>
+                </div>
+                <div class="body-form">
+                    <label class="lbl-form" for="carnet">Introdusca su carnet</label>
+                    <input class="form-boxs" type="text" name="carnet" id="carnet" placeholder="Carnet">
+
+                    <br>
+
+                    <label class="lbl-form" for="nombre">Introdusca su nombre</label>
+                    <input class="form-boxs" type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+                    <br>
+
+                    <label class="lbl-form" for="ciclo">Ciclo a Inscribir</label>
+                    <select class="form-boxs" name="ciclo" id="ciclo" >
+                        <option value="1">Ciclo 1</option>
+                        <option value="2">Ciclo 2</option>
+                        <option value="3" disabled>Ciclo 3</option>
+                        <option value="4" disabled>Ciclo 4</option>
+                        <option value="5" disabled>Ciclo 5</option>
+                        <option value="6" disabled>Ciclo 6</option>
+                        <option value="7" disabled>Ciclo 7</option>
+                        <option value="8" disabled>Ciclo 8</option>
+                        <option value="9" disabled>Ciclo 9</option>
+                        <option value="10" disabled>Ciclo 10</option>
+                    </select>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="validarIngeIndustrial()">
+                    <br>
+                </div>
+            </form>
+
+            <form class="form-IngeTelecom">
+                <div class="header-form">
+                    <hr>
+                    <br>
+                    <h3>Registrando te en la Mejor Universidad</h4>
+                    <h2>Universidad Don Bosco</h2>
+                    <h1>Ingenieria en Telecomunicaciones</h1>
+                    <br>
+                    <hr>
+                </div>
+                <div class="body-form">
+                    <label class="lbl-form" for="carnet">Introdusca su carnet</label>
+                    <input class="form-boxs" type="text" name="carnet" id="carnet02">
+
+                    <br>
+
+                    <label class="lbl-form" for="nombre">Introdusca su nombre</label>
+                    <input class="form-boxs" type="text" name="nombre" id="nombre02" placeholder="nombre">
+
+                    <br>
+
+                    <label class="lbl-form" for="ciclo">Ciclo a Inscribir</label>
+                    <select class="form-boxs" name="ciclo" id="ciclo02" >
+                        <option value="1">Ciclo 1</option>
+                        <option value="2">Ciclo 2</option>
+                        <option value="3" disabled>Ciclo 3</option>
+                        <option value="4" disabled>Ciclo 4</option>
+                        <option value="5" disabled>Ciclo 5</option>
+                        <option value="6" disabled>Ciclo 6</option>
+                        <option value="7" disabled>Ciclo 7</option>
+                        <option value="8" disabled>Ciclo 8</option>
+                        <option value="9" disabled>Ciclo 9</option>
+                        <option value="10" disabled>Ciclo 10</option>
+                    </select>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="validarIngeTelecom()">
+                    <br>
+                </div>
+            </form>
+
+            <form class="form-IngeCompu">
+                <div class="header-form">
+                    <hr>
+                    <h2>Ingenieria Computacion</h2>
+                    <hr>
+                </div>
+                <div class="body-form">
+                    <label class="lbl-form" for="carnet">Introdusca su carnet</label>
+                    <input class="form-boxs" type="text" name="carnet" id="carnet03">
+
+                    <br>
+
+                    <label class="lbl-form" for="nombre">Introdusca su nombre</label>
+                    <input class="form-boxs" type="text" name="nombre" id="nombre03" placeholder="nombre">
+
+                    <br>
+
+                    <label class="lbl-form" for="ciclo">Ciclo a Inscribir</label>
+                    <select class="form-boxs" name="ciclo" id="ciclo03" >
+                        <option value="0" disabled selected>Ciclo</option>
+                        <option value="1">Ciclo 1</option>
+                        <option value="2">Ciclo 2</option>
+                        <option value="3" disabled>Ciclo 3</option>
+                        <option value="4" disabled>Ciclo 4</option>
+                        <option value="5" disabled>Ciclo 5</option>
+                        <option value="6" disabled>Ciclo 6</option>
+                        <option value="7" disabled>Ciclo 7</option>
+                        <option value="8" disabled>Ciclo 8</option>
+                        <option value="9" disabled>Ciclo 9</option>
+                        <option value="10" disabled>Ciclo 10</option>
+                    </select>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="validarIngeCompu()">
+                    <br>
+                </div>
+            </form>
+
+            <form class="form-LicDiseño">
+                <div class="header-form">
+                    <hr>
+                    <h2>Licenciatura en Diseño Grafico</h2>
+                    <hr>
+                </div>
+                <div class="body-form">
+                    <label class="lbl-form" for="carnet">Introdusca su carnet</label>
+                    <input class="form-boxs" type="text" name="carnet" id="carnet04">
+
+                    <br>
+
+                    <label class="lbl-form" for="nombre">Introdusca su nombre</label>
+                    <input class="form-boxs" type="text" name="nombre" id="nombre04" placeholder="nombre">
+
+                    <br>
+
+                    <label class="lbl-form" for="ciclo">Ciclo a Inscribir</label>
+                    <select class="form-boxs" name="ciclo" id="ciclo04" >
+                        <option value="1">Ciclo 1</option>
+                        <option value="2">Ciclo 2</option>
+                        <option value="3" disabled>Ciclo 3</option>
+                        <option value="4" disabled>Ciclo 4</option>
+                        <option value="5" disabled>Ciclo 5</option>
+                        <option value="6" disabled>Ciclo 6</option>
+                        <option value="7" disabled>Ciclo 7</option>
+                        <option value="8" disabled>Ciclo 8</option>
+                        <option value="9" disabled>Ciclo 9</option>
+                        <option value="10" disabled>Ciclo 10</option>
+                    </select>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="validarLicDiseño()">
+                    <br>
+                </div>
+            </form>
+
+            <form class="form-TecCompu">
+                <div class="header-form">
+                    <hr>
+                    <h2>Tecnico en Computacion</h2>
+                    <hr>
+                </div>
+                <div class="body-form">
+                    <label class="lbl-form" for="carnet">Introdusca su carnet</label>
+                    <input class="form-boxs" type="text" name="carnet" id="carnet05">
+
+                    <br>
+
+                    <label class="lbl-form" for="nombre">Introdusca su nombre</label>
+                    <input class="form-boxs" type="text" name="nombre" id="nombre05" placeholder="nombre">
+
+                    <br>
+
+                    <label class="lbl-form" for="ciclo">Ciclo a Inscribir</label>
+                    <select class="form-boxs" name="ciclo" id="ciclo05" >
+                        <option value="1">Ciclo 1</option>
+                        <option value="2" disabled>Ciclo 2</option>
+                        <option value="3" disabled>Ciclo 3</option>
+                        <option value="4" disabled>Ciclo 4</option>
+                    </select>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="validarTecCompu()">
+                    <br>
+                </div>
+            </form>
+
+            <form class="form-TecCCADD">
+                <div class="header-form">
+                    <hr>
+                    <h2>Tecnico en Control de Calidad</h2>
+                    <hr>
+                </div>
+                <div class="body-form">
+                    <label class="lbl-form" for="carnet">Introdusca su carnet</label>
+                    <input class="form-boxs" type="text" name="carnet" id="carnet">
+
+                    <br>
+
+                    <label class="lbl-form" for="nombre">Introdusca su nombre</label>
+                    <input class="form-boxs" type="text" name="nombre" id="nombre" placeholder="nombre">
+
+                    <br>
+
+                    <label class="lbl-form" for="ciclo">Ciclo a Inscribir</label>
+                    <select class="form-boxs" name="ciclo" id="ciclo" >
+                        <option value="1">Ciclo 1</option>
+                        <option value="2" disabled>Ciclo 2</option>
+                        <option value="3" disabled>Ciclo 3</option>
+                        <option value="4" disabled>Ciclo 4</option>
+                    </select>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="validarTecCCADD()">
+                    <br>
+                </div>
+            </form>
+
+
+
+            <!--Mostramos las materias a inscribir-->
+            <form action="" class="form-materias-IngeIndustrial">
+                <div class="header-form">
+                    <hr>
+                    <h2>Ingenieria Industrial</h2>
+                    <h4>Ciclo1</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-IngeIndustrial2">
+                <div class="header-form">
+                    <hr>
+                    <h2>Ingenieria Industrial</h2>
+                    <h4>Ciclo2</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-IngeCompu">
+                <div class="header-form">
+                    <hr>
+                    <h2>Ingenieria en Computacion</h2>
+                    <h4>Ciclo1</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-IngeCompu2">
+                <div class="header-form">
+                    <hr>
+                    <h2>Ingenieria en Computacion</h2>
+                    <h4>Ciclo2</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-IngeTelecom">
+                <div class="header-form">
+                    <hr>
+                    <h2>Ingenieria en Telecomunicaciones</h2>
+                    <h4>Ciclo1</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-IngeTelecom2">
+                <div class="header-form">
+                    <hr>
+                    <h2>Ingenieria en Telecomunicaciones</h2>
+                    <h4>Ciclo2</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-LicDiseño">
+                <div class="header-form">
+                    <hr>
+                    <h2>Licenciatura en Diseño Grafico</h2>
+                    <h4>Ciclo1</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-LicDiseño2">
+                <div class="header-form">
+                    <hr>
+                    <h2>Licenciatura en Diseño Grafico</h2>
+                    <h4>Ciclo2</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-TecCompu">
+                <div class="header-form">
+                    <hr>
+                    <h2>Tecnico en Computacion</h2>
+                    <h4>Ciclo1</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-TecCompu2">
+                <div class="header-form">
+                    <hr>
+                    <h2>Tecnico en Computacion</h2>
+                    <h4>Ciclo2</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-TecCCADD">
+                <div class="header-form">
+                    <hr>
+                    <h2>Tecnico en Control de Calidad</h2>
+                    <h4>Ciclo1</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <form action="" class="form-materias-TecCCADD2">
+                <div class="header-form">
+                    <hr>
+                    <h2>Tecnico en Control de Calidad</h2>
+                    <h4>Ciclo2</h4>
+                    <hr>
+                </div>
+                <p for="Materias"> <b>Seleccione las materias a inscribir:</b> </p> <br>
+                <div class="form-materias">
+                    <input type="checkbox" id="AVM" name="AVM" value="AVM">
+                    <label class="lbl-form" for="vehicle1">Algebra Vectorial y Matrices</label><br><br>
+                    <input type="checkbox" id="CAD" name="CAD" value="CAD">
+                    <label class="lbl-form" for="vehicle1">Calculo Diferencial</label><br><br>
+                    <input type="checkbox" id="COE" name="COE" value="COE">
+                    <label class="lbl-form" for="vehicle1">Comunicacion Oral y escrita</label><br><br>
+                    <input type="checkbox" id="ANF" name="ANF" value="ANF">
+                    <label class="lbl-form" for="vehicle1">Antropologia Filosofica</label><br><br>
+                </div>
+                <div class="form-next">
+                    <br>
+                    <input class="btn-verde" type="button" value="Siguiente" onclick="registrar()">
+                    <br>
+                </div>
+                <br>
+            </form>
+
+            <br>
+        </div>
+        
+        <footer class="footer">
+			<br>
+			<div class="contenedor-redes">
+				<ul>
+					<li class="btn-facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+					<li class="btn-instagram"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+					<li class="btn-twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+					<li class="btn-linkedIn"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+					<li class="btn-youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+				</ul>
+			</div>
+			<br>
+			<p>©Universidad Don Bosco</p>
+			<br>
+		</footer>
+    </div>
+
+    <!-- Configuracion JS -->
+	<script src="js/configuraciones.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

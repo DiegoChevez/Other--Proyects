@@ -1,0 +1,46 @@
+.contenedor-mapa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+.contenedor-mapa path{
+    fill: #04BF9D;
+    stroke: #03A696;
+    stroke-width: 3px;
+}
+.contenedor-mapa path:hover{
+    fill: antiquewhite;
+}
+.contedor-card{
+    width: 40rem;
+    height: 15rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    display:flex;
+    left: 50%;
+    top: 50%;
+
+    border: #B5B6BA solid 3px;
+    background-color: #F1F0F2;
+    visibility: hidden;
+}
+.contenedor-img-card{
+    grid-area: caja-img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.contenedor-img-card img{
+    width: 100%;
+    padding: 5px 3px;
+}
+.contenedor-infor-card{
+    grid-area: caja-info;
+    text-align: center;
+    width: 50%;
+}
+

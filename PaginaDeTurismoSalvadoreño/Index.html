@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Don Bosco</title>
+
+	<!--LINKEO DE FUENTE DE GOOGLE-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!--LINKEO DE CSS-->
+	<link rel="stylesheet" href="css/main.css">
+	<!--LINKEO DE FONT-AWESOME-->
+	<script src="https://kit.fontawesome.com/0fc218370a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+	<div class="contenedor " id="Index">
+
+		<header class="header" id="home">
+			<nav>
+				<div class="logo titulo1">MERCS</div>
+				<label for="btn" class="icon">
+					<i class="fa-solid fa-bars"></i>
+				</label>
+				<input type="checkbox" id="btn">
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li>
+						<label for="btn-2" class="show">Departamentos +</label>
+						<a href="#">Departamentos</a>
+						<input type="checkbox" id="btn-2">
+						<ul>
+							<li>
+								<label for="btn-3" class="show">Central</label>
+								<a href="#">Central <span class="fa fa-plus"></span></a>
+								<input type="checkbox" id="btn-3">
+								<ul>
+									<li><a href="Depa.html?departamento=LaLibertad">La Libertad</a></li>
+									<li><a href="Depa.html?departamento=Chalatenango">Chalatenango</a></li>
+									<li><a href="Depa.html?departamento=Cuscatlan">Cuscatlán</a></li>
+									<li><a href="Depa.html?departamento=SanSalvador">San Salvador</a></li>
+								</ul>
+							</li>
+							<li>
+								<label for="btn-3" class="show">Paracentral</label>
+								<a href="#">Paracentral <span class="fa fa-plus"></span></a>
+								<input type="checkbox" id="btn-3">
+								<ul>
+									<li><a href="Depa.html?departamento=LaPaz">La Paz</a></li>
+									<li><a href="Depa.html?departamento=Cabañas">Cabañas</a></li>
+									<li><a href="Depa.html?departamento=SanVicente">San Vicente</a></li>
+								</ul>
+							</li>
+							<li>
+								<label for="btn-3" class="show">Oriental</label>
+								<a href="#">Oriental <span class="fa fa-plus"></span></a>
+								<input type="checkbox" id="btn-3">
+								<ul>
+									<li><a href="#" onclick="DepUsualutan()">Usulután</a></li>
+									<li><a href="Depa.html?departamento=SanMiguel">San Miguel</a></li>
+									<li><a href="Depa.html?departamento=Morazan">Morazan</a></li>
+									<li><a href="Depa.html?departamento=LaUnion">La Union</a></li>
+								</ul>
+							</li>
+							<li>
+								<label for="btn-3" class="show">Occidental</label>
+								<a href="#">Occidental <span class="fa fa-plus"></span></a>
+								<input type="checkbox" id="btn-3">
+								<ul>
+									<li><a href="Depa.html?departamento=SantaAna">Santa Ana</a></li>
+									<li><a href="Depa.html?departamento=Ahuachapan">Ahuachapan</a></li>
+									<li><a href="Depa.html?departamento=Sonsonate">Sonsonate</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="Contactos.html">Contactos</a></li>
+					<li><a href="Nosotros.html">Nosotros</a></li>
+				</ul>
+			</nav>
+			<script>
+				$('.icon').click(function () {
+					$('span').toggleClass("cancel");
+				});
+			</script>
+
+		</header>
+
+		<main class="contenido">
+			<center><h1 class="titulo1">EL SALVADOR</h1></center>
+			<div class="contenedor-mapa">
+				<svg version="1.2" viewbox="0 0 1000 549" width="1000" xmlns="http://www.w3.org/2000/svg">
+
+					<a href="#" xlink:title="Ahuachapan" onmousemove="mostrarAhuachapan()" onmouseout="ocultarAhuachapan()" onclick="mostrarInfoAhuchapan()">
+						<path
+							d="M152.2 171.6l3.4 1.4 7.5 4.8 1.5 1.3 1.2 1.8 0.9 3.4 1 2 1.5 1.4 1.6 1.3 1.5 1.6 1.3 2.7-1.2 7.7-8.2 28.4-7.3 3.1-9.1 2.5-5 0.8-1.1 0.7-0.9 1.3-0.4 2.7-0.1 1.8 0.9 7.9 0.7 2.5 0.8 1.9 1.3 3-0.2 1.5-8.4 12.8-0.8 2.3-0.2 1.7 3.5 11 0.4 2.4-0.6 1.7-1.2 2-3.1 3.7-1.2 2.3-0.7 1.8-0.2 4-0.3 1-5.3 9.6-0.8 2-2.3 9.5-2.1 0.8-3.4 0.4-12.4-0.7-2.6-0.5-0.8-0.6-3-2.9-5.4-6.2-2.5-1.9-2.1-0.8-3.1-0.2-2.4 0.4-2.6 1.1-2.2 1.6-3 3.7-6.6 10.4-0.9 1.6-27.9-12.8-29.6-14.4-8.8-28.6-0.2-6.7 1-6.9 2.2-6.7 3.3-6.1 4.9-5.1 11.3-6.1 5.1-4.1 3.8-6 2.7-6.1 3.5-6 6.1-5.4 39.6-27.9 8.8-8.8 4.4-2.9 18.3-7 6-0.4 7.5 2 10.7 8.3 6.1 2.5 6-3.2 0.2-2.4-0.3-0.7z"
+							id="SLV1343" name="Ahuachapán" >
+						</path>
+					</a>
+
+					<a href="#" xlink:title:"Cabañas" onmousemove="mostrarCabañas()" onmouseout="ocultarCabañas()" onclick="mostrarInfoCabañas()">
+						<path
+							d="M667.8 254l-2.5 2.3 2.5 5.3-0.6 5-2.9 4.3-4.4 2.8 0.9 5.9-3.9 5.9-3.8 7.4 0.1 0.1-6.7 4.5-3.9-1-10.4-1.3-1.5-0.5-0.8-0.7-0.9-2-0.5-2.3-0.6-1-1.1-0.6-2.9-0.7-1-0.5-2.7-1.6-4.4-1.6-1-0.5-7.6-5.6-0.9-0.5-4.6-0.8-5.6-0.3-2.7-0.5-13.2 0.1-2.9-0.3-2-0.5-5.9-4.3-1.4 0.1-1.5 0.8-2 2.8-1.4 1.4-1.4 0.9-2.4-0.2-3-0.7-2.7 0.7-12.8 5.7-4 1.3-2.8 0.5-4.3-1.5-2.4-0.5-2.7-0.1-1.1 1.5-0.8 1.3-0.6 12.2-14.2-3.9-3.7-2.1-0.4-1.1-2.7-4.1-4-4.2-1.7-2.3-0.9-1.9-0.6-2.7-0.5-1.7-2.1-3.6-0.5-1.8-0.3-1.9-1.5-3.3-2-2.3-3.3-2.3-2.6-2.7-8-11.4-2-3.7-1-2.7 0.2-1.3 0.8-2.1 1.2-1.7 0.9-0.6 5.5-3.2 1.5-1.3 1.4-1.5 1.7-2.8 6.1-9.7 12.1-0.3 10.8 1 5.7-1.4 6.2-2.4 25.3-8.4 4.9-2.2 2.8-2.2 3.1-4.2 8.6-4.1 19-2.9-0.1 0.7 2.5-1 10.5-1.6 10.5 0.7 31.2 10 18.2 1.4 4 1.7 3.7 3.6-0.5 2.4-0.5 0.5-1.9-0.2 2.6 5.6-0.3 5-1.4 5.2-0.9 6.2 1.2 4.1 4.5 11.1 0.2 6.9-3.6 6z"
+							id="SLV1344" name="Cabañas" >
+						</path>
+					</a>
+
+					<a href="#" xlink:little="Cuscatlán" onmousemove="mostrarCuscatlán()" onmouseout="ocultarCuscatlán()" onclick="mostrarInfoCuscatlan()">
+						<path
+							d="M489.4 212.8l-6.1 9.7-1.7 2.8-1.4 1.5-1.5 1.3-5.5 3.2-0.9 0.6-1.2 1.7-0.8 2.1-0.2 1.3 1 2.7 2 3.7 8 11.4 2.6 2.7 3.3 2.3 2 2.3 1.5 3.3 0.3 1.9 0.5 1.8 2.1 3.6 0.5 1.7 0.6 2.7 0.9 1.9 1.7 2.3 4 4.2 2.7 4.1 0.4 1.1 3.7 2.1 14.2 3.9-7.5 20.2-1.4 5.9-1 2-0.9 1.4-8 7.9-2.9 1.7-2.3 0.8-5.1 0.7-2.1 0.8-0.6 0.8-0.9 2-0.7 0.8-1.7 0.7-3.2 0.3-7.8-2.5-7.1-3.8-18.2-6.7-0.3-12.8-0.9-2.1-0.8-2.3-2-2.5-7.1-13.7-0.7-2 0.7-9.2-0.3-1.8-0.8-1.2-1-0.4-1.6-1.1-1.7-1.7-5.2-7.7-0.8-0.6-2.3-0.7-2.6-0.1-2.9-2.4-3.8-4.3-10.9-17.3-1.2-3.3 0.8-0.7 2.9-1.3 1.1-0.8 0.8-0.8 0.7-1.6-0.3-1-2.6-3.2-8.5-14.1-4-8.1-0.8-3.2-0.5-3.7 0.3-0.6 2.2-1.9 1-1.7 0.7-2.2 0.3-2.5 0.6-2.4 0.3-2.9-0.3-4.1-1.3-7-0.2-1.9 0.5-1.4 1.9-4 1.9-5.1 0.2-4.1 7.3-3.8 2.7 0.1 5.1 2.7 10.6 3.8 2.1 1.1 3 2.7 7 5 0.6 0.8 1.9 3.3 9 10.8 0.8 1.2 0.1 0.8-0.3 1.8 0 1.1 0.4 2.2 0.7 1.9 1.1 2.4 2.2 3.2 1.9 1.7 1.5 1 8.9 4.2 7.4-0.6 6.4 2.5 6.8 0.7z"
+							id="SLV1345" name="Cuscatlán"  > 
+						</path>
+					</a>
+
+					<a href="#" xlink:title="La Libertad" onmousemove="mostrarLibertad()" onmouseout="ocultarLibertad()" onclick="mostrarInfoLaLibertad()">
+						<path
+							d="M350.3 168.5l-0.5 14.3-2.2 9.2-0.1 2.3 0.3 1.5 2.5 1.9 1 1.5 1.1 2.2 2.1 4.9 1.2 2.2 1.2 1.6 1.7 1.1 1.9 0.9 3.4 1.1 1.2 0 3.8-0.3 2.5 0.2 2.3 0.7 1.4 0.8 1.5 1.2 2.2 1.2 0.6 0.9 0.2 0.7-1.1 2.8-0.7 2.9-0.4 0.3-3-0.1-1.1 0.3-0.8 0.7-0.4 1.4-2.1 23.7-0.6 2.4-0.4 1-0.9 0.6-2.1 0.8-1.7 1.2-1.3 1.6-0.8 2-0.5 2-0.8 7.5-0.8 3.2-1.4 3.2-0.7 3.9-0.5 6.8-0.7 2.9-2.8 5.3-1.8 5.3 0.1 1.7 0.7 0.9 2.4 0.4 2.1 2.7-0.4 4.3 0.3 4 0.4 1.1 1.3 1.7 1.6 1.2 0.7 1 0.5 1.4 0.8 3.3 0.6 1.9 0.8 1.2 0.9 0.7 5.9 3.2 2.5 2 2.8 3.7 0.4 1.6-0.2 1.4-1.3 2.5-1 2.3 0.1 1.3 0.9 1 3.1 1.5 0.5 1-0.2 1-1.5 1.5-0.6 2.4-0.3 4 0.8 17.5-0.2 1.4-2.6 6.7-0.9 3.6-0.2 2 0.3 1.6 6.6 10.7 2.3 5 0.6 0.9 0.9 0.5 2.5 0.1 2.4-0.6 4.3-1.4 2.4-0.3 2.6 0.5 3 1.3 1.5 6.9 1.2 1.8 2.7 0.1 2.3 0.5 4.1 1.7 1.3 1.4 0.3 1.2-1 1.8-2 2.5-1.2 1.7-3.2 5.7-1.1 2.5-1.3 4-19.7-12.2-28-12.4-30.3-7.2-14 0-10.7-2.5-58.6 0.4-25-6.2-8.9-1.8 5.5-12.7 2.2-3.5 10.4-9.2 1.8-2.1 1.1-1.7 0.6-5.1 0.7-3.6 1-2.1 1-1.3 1.6-1.4 9-9.1 2.1-2.7 1.1-2.1 0.1-1.4-0.6-9.4 0.7-4.9 1.2-5 0.9-2.3 0.9-1.6 0.8-0.8 1.7-1 1-0.2 2.8-0.3 1.7-0.7 1.6-1.3 4.9-6 2.2-2.1 6.1-3.6 2.6-1.8 3-2.7 1.1-1.6 0.6-1.6-0.2-1.2-1-1.9-1.6-1.3-1-0.5-4.7-1.5 1.9-11.8 7.3-19.8 0.7-9.1-0.3-7.6 0.5-11.4 0.5-2.4 0.7-0.8 0.9-0.6 1-0.2 2.1 0.4 1.1-0.2 1.4-0.9 3.3-5.3 0.9-0.4 4-0.2 2.1-1 0.9-1.1 0.5-1.3 0.6-8.2-0.1-1.3 0.7-6.2 4.5-23.5 1.8-2.9 1.3-2.9 3.4-1.3 4.9-1 3.7-2 4.1-3.1 4.2 0.9 7.5 4.2 6.7 1 1.3 0.4 4 1.8z"
+							id="SLV1346" name="La Libertad" >
+						</path>
+					</a>
+
+					<a href="#" xlink:title="La Paz" onmousemove="mostrarPaz()" onmouseout="ocultarPaz()" onclick="mostrarInfoLaPaz()">
+						<path
+							d="M503.3 334.1l3.1 8.4 0.1 7-0.5 7.1 0.5 2.9 0.8 1.7 1.2 0.2 2.6-0.2 9.9-3.1 1.7-0.1 1.9 0.3 3.2 1.2 1.1 1.4 10.2 21.8 0.4 2.5 0 2.7-0.6 2.4-3.1 8.7-0.6 2-2 11.4-0.1 2 0.6 7.4 0.6 2.4 0.6 1.7 2.7 3 2.5 2 3.6 2.2 2.8 2.7 2.7 3.5 1 2.2 0.4 1.8-0.2 1.3-0.5 2.4-0.9 2-2.5 1.9-1.2 1.7-0.4 1.1-0.2 2.6 1.9 17.3-0.2 2.4-0.5 1-1.5 1.6-0.8 0.6-3.8 1.9-3.1 1.2-1.8 1-1.6 1.3-1.2 1.7-0.9 2.1-0.3 1.2-1.1 12.8-96.1-44.9-29.2-18 1.3-4 1.1-2.5 3.2-5.7 1.2-1.7 2-2.5 1-1.8-0.3-1.2-1.3-1.4-4.1-1.7-2.3-0.5-2.7-0.1-1.2-1.8-1.5-6.9 0.9-3.5 1.2-0.8 3-3.3 2.1-4.6 3.5-10.5 0.9-4.6 0.3-2.9-0.8-2.1-3.2-5.6-1.2-3.4-0.8-3.7 0.2-2 0.6-1.3 0.9-0.5 1.1-0.3 2.6 0.2 6.6 2.2 2.5 0.3 2.1-1.7 12.4-15.8 14.9-14.1 18.2 6.7 7.1 3.8 7.8 2.5 3.2-0.3 1.7-0.7 0.7-0.8 0.9-2 0.6-0.8 2.1-0.8 5.1-0.7 2.3-0.8 2.9-1.7z"
+							id="SLV1347" name="La Paz">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="Sonsonate" onmousemove="mostrarSonsonate()" onmouseout="ocultarSonsonate()" onclick="mostrarInfoSonsonate()">
+						<path
+							d="M272.2 286.3l4.7 1.5 1 0.5 1.6 1.3 1 1.9 0.2 1.2-0.6 1.6-1.1 1.6-3 2.7-2.6 1.8-6.1 3.6-2.2 2.1-4.9 6-1.6 1.3-1.7 0.7-2.8 0.3-1 0.2-1.7 1-0.8 0.8-0.9 1.6-0.9 2.3-1.2 5-0.7 4.9 0.6 9.4-0.1 1.4-1.1 2.1-2.1 2.7-9 9.1-1.6 1.4-1 1.3-1 2.1-0.7 3.6-0.6 5.1-1.1 1.7-1.8 2.1-10.4 9.2-2.2 3.5-5.5 12.7-2.9-0.5-26.1-8.7-13.8 2.9-39.1 0.5-6.3-4.4-4.1-15.6-1.6-9.7-5.1-4.3-8.5-5.3-33.4-19-0.9-0.4 0.9-1.6 6.6-10.4 3-3.7 2.2-1.6 2.6-1.1 2.4-0.4 3.1 0.2 2.1 0.8 2.5 1.9 5.4 6.2 3 2.9 0.8 0.6 2.6 0.5 12.4 0.7 3.4-0.4 2.1-0.8 2.3-9.5 0.8-2 5.3-9.6 0.3-1 0.2-4 0.7-1.8 1.2-2.3 3.1-3.7 1.2-2 0.6-1.7-0.4-2.4-3.5-11 0.2-1.7 0.8-2.3 8.4-12.8 0.2-1.5-1.3-3-0.8-1.9-0.7-2.5-0.9-7.9 0.1-1.8 0.4-2.7 0.9-1.3 1.1-0.7 5-0.8 9.1-2.5 7.3-3.1 9.6 2.4 3.7-0.1 2.2-0.6 2.6-0.2 1.9 1 2.4 1.7 6.7 6.6 1.2 1.7 1.3 3 2.2 2.7 2.5 2.3 1.9 3 0.4 2.2-0.4 2.4-1.2 1.7-1.6 1.3-1.2 1.7-0.1 1.1 0.5 0.9 1.3 0.9 2.6 0.4 1.9 2 1 1.4 1 2.3 1.6 1.5 1.3 0.5 1.9 0.4 3-0.7 1.5-0.7 0.9-1 0.3-1 0-3.8 0.5-2.4 1.3-3 1.1-1.8 1.5-1.4 1.2-0.2 2.8 1.2 3.9 2.4 8.8 6.5 5.4 5.1 2.5 6.3 1.2 1.7 5.3 1.8 19.6 3.7z"
+							id="SLV1348" name="Sonsonate">
+						</path>
+					</a>
+					
+					<a href="#" xlink:title="San Salvador" onmousemove="mostrarSalvador()" onmouseout="ocultarSalvador()" onclick="mostrarInfoSanSalvador()">
+						<path
+							d="M402.2 162.2l-0.2 4.1-1.9 5.1-1.9 4-0.5 1.4 0.2 1.9 1.3 7 0.3 4.1-0.3 2.9-0.6 2.4-0.3 2.5-0.7 2.2-1 1.7-2.2 1.9-0.3 0.6 0.5 3.7 0.8 3.2 4 8.1 8.5 14.1 2.6 3.2 0.3 1-0.7 1.6-0.8 0.8-1.1 0.8-2.9 1.3-0.8 0.7 1.2 3.3 10.9 17.3 3.8 4.3 2.9 2.4 2.6 0.1 2.3 0.7 0.8 0.6 5.2 7.7 1.7 1.7 1.6 1.1 1 0.4 0.8 1.2 0.3 1.8-0.7 9.2 0.7 2 7.1 13.7 2 2.5 0.8 2.3 0.9 2.1 0.3 12.8-14.9 14.1-12.4 15.8-2.1 1.7-2.5-0.3-6.6-2.2-2.6-0.2-1.1 0.3-0.9 0.5-0.6 1.3-0.2 2 0.8 3.7 1.2 3.4 3.2 5.6 0.8 2.1-0.3 2.9-0.9 4.6-3.5 10.5-2.1 4.6-3 3.3-1.2 0.8-0.9 3.5-3-1.3-2.6-0.5-2.4 0.3-4.3 1.4-2.4 0.6-2.5-0.1-0.9-0.5-0.6-0.9-2.3-5-6.6-10.7-0.3-1.6 0.2-2 0.9-3.6 2.6-6.7 0.2-1.4-0.8-17.5 0.3-4 0.6-2.4 1.5-1.5 0.2-1-0.5-1-3.1-1.5-0.9-1-0.1-1.3 1-2.3 1.3-2.5 0.2-1.4-0.4-1.6-2.8-3.7-2.5-2-5.9-3.2-0.9-0.7-0.8-1.2-0.6-1.9-0.8-3.3-0.5-1.4-0.7-1-1.6-1.2-1.3-1.7-0.4-1.1-0.3-4 0.4-4.3-2.1-2.7-2.4-0.4-0.7-0.9-0.1-1.7 1.8-5.3 2.8-5.3 0.7-2.9 0.5-6.8 0.7-3.9 1.4-3.2 0.8-3.2 0.8-7.5 0.5-2 0.8-2 1.3-1.6 1.7-1.2 2.1-0.8 0.9-0.6 0.4-1 0.6-2.4 2.1-23.7 0.4-1.4 0.8-0.7 1.1-0.3 3 0.1 0.4-0.3 0.7-2.9 1.1-2.8-0.2-0.7-0.6-0.9-2.2-1.2-1.5-1.2-1.4-0.8-2.3-0.7-2.5-0.2-3.8 0.3-1.2 0-3.4-1.1-1.9-0.9-1.7-1.1-1.2-1.6-1.2-2.2-2.1-4.9-1.1-2.2-1-1.5-2.5-1.9-0.3-1.5 0.1-2.3 2.2-9.2 0.5-14.3 2.9 0.4 1.7-0.8 5.4-3.9 3.1-1.1 8.6 3.8 5.7 0 2.6-5.3 5.8 4.7 4.7 1.1 11.4-5.2z"
+							id="SLV1349" name="San Salvador">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="La Unión" onmousemove="mostrarUnión()" onmouseout="ocultarUnión()" onclick="mostrarInfoLaUnion()">
+						<path
+							d="M997.4 539.8l1.6 4.3-3.5 1.9-5.3-1.9-3.5 1.6 0-4.6-2.2-4.6 0.9-5.4-0.4-5.4 3-2.1 5.7 1.9 3.5 7.8 0.2 6.5z m-24.8-18.1l-2.7 2.7-5.4-4.9-1.3-6.7 2.4-2.4 3.5-0.3 3.2 1.9 2.7 6.2-2.4 3.5z m-137.7 20.3l2.2-33.2 0.6-3.3 1.1-4.2 0.8 0.4 3.4 2.5 3.6 2.2 4.3 1.5 1.3 0.3 1.4 0 1.9-0.6 1-1 5.4-17.7 0.3-2.6-0.7-2.4-0.1-1.8 5.3-30.5-0.2-1-0.8-2.1-3.9-6.2-0.9-2.1-1.2-7.5-0.2-10.8 0.4-2.8 0.6-1.7 0.8-0.6 1.8-1 2.2-1.8 1.6-1.9 0.4-1.4 0-1.4-1.6-6.1-0.2-12.9 0.8-5.3 2.7-3.7 12.8-13.7 3-4.6 0.7-8 9.5-24.5 2.4-11.4 1.3-9.9 0.1-8.1-0.4-2.6-0.8-2-0.5-1-1.9-2.4-0.5-0.9-0.4-2.5 1.7-25.8-0.8-12-1.8-7-1.3-8.3 2.3 0.5 6.1 4 2.8 0.8 1.9-1 5.3-4.1 3.2-1.1 4.1 0.3 8.1 1.6 4-0.2 4-2.9 3.4-4.3 4.1-3.5 6.2-0.2 3.9 3 4 11.2 3.4 5.1 2.1 1.3 5.8 2.2 2.5 1.4 18.2 15.7 7.2 3-3.7 6.1-8.3 19.3-2.1 7 2.7 7-2.1 4.6-4.1 3.9-3.6 5.2-1.5 7.5 0.4 15.8-1 7.7-9.9 24-2.4 11.7 4.3 9.7 4.3 1.6 8.7-2.9 6 2.3 3.2 3.7 2.1 5.1 0.7 5.7-0.9 5.4-7.1 8.1-32.5 14.9-3.5-2-2.1-3.5-3.1-9.1-11.6 20.2-3 12 7.6 5.2 4.8 1.9 13.7 13.2 7.8 5.2 0.6 2.5 0 5.2-3.3 9-8.2 6.5-30.7 15.5-8.3 6.6-1.4 6.8 9.5 6.6-14.6 3.4-56.8-3.9-10.4-2.1z"
+							id="SLV1350" name="La Unión">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="Morazán" onmousemove="mostrarMorazán()" onmouseout="ocultarMorazán()" onclick="mostrarInfoMorazan()">
+						<path
+							d="M892.1 236.6l1.3 8.3 1.8 7 0.8 12-1.7 25.8 0.4 2.5 0.5 0.9 1.9 2.4 0.5 1 0.8 2 0.4 2.6-0.1 8.1-1.3 9.9-2.4 11.4-9.5 24.5-0.7 8-3 4.6-12.8 13.7-8.8-1.5-4.3 0.3-16.1 5-3.1 0.3-2-0.3-0.6-0.7-1.1-2-0.9-1.1-1.4-1.3-6.1-3.7-0.9-0.6-1.1-1.8-1.1-7.6-0.7-2.3-1.5-2.8-1.8-2.3-1.5-1-1.5-0.5-16 1.3-2.3 0.5-2.1 0.8-3.3 2-2.3 0.7-0.7-0.5 0-0.8 0.5-0.9 2.4-3.3 0.4-1 0.1-1.1-0.6-1.1-1-0.9-2.9-1.9-1.6-1.6-0.7-2.2-0.2-1.2-0.8-1.7-1.5-2-4-2.9-1.5-1.5-0.7-2.6-1.4-2.1-5.2-4.7-2.2-2.5-1.2-1.9-0.7-10.7 0-1.1 1.2-1.7 13.5-9.8 1.9-1 3.2-1.2 1.7-1.3 0.7-0.8 0.3-1.2 0-1.6-0.7-2.5-1.1-1.7-1-1-15.5-10.7-2.4-2.1-1.5-1.6-0.6-2.2-0.2-4.1 0.4-2.4 0.5-1.5 1.7-2.4 1.6-1.3 1.4-1.6 0.8-2 0.3-1.2-0.1-2.5-1.3-3.6-1.6-3.2-0.7-1.8-0.1-1.4-0.7-3.4-4.9-11.5-2.2-3.1 1.6-3 2.7-3 5-2.1 3.6 0.6 2.6-0.6 2-5.8-0.7-1.2-3.7-3.4-0.9-1.5-0.4-8.4 0.2-1.5 4.1-1.5 6.2 0.7 10.9 2.4 6.6 0.2 21.5-2.6 10.8 0.6 4.8 4 6 15.7 6 7.2 7.6 7 6.7 8.1 3.4 10.5 18.8-9.4 6.2-1.7 0.9 0.2z"
+							id="SLV1351" name="Morazán">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="San Miguel" onmousemove="mostrarMiguel()" onmouseout="ocultarMiguel()" onclick="mostrarInfoSanMiguel()">
+						<path
+							d="M869 381.3l-2.7 3.7-0.8 5.3 0.2 12.9 1.6 6.1 0 1.4-0.4 1.4-1.6 1.9-2.2 1.8-1.8 1-0.8 0.6-0.6 1.7-0.4 2.8 0.2 10.8 1.2 7.5 0.9 2.1 3.9 6.2 0.8 2.1 0.2 1-5.3 30.5 0.1 1.8 0.7 2.4-0.3 2.6-5.4 17.7-1 1-1.9 0.6-1.4 0-1.3-0.3-4.3-1.5-3.6-2.2-3.4-2.5-0.8-0.4-1.1 4.2-0.6 3.3-2.2 33.2-2.9-0.5-2.8 0-3 1.2-25.3-29.5-1.1-0.4-2.4-0.3-11.2 1.7-1-0.2-0.8-0.8-0.1-2.1 0.7-2.8 3.1-5.6-0.3-1.2-0.9-1.3-2.7-1.5-1.6-1.3-1-1.5-0.1-6.3-0.1-1.2-0.4-1.3-0.7-1.3-1.3-1.5-1.8-0.2-1.3 0.2-3.9 2-2 0.9-2.4 0.4-2.2-0.6-3.3-2.5-1-0.4-2.3 0-1.2-0.8-1.7-1.7-3.6-4.3-2.1-1.8-1.9-1-8.1-1-2.2-0.5-3.1-1.4-1.6-1.2-2.9-3.7-4.1-6.7-2.3-4.5-2.2-7.6-0.6-3.3-0.2-2.5 0.1-2.7-0.3-1.3-0.6-1.1-1.7-0.6-1.9 0.7-0.7 0-0.6-0.5-0.5-1.3-1.3-7.9-0.1-2.7-0.7-5.7 0.1-2.5 0.3-1.1 0.7-0.8 1.3 0 1.7 1.6 0.8 0.1 0.6-0.7 0.4-1.1 0.1-2.6 0-2.6 0.5-2.4 1.2-1.8 2.2-2 0.5-1.2 0.2-1-0.2-1.6-1.7-5.6-0.3-2.2 0-1.7 0.9-3.3 0-1.1-0.6-1.5-5-10.6-0.4-2.4-0.1-2.5 0.2-1.3 0.8-2 0.6-0.8 1-0.5 2.2-0.7 1-0.5 1.2-1.6 0.4-1.1 0.2-1.1-0.2-1.6-0.6-1.7-1.1-3-0.8-3.6 0.2-2.5 2-5.5 0-1.2-1.4-1.1-2.5-0.8-10.1-1.2-3.2-1.1-3.5-2.6-2.9-2.7-3.4-5.4-2.5-3.2-5-0.3-16.8 1.9-4.7-7.4-12.7-12.8-1.1-10-0.1-0.1 3.8-7.4 3.9-5.9-0.9-5.9 4.4-2.8 2.9-4.3 0.6-5-2.5-5.3 2.5-2.3 11-0.6 7.7-4.7 7.5-3.2 16.6-3.7 4 0.2 6.5 2.6 3 0.4 0.5-1.3 0-2.5 0.3-2.6 1.3-1.5 2.7-0.2 3.3 0.6 3.3 0.9 2.6 1.2 2.9-5.4 4.4-1.6 5-0.4 4.5-1.5 3.3-3.2 1.4-2.4 2.2 3.1 4.9 11.5 0.7 3.4 0.1 1.4 0.7 1.8 1.6 3.2 1.3 3.6 0.1 2.5-0.3 1.2-0.8 2-1.4 1.6-1.6 1.3-1.7 2.4-0.5 1.5-0.4 2.4 0.2 4.1 0.6 2.2 1.5 1.6 2.4 2.1 15.5 10.7 1 1 1.1 1.7 0.7 2.5 0 1.6-0.3 1.2-0.7 0.8-1.7 1.3-3.2 1.2-1.9 1-13.5 9.8-1.2 1.7 0 1.1 0.7 10.7 1.2 1.9 2.2 2.5 5.2 4.7 1.4 2.1 0.7 2.6 1.5 1.5 4 2.9 1.5 2 0.8 1.7 0.2 1.2 0.7 2.2 1.6 1.6 2.9 1.9 1 0.9 0.6 1.1-0.1 1.1-0.4 1-2.4 3.3-0.5 0.9 0 0.8 0.7 0.5 2.3-0.7 3.3-2 2.1-0.8 2.3-0.5 16-1.3 1.5 0.5 1.5 1 1.8 2.3 1.5 2.8 0.7 2.3 1.1 7.6 1.1 1.8 0.9 0.6 6.1 3.7 1.4 1.3 0.9 1.1 1.1 2 0.6 0.7 2 0.3 3.1-0.3 16.1-5 4.3-0.3 8.8 1.5z"
+							id="SLV1352" name="San Miguel">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="San Vicente" onmousemove="mostrarVicente()" onmouseout="ocultarVicente()" onclick="mostrarInfoSanVicente()">
+						<path
+							d="M653.2 293l1.1 10 12.7 12.8 4.7 7.4-25.9 19-2.3 7.4-6.1 8.5-8.3 5.3-9.1-2.1-11.9 14.7-0.5 2.7-6.8 1.1-2.3 3.4-1 12.9-3.5 12.5-18.8 35.9-1.7 4.5-1 5.4-0.5 13.2-1.1 2.9-7.2 7-3.8 5.7-2.5 4.7-3.9 3.1-8.1 1.2-4.9 1.9-3.1 4.2-1.6 6 0 0.9-6-2.8 1.1-12.8 0.3-1.2 0.9-2.1 1.2-1.7 1.6-1.3 1.8-1 3.1-1.2 3.8-1.9 0.8-0.6 1.5-1.6 0.5-1 0.2-2.4-1.9-17.3 0.2-2.6 0.4-1.1 1.2-1.7 2.5-1.9 0.9-2 0.5-2.4 0.2-1.3-0.4-1.8-1-2.2-2.7-3.5-2.8-2.7-3.6-2.2-2.5-2-2.7-3-0.6-1.7-0.6-2.4-0.6-7.4 0.1-2 2-11.4 0.6-2 3.1-8.7 0.6-2.4 0-2.7-0.4-2.5-10.2-21.8-1.1-1.4-3.2-1.2-1.9-0.3-1.7 0.1-9.9 3.1-2.6 0.2-1.2-0.2-0.8-1.7-0.5-2.9 0.5-7.1-0.1-7-3.1-8.4 8-7.9 0.9-1.4 1-2 1.4-5.9 7.5-20.2 0.6-12.2 0.8-1.3 1.1-1.5 2.7 0.1 2.4 0.5 4.3 1.5 2.8-0.5 4-1.3 12.8-5.7 2.7-0.7 3 0.7 2.4 0.2 1.4-0.9 1.4-1.4 2-2.8 1.5-0.8 1.4-0.1 5.9 4.3 2 0.5 2.9 0.3 13.2-0.1 2.7 0.5 5.6 0.3 4.6 0.8 0.9 0.5 7.6 5.6 1 0.5 4.4 1.6 2.7 1.6 1 0.5 2.9 0.7 1.1 0.6 0.6 1 0.5 2.3 0.9 2 0.8 0.7 1.5 0.5 10.4 1.3 3.9 1 6.7-4.5z"
+							id="SLV1353" name="San Vicente">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="Usulután" onmousemove="mostrarUsulután()" onmouseout="ocultarUsulután()" onclick="mostrarInfoUsulutan()">
+						<path
+							d="M826.2 542.7l-3.9 1.5-35.6 3-38.1-5.8-10 3.2-5.2-1.8-6-1.3 0-2.7 9.3-0.6 0.6-6.5-4.9-8.1-7.6-5.3 1.7 3.3 4.9 6.9 1.9 4.3-14.9-0.5-7.3 0.7-6.2 2.7 4 1.7 3.2-0.5 3.9-1.1 5.8-0.1 0 3.1-9.6 4-10.6-0.3-8.3-5.1-2.5-10.4 4.1 1.8 1.5 1.1 5.7-5.8 0-2.6-7.1-3.2-7.7-11-5.2-3.2 1.4 6.1 2.3 5 1.2 4.5-1.8 4.4-6-3.4-17.4-4.4-7.6-4.1-6.8-12.2-3.2-2-4.8-0.4-13.6-2.7-6 0-16.7 3.1-23.3 0.7-5.1 2.2 2.8 2.3 3 1.6 3 0.5 2.7-1.2 11.6 2.7 33.1-3.6 3.7 0.6 5.3 2.9 2.9 2.7 5.1 6.3 3.5 2.6 0 3.2-7.7-1.3-5.6-1.1-12.3-3.7 0 2.9 33.8 7 17.6 5.7 8 7.8-2.9 5.1-7.4-1.2-8.2-4.4-5.4-4.1-6.1-3.1-106.4-19.8-13-6.1 0-0.9 1.6-6 3.1-4.2 4.9-1.9 8.1-1.2 3.9-3.1 2.5-4.7 3.8-5.7 7.2-7 1.1-2.9 0.5-13.2 1-5.4 1.7-4.5 18.8-35.9 3.5-12.5 1-12.9 2.3-3.4 6.8-1.1 0.5-2.7 11.9-14.7 9.1 2.1 8.3-5.3 6.1-8.5 2.3-7.4 25.9-19 16.8-1.9 5 0.3 2.5 3.2 3.4 5.4 2.9 2.7 3.5 2.6 3.2 1.1 10.1 1.2 2.5 0.8 1.4 1.1 0 1.2-2 5.5-0.2 2.5 0.8 3.6 1.1 3 0.6 1.7 0.2 1.6-0.2 1.1-0.4 1.1-1.2 1.6-1 0.5-2.2 0.7-1 0.5-0.6 0.8-0.8 2-0.2 1.3 0.1 2.5 0.4 2.4 5 10.6 0.6 1.5 0 1.1-0.9 3.3 0 1.7 0.3 2.2 1.7 5.6 0.2 1.6-0.2 1-0.5 1.2-2.2 2-1.2 1.8-0.5 2.4 0 2.6-0.1 2.6-0.4 1.1-0.6 0.7-0.8-0.1-1.7-1.6-1.3 0-0.7 0.8-0.3 1.1-0.1 2.5 0.7 5.7 0.1 2.7 1.3 7.9 0.5 1.3 0.6 0.5 0.7 0 1.9-0.7 1.7 0.6 0.6 1.1 0.3 1.3-0.1 2.7 0.2 2.5 0.6 3.3 2.2 7.6 2.3 4.5 4.1 6.7 2.9 3.7 1.6 1.2 3.1 1.4 2.2 0.5 8.1 1 1.9 1 2.1 1.8 3.6 4.3 1.7 1.7 1.2 0.8 2.3 0 1 0.4 3.3 2.5 2.2 0.6 2.4-0.4 2-0.9 3.9-2 1.3-0.2 1.8 0.2 1.3 1.5 0.7 1.3 0.4 1.3 0.1 1.2 0.1 6.3 1 1.5 1.6 1.3 2.7 1.5 0.9 1.3 0.3 1.2-3.1 5.6-0.7 2.8 0.1 2.1 0.8 0.8 1 0.2 11.2-1.7 2.4 0.3 1.1 0.4 25.3 29.5z"
+							id="SLV1354" name="Usulután">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="Chalatenango" onmousemove="mostrarChalatenango()" onmouseout="ocultarChalatenango()" onclick="mostrarInfoChalatenango()">
+						<path
+							d="M587.9 185.7l-19 2.9-8.6 4.1-3.1 4.2-2.8 2.2-4.9 2.2-25.3 8.4-6.2 2.4-5.7 1.4-10.8-1-12.1 0.3-6.8-0.7-6.4-2.5-7.4 0.6-8.9-4.2-1.5-1-1.9-1.7-2.2-3.2-1.1-2.4-0.7-1.9-0.4-2.2 0-1.1 0.3-1.8-0.1-0.8-0.8-1.2-9-10.8-1.9-3.3-0.6-0.8-7-5-3-2.7-2.1-1.1-10.6-3.8-5.1-2.7-2.7-0.1-7.3 3.8-11.4 5.2-4.7-1.1-5.8-4.7-2.6 5.3-5.7 0-8.6-3.8-3.1 1.1-5.4 3.9-1.7 0.8-2.9-0.4-4-1.8-1.3-0.4-6.7-1-7.5-4.2-4.2-0.9-4.1 3.1-3.7 2-4.9 1-3.4 1.3-1.3 2.9-1.8 2.9-4.9 1.3-6.1 0-6.2-1.1-4.6-4.3-1.2-9.1 7.9-27.3 7.7 0.5 2-0.9 0.8-0.8 1-1.4 4.8-8.8 1.6-1.3 1-0.4 2.2-0.5 4.3-0.3 1.3-0.2 2.1-0.7 1.8-1.2 1.4-1.4 8-11.1 0.8-2 0.2-1.6-0.4-4.7 0-8.6 15.4-6.2 3.6-4.1 1.6-8.6 5.3-15.4-7.5-4.8-2-2.6-0.9-0.8-6.1-3.2-1.5-1.2-0.9-0.9-1.8-3.1-1.4-3.2-0.5-0.8-2.7-3.1-15.8-14.7 16 2.5 12.8 6.1 21 4.6 10.4 7.4 19.1 5.7 3.9-3.6 5.9-11.5 3.3-3.4 3.6-1 2.4 0.5 2.1 1.9 2.3 3.2 2.1 3.9 0.9 4.2-0.4 4.3-1.6 4.2 4.7 4.1 14 1.7 6.6 3.3 2.7 5.2 1.6 13.1 1.9 3.8 10.4 8 3.8 4.6 3.7 6.3 1.6 5.3 0.6 5.5 1.3 4.5 3.7 2.7 4-0.9 4.9-2.9 5.7-2.5 6.5 0.1 10.2 6.6 8.6 10.9 6.2 12.7 2.7 12 7.2-1 18.1 1.3 4.9-1.9 4.3-2.6 3.6-0.4 2.9 4.8-0.3 7.2-2.5 7.1-0.3 5.9 6.5 4.3 8.8 1.2 2 0.7 2.9 2.6 2.1 2.8 0.9 3.6-0.1 2.2z"
+							id="SLV1357" name="Chalatenango">
+						</path>
+					</a>
+
+					<a href="#" xlink:title="SantaAna" onmousemove="mostrarSantaAna()" onmouseout="ocultarSantaAna()" onclick="mostrarInfoSantaAna()">
+						<path
+							d="M317.7 14.8l15.8 14.7 2.7 3.1 0.5 0.8 1.4 3.2 1.8 3.1 0.9 0.9 1.5 1.2 6.1 3.2 0.9 0.8 2 2.6 7.5 4.8-5.3 15.4-1.6 8.6-3.6 4.1-15.4 6.2 0 8.6 0.4 4.7-0.2 1.6-0.8 2-8 11.1-1.4 1.4-1.8 1.2-2.1 0.7-1.3 0.2-4.3 0.3-2.2 0.5-1 0.4-1.6 1.3-4.8 8.8-1 1.4-0.8 0.8-2 0.9-7.7-0.5-7.9 27.3 1.2 9.1 4.6 4.3 6.2 1.1 6.1 0 4.9-1.3-4.5 23.5-0.7 6.2 0.1 1.3-0.6 8.2-0.5 1.3-0.9 1.1-2.1 1-4 0.2-0.9 0.4-3.3 5.3-1.4 0.9-1.1 0.2-2.1-0.4-1 0.2-0.9 0.6-0.7 0.8-0.5 2.4-0.5 11.4 0.3 7.6-0.7 9.1-7.3 19.8-1.9 11.8-19.6-3.7-5.3-1.8-1.2-1.7-2.5-6.3-5.4-5.1-8.8-6.5-3.9-2.4-2.8-1.2-1.2 0.2-1.5 1.4-1.1 1.8-1.3 3-0.5 2.4 0 3.8-0.3 1-0.9 1-1.5 0.7-3 0.7-1.9-0.4-1.3-0.5-1.6-1.5-1-2.3-1-1.4-1.9-2-2.6-0.4-1.3-0.9-0.5-0.9 0.1-1.1 1.2-1.7 1.6-1.3 1.2-1.7 0.4-2.4-0.4-2.2-1.9-3-2.5-2.3-2.2-2.7-1.3-3-1.2-1.7-6.7-6.6-2.4-1.7-1.9-1-2.6 0.2-2.2 0.6-3.7 0.1-9.6-2.4 8.2-28.4 1.2-7.7-1.3-2.7-1.5-1.6-1.6-1.3-1.5-1.4-1-2-0.9-3.4-1.2-1.8-1.5-1.3-7.5-4.8-3.4-1.4-2.7-6.2-0.4-3.3 1.2-3.4 17.6-31.3 8.2-9.1 10.4-8 10.9-5 44.2-10.6 2.7-2.7-0.1-6.6-1.3-1.8-5.2-2.6-1.8-1.8-0.8-2.8-0.8-6.5-0.5-2-2.4-4.5-1.2-1.6-2.4-2.3-2.8-1.3-8.6-1.1-2.6-6.1 2.5-3.5 4.1-3 2.6-4.2-1.2-4.9-3-4.3-1.8-4.8 2.7-6.7 5.9-4.4 6 0.5 4.5 4.6 1.2 7.9 5.6-4 10.2-12.4 7.3-3.1 6.6 0.8 4.6 2.5 4.7 1.7 6.5-1.3 9.3-9.8 4.2-1.6 0.6 8.2 2.1-3.2 0.4-1 12 8.7 6.3 1.1z"
+							id="SLV1358" name="Santa Ana">
+						</path>
+					</a>
+
+					<circle cx="522.2" cy="226.1" id="0">
+					</circle>
+					<circle cx="549.7" cy="353.6" id="1">
+					</circle>
+					<circle cx="694" cy="389" id="2">
+					</circle>
+				</svg>
+			</div>
+			<center><h1 class="titulo-banner">El Pulgarcito de America</h1></center>
+		</main>
+
+
+
+		<footer class="footer">
+			<br>
+			<div class="contenedor-redes">
+				<ul>
+					<li class="btn-facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+					<li class="btn-instagram"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+					<li class="btn-twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+					<li class="btn-linkedIn"><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+					<li class="btn-youtube"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+				</ul>
+			</div>
+			<br>
+			<p class="titulo1">©Universidad Don Bosco</p>
+			<br>
+		</footer>
+
+
+	</div>
+
+	<div class="contedor-card Ahuachapan" id="Ahuachapan">
+		<div class="contenedor-img-card">
+			<img src="img/city/AhuachapanCity.jfif" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Ahuachapan</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Ciudad de Aguachapan</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">244.8 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">22 de febrero al 12 de marzo</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">129,750 (Ultimo Registro en 2017)</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Cabañas" id="Cabañas">
+		<div class="contenedor-img-card">
+			<img src="img/city/CabañasCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Cabañas</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Sensuntepeque</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">1103 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">Oficialmente del 22 de febrero al 12 de marzo</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">215,400 (Ultimo Registro en 2017)</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Cuscatlán" id="Cuscatlán">
+		<div class="contenedor-img-card">
+			<img src="img/city/CuscatlanCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Cuscatlán</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Cojutepeque</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">756 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">15 al 29 de enero</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">286,23 hab/km²</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Libertad" id="Libertad">
+		<div class="contenedor-img-card">
+			<img src="img/city/LaLibertadCity.JPG" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Libertad</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Santa Tecla</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">1653 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">1 – 30 de Diciembre</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">2 077 489</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Paz" id="Paz">
+		<div class="contenedor-img-card">
+			<img src="img/city/LaPazCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Paz</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Zacatecoluca</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">1,224 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">10 - 13 de Diciembre</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">3 millones</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Sonsonate" id="Sonsonate">
+		<div class="contenedor-img-card">
+			<img src="img/city/SonsonateCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Sonsonate</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Ciudad de Sonsonate</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">232.5  km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">25 Enero - 2 Febrero</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">535,561 habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Salvador" id="Salvador">
+		<div class="contenedor-img-card">
+			<img src="img/city/SanSalvadorCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">San Salvador</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">San Salvador</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">72.25 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">01 - 06 de Agosto</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">2,750,000 habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Unión" id="Unión">
+		<div class="contenedor-img-card">
+			<img src="img/city/LaUnionCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Unión</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">La Unión</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">144.4  km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">03 - 12 de Diciembre</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">372 271 habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Morazán" id="Morazán">
+		<div class="contenedor-img-card">
+			<img src="img/city/MorazaCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Morazán</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">San Francisco Gotera</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">1,447 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">01 - 04 de Octubre</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">252,500 habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Miguel" id="Miguel">
+		<div class="contenedor-img-card">
+			<img src="img/city/SanMiguelCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Miguel</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">San Miguel</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">594 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">14 - 30 de Noviembre</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">265,921 Habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Vicente" id="Vicente">
+		<div class="contenedor-img-card">
+			<img src="img/city/SanVicenteCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">San Vicente</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">San Vicente</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">267.2 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">12 - 31 a Diciembre</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">235 205 habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Usulután" id="Usulután">
+		<div class="contenedor-img-card">
+			<img src="img/city/UsulutanCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Usulután</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Usulután</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">139.8 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">23 - 25 de Marzo</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">465 383 habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card Chalatenango" id="Chalatenango">
+		<div class="contenedor-img-card">
+			<img src="img/city/ChalatenangoCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Chalatenango</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Chalatenango</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">131.8 km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">18 -25 de Diciembre</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">192,788 habitantes</p>
+		</div>
+	</div>
+
+	<div class="contedor-card SantaAna" id="SantaAna">
+		<div class="contenedor-img-card">
+			<img src="img/city/SantaAnaCity.jpg" alt="">
+		</div>
+		<div class="contenedor-infor-card">
+			<h1 class="little-tittle">Santa Ana</h1>
+			<br>
+			<label class="txt-negrita">Cabecera</label>
+			<p class="text">Santa Ana</p>
+			<label for="" class="txt-negrita">Extención Territorial</label>
+			<p class="text">408  km²</p>
+			<label for="" class="txt-negrita">Fiestas Patronales</label>
+			<p class="text">01 - 26 de Julio</p>
+			<label for="" class="txt-negrita">N° Habitantes</label>
+			<p class="text">631,100 habitantes</p>
+		</div>
+	</div>
+
+
+
+	<div class="contenedor-modalA ModalAhuachapan" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Ahuachapan</h1>
+			<button class="btn-close" onclick="ocultarInfoAhuchapan()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Ahuachapan</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/Ahuachapan1.jpg" alt="">
+			<br>
+			<p class="text2">El departamento de Ahuachapán (del náhuat ajwechapan, "río de rocío") es el más occidental de los 14 departamentos en los que está dividida la República de El Salvador. Su cabecera, la ciudad de Ahuachapán, se encuentra a 100 km de San Salvador (capital de la república). El departamento tiene una extensión de 1.239,60 km². Colinda al norte con el departamento de Santa Ana, al noreste y al este con el departamento de Jutiapa, en Guatemala, al sur con el Océano Pacífico y al este con el departamento de Sonsonate.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene la Tierra de AhuaChapan?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Ahuachapán </li>
+                    <li>Apaneca </li>
+                    <li>Atiquizaya </li>
+                    <li>Concepción de Ataco </li>
+                    <li>El Refugio </li>
+                    <li>Guaymango </li>
+                    <li>Jujutla </li>
+                    <li>San Francisco Menéndez </li>
+                    <li>San Lorenzo </li>
+                    <li>San Pedro Puxtla </li>
+                    <li>Tacuba </li>
+                    <li>Turín </li>
+                </ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=Ahuachapan" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalASonsonate" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Sonsonate</h1>
+			<button class="btn-close" onclick="ocultarInfoSonsonate()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Sonsonate</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/Sonsonate2.jpg" alt="">
+			<br>
+			<p class="text2">El departamento de Sonsonate es otro de los 14 que conforman la República de El Salvador. El mismo tiene como cabecera departamental a la ciudad de Sonsonate. Esta para el censo del año 2013 registró un total de 110.501 habitantes.  Este departamento se encuentra al poniente de El Salvador y se divide en 16 municipios.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene la Tierra de Sonsonate?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Acajutla </li>
+                    <li>Armenia </li>
+                    <li>Caluco </li>
+                    <li>Cuisnahuat </li>
+                    <li>Izalco </li>
+                    <li>Juayúa </li>
+                    <li>Nahuizalco </li>
+                    <li>Salcoatitán </li>
+                    <li>San Antonio del Monte </li>
+                    <li>San Julian </li>
+                    <li>Santa Catarina Masahuat </li>
+                    <li>Santa Isabel Ishuatán </li>
+					<li>Sabto Domingo de Guzman </li>
+					<li>Sonsonate</li>
+					<li>Sonzacate</li>
+                </ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=Sonsonate" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalASantaAna" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Santa Ana</h1>
+			<button class="btn-close" onclick="ocultarInfoSantaAna()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Santa Ana</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/SantaAna1.jpg" alt="">
+			<br>
+			<p class="text2">Conocida como “La Ciudad Morena”, “Ciudad Heroica”, “Capital del Mundo” y “Sucursal del Cielo” por considerarse una de los lugares más importantes y distinguidos de El Salvador​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene la Tierra de Santa Ana?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Candelaria de la Frontera </li>
+                    <li>Chalchuapa </li>
+                    <li>Coatepeque </li>
+                    <li>El Congo </li>
+                    <li>El Porvenir </li>
+                    <li>Masahuat </li>
+                    <li>Metapan </li>
+                    <li>San Antonio Pajonal </li>
+                    <li>San Sebastian Salitrillo </li>
+                    <li>Santa Ana </li>
+                    <li>Santa Rosa Guachipilín</li>
+                    <li>Santiago de la Frontera</li>
+					<li>Texistepeque</li>
+                </ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=SantaAna" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalAChalatenango" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Chalatenango</h1>
+			<button class="btn-close" onclick="ocultarInfoChalatenango()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Chalatenango</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/chalate1.jpg" alt="">
+			<br>
+			<p class="text2">Los grandes paisajes montañosos, las plantaciones de horticultura más extensas y los cultivos más antiguos de añil están en Chalatenango. Uno de los departamentos más grandes del país que te invita a disfrutar del ecoturismo.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene la Tierra de Chalatenango?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Agua Caliente </li>
+                    <li>Arcatao </li>
+                    <li>Azacualpa </li>
+                    <li>Cancasque</li>
+                    <li>Chalatenango </li>
+                    <li>Citala </li>
+                    <li>Comapala </li>
+                    <li>Concepcion Quezaltepeque </li>
+                    <li>Dulce Nombre de Maria </li>
+                    <li>El Carrizal </li>
+                    <li>El Paraiso</li>
+                    <li>La Laguna</li>
+					<li>La Palma</li>
+					<li>La Reina</li>
+					<li>Las Flores</li>
+					<li>Las Vueltas</li>
+					<li>Nombre de Jesus</li>
+					<li>Nueva Concepcion</li>
+					<li>Nueva Trinidad</li>
+					<li>Ojos de Agua</li>
+					<li>Potonico</li>
+					<li>San Antonio de la Cruz</li>
+					<li>San Antonio de los Ranchos</li>
+					<li>San Fernando</li>
+					<li>San Francisco Lempa</li>
+					<li>San Francisco Morazán</li>
+					<li>San Ignacio</li>
+					<li>San Isidro Labrador</li>
+					<li>San Luis del Carmen</li>
+					<li>San Miguel de Mercedes</li>
+					<li>San Rafael</li>
+					<li>Santa Rita</li>
+					<li>Tejutla</li>
+                </ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=Chalatenango" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalALaLibertad" >
+		<div class="modalA-header">
+			<h1 class="titulo5">La Libertad</h1>
+			<button class="btn-close" onclick="ocultarInfoLaLibertad()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de La Libertad</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/LaLibertad1.jpg" alt="">
+			<br>
+			<p class="text2">Si la playa es lo tuyo, La Libertad es uno de los departamentos que deberás recorrer, ya que en él encontrarás diferentes destinos si amas el surf o si quieres relajarte.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de La Libertad?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Antiguo Cuscatlan </li>
+                    <li>Chiltiupán </li>
+                    <li>Ciudad Arce </li>
+                    <li>Colón </li>
+                    <li>Comasagua </li>
+                    <li>Huizúcar </li>
+                    <li>Jayaque </li>
+                    <li>Jicalapa </li>
+                    <li>La Libertad </li>
+                    <li>Santa Tecla </li>
+                    <li>Nuevo Cuscatlan</li>
+                    <li>San Juan Opico</li>
+					<li>Quezaltepeque</li>
+					<li>Sacacoyo</li>
+					<li>San José Villanueva</li>
+					<li>San Matias</li>
+					<li>San Pablo Tecachico</li>
+					<li>Talnique</li>
+					<li>Temanique</li>
+					<li>Teoteque</li>
+					<li>Tepecoyo</li>
+					<li>Zaragoza</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=LaLibertad" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalASanSalvador" >
+		<div class="modalA-header">
+			<h1 class="titulo5">San Salvador</h1>
+			<button class="btn-close" onclick="ocultarInfoSanSalvador()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de San Salvador</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/SanSalvador1.jpg" alt="">
+			<br>
+			<p class="text2">La capital de El Salvador, San Salvador, es una moderna ciudad de anchos bulevares y estrechas calles, mercados al aire libre, edificios gubernamentales, altas torres, monumentos, una vida nocturna exuberante, museos y otras instituciones culturales..​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de San Salvador?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Aguilares </li>
+                    <li>Apopa </li>
+                    <li>Ayutuxtepeque </li>
+                    <li>Cuscatancingo </li>
+                    <li>Ciudad Delgado </li>
+                    <li>El Paisnal </li>
+                    <li>Guazapa </li>
+                    <li>Ilopango </li>
+                    <li>Mejicanos </li>
+                    <li>Nejapa </li>
+                    <li>Panchimalco </li>
+                    <li>Rosario de Mora </li>
+					<li>San Marcos </li>
+					<li>San Martin </li>
+					<li>San Salvador</li>
+					<li>Santiago Texacuangos</li>
+					<li>Santo Tomas</li>
+					<li>Soyapango</li>
+					<li>Tonacatepeque</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=SanSalvador" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalACuscatlan" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Cuscatlan</h1>
+			<button class="btn-close" onclick="ocultarInfoCuscatlan()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Cuscatlan</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/cuscatlan3.jpg" alt="">
+			<br>
+			<p class="text2">Cuscatlán se encuentran ubicado en la parte central de El Salvador, Limita al Norte y Noreste con el departamento de Chalatenango. Al Este con Cabañas, al Sureste con San Vicente, al Sur con el departamento de La Paz y por último al Oeste con San Salvador​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de Cuscatlan?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Candelaria </li>
+                    <li>Cojutepeque </li>
+                    <li>El Carmen </li>
+                    <li>El Rosario </li>
+                    <li>Monte San Juan </li>
+                    <li>Oratorio de Concepcion </li>
+                    <li>San Bartolome Purulapia </li>
+                    <li>San Cristobal </li>
+                    <li>San José Guayabal</li>
+                    <li>San Rafael Cedros</li>
+                    <li>San Ramón</li>
+                    <li>Santa Cruz Analquito </li>
+					<li>Santa Cruz Michapa</li>
+					<li>Suchitoto</li>
+					<li>Tenancingo</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=SanSalvador" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalACabañas" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Cabañas</h1>
+			<button class="btn-close" onclick="ocultarInfoCabañas()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Cabañas</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/cabañas1.jpg" alt="">
+			<br>
+			<p class="text2">Este es un departamento que se encuentra en la zona paracentral de El Salvador. Aquí encontramos muchas reservas naturales para disfrutar. Su nombre fue en honor a un político centroamericanista hondureño José Trinidad Cabaña.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de Cabañas?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Cinquera </li>
+                    <li>Dolores </li>
+                    <li>Guacotecti </li>
+                    <li>Ilobasco </li>
+                    <li>Jutiapa </li>
+                    <li>San Isidro </li>
+                    <li>Sensuntepeque </li>
+                    <li>Tejutepeque </li>
+                    <li>Victoria</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=Cabañas" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalASanVicente" >
+		<div class="modalA-header">
+			<h1 class="titulo5">SanVicente</h1>
+			<button class="btn-close" onclick="ocultarInfoSanVicente()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de San Vicente</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/SanVicente2.jpg" alt="">
+			<br>
+			<p class="text2">El departamento de San Vicente fue creado por la Constitución de 12 de junio de 1824 que sancionó el Jefe de Estado Juan Manuel Rodriguez​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de San Vicente?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Apastepeque </li>
+                    <li>Guadalupe </li>
+                    <li>San Cayetano Istepeque </li>
+                    <li>San Esteban Catarina </li>
+                    <li>San Ildefonso </li>
+                    <li>San Lorenzo </li>
+                    <li>San Sebastian </li>
+                    <li>San Vicente </li>
+                    <li>Santa Clara</li>
+					<li>Santo Domingo</li>
+					<li>Tecoluca</li>
+					<li>Tepetitán</li>
+					<li>Verapaz</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=SanVicente" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalALaPaz" >
+		<div class="modalA-header">
+			<h1 class="titulo5">LaPaz</h1>
+			<button class="btn-close" onclick="ocultarInfoLaPaz()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de La Paz</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/LaPaz1.jpg" alt="">
+			<br>
+			<p class="text2">La Paz es un departamento de El Salvador localizado en la parte central de la nación. Formado de porciones de los departamentos de San Salvador y San Vicente, el departamento fue permanente establecido en febrero 21, 1852.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de La Paz?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Cuyultitán </li>
+                    <li>El Rosario </li>
+                    <li>Jerusalen </li>
+                    <li>Mercedes de la Ceiba </li>
+                    <li>Olocuilta </li>
+                    <li>Paraiso de Osorio </li>
+                    <li>San Antonio Masahuat </li>
+                    <li>San Emigdio </li>
+                    <li>San Francisco Chinameca</li>
+					<li>San Juan Nonualco</li>
+					<li>San Juan Nonualco</li>
+					<li>San Juan Talpa</li>
+					<li>San Juan Tepezontes</li>
+					<li>San Luis Talpa</li>
+					<li>San Luis La Herradura</li>
+					<li>San Miguel Tepezontes</li>
+					<li>San Pedro Masahuat</li>
+					<li>San Pedro Nonualco</li>
+					<li>San Rafael Obrajuelo</li>
+					<li>Santa Maria Ostuma</li>
+					<li>Santiago Nonualco</li>
+					<li>Tapalhuaca</li>
+					<li>Zacatecoluca</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=LaPaz" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalAUsulutan" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Usulutan</h1>
+			<button class="btn-close" onclick="ocultarInfoUsulutan()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Usulutan</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/usulutan1.jpg" alt="">
+			<br>
+			<p class="text2">El departamento de Usulután pertenece a la zona oriental de El Salvador y limita al norte con los departamentos de San Vicente y San Miguel; al este con San Miguel; al sur con el Océano Pacífico, y al poniente con San Vicente. Usulután significa “lugar de ocelotes”.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de Usulutan?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Alegria </li>
+                    <li>Berlín </li>
+                    <li>California </li>
+                    <li>Concepcion Batres </li>
+                    <li>El Triunfo </li>
+                    <li>Ereguayquín </li>
+                    <li>Estanzuelas </li>
+                    <li>Jiquilisco </li>
+                    <li>Jucuapa</li>
+					<li>Jucuaran</li>
+					<li>Mercedes Umaña</li>
+					<li>Nueva Granada</li>
+					<li>Ozatlan</li>
+					<li>Puerto El Triunfo</li>
+					<li>San Agustin</li>
+					<li>San Buenaventura</li>
+					<li>San Dionisio</li>
+					<li>San Francisco Javier</li>
+					<li>Santa Elenaaa</li>
+					<li>Santa Maria</li>
+					<li>Santiago de Maria</li>
+					<li>Tecapán</li>
+					<li>Usulután</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=Usulutan" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalASanMiguel" >
+		<div class="modalA-header">
+			<h1 class="titulo5">San Miguel</h1>
+			<button class="btn-close" onclick="ocultarInfoSanMiguel()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de San Miguel</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/SanMiguel3.jpg" alt="">
+			<br>
+			<p class="text2">San Miguel es un departamento de El Salvador que se ubica en la zona oriental del país, y de hecho es considerado como la capital de oriente. Sus límites geográficos son: al norte con Honduras; al este con Morazán y La Unión; al sur con el Océano Pacífico y Usulután, y al noroeste con San Vicente y Cabañas.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de San Miguel?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Carolina </li>
+                    <li>Chapeltique </li>
+                    <li>Chinameca </li>
+                    <li>Chirilagua </li>
+                    <li>Ciudad Barrios </li>
+                    <li>Comacaran </li>
+                    <li>El Transito </li>
+                    <li>Lolotique </li>
+                    <li>Moncagua</li>
+					<li>Nueva Guadalupe</li>
+					<li>Nueva Eden de San Juan</li>
+					<li>Quelepa</li>
+					<li>San Antonio del Mosco</li>
+					<li>San Gerardo</li>
+					<li>San Jorge</li>
+					<li>San Luis de la Reina</li>
+					<li>San Miguel</li>
+					<li>San Rafael Oriente</li>
+					<li>Sesori</li>
+					<li>Uluazapa</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=SanMiguel" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalAMorazan" >
+		<div class="modalA-header">
+			<h1 class="titulo5">Morazan</h1>
+			<button class="btn-close" onclick="ocultarInfoMorazan()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de Morazan</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/Morazan2.jpg" alt="">
+			<br>
+			<p class="text2">Al departamento se le dio el nombre actual por decreto el 14 de marzo de 1887, en honor del paladín de la Unión Centroamericana, general Francisco Morazán. Por ley del 5 de febrero de 1877 se otorgó a la villa de Gotera el título de ciudad. Fue fundado como departamento el 14 de julio de 1875.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de Morazan?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Arambala </li>
+                    <li>Cacaopera </li>
+                    <li>Chilanga </li>
+                    <li>Corinto </li>
+                    <li>Delicias de Concepcion </li>
+                    <li>El Divisadero </li>
+                    <li>El Rosario </li>
+                    <li>Gualococti </li>
+                    <li>Guatajiagua</li>
+					<li>Joateca</li>
+					<li>Jocoaitique</li>
+					<li>Jocoro</li>
+					<li>Lolotiquillo </li>
+					<li>Meanguera</li>
+					<li>Osicala</li>
+					<li>Perquin</li>
+					<li>San Carlos</li>
+					<li>San Fernando</li>
+					<li>San Francisco Gotera</li>
+					<li>San Isidro</li>
+					<li>San Simon</li>
+					<li>Sensembra</li>
+					<li>Sociedad</li>
+					<li>Torola</li>
+					<li>Yamabal</li>
+					<li>Yoloaiquin</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=Morazan" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	<div class="contenedor-modalA ModalALaUnion" >
+		<div class="modalA-header">
+			<h1 class="titulo5">La Union</h1>
+			<button class="btn-close" onclick="ocultarInfoLaUnion()" >x</button>
+		</div>
+
+		<div class="modalA-body">
+			
+			<br><hr><hr><br>
+			<center><h1 class="subtitulo2">Conoce el Departamento de La Union</h1></center>
+			<br><hr><hr><br>
+			<img src="img/Collection/LaUnion3.jpg" alt="">
+			<br>
+			<p class="text2">La Unión es un departamento de El Salvador que se ubica en la zona oriental de la República. Sus límites geográficos son: al noroeste y al este con Honduras; al sureste con el Golfo de Fonseca y con Honduras; al sur con el Océano Pacífico; al sureste y al oeste con el departamento de San Miguel, y al noreste con Morazán.​</p>       
+				<br>
+                <center><h1 class="subtitulo2">¿Cuantos Municipios tiene el Departamento de La Union?</h1></center>
+				<br>
+				<hr><hr>
+                <ol class="lista-ordenada text2">
+                    <li>Anamorós </li>
+                    <li>Bolivas </li>
+                    <li>Concepcion de Oriente </li>
+                    <li>Conchagua </li>
+                    <li>El Carmen </li>
+                    <li>El Sauce </li>
+                    <li>Intipuca </li>
+                    <li>La Union </li>
+                    <li>Lislique</li>
+					<li>Meanguera del Golfo</li>
+					<li>Nueva Esparta</li>
+					<li>Pasaquina</li>
+					<li>Poloros </li>
+					<li>San Alejo</li>
+					<li>San Jose</li>
+					<li>Santa Rosa de lima</li>
+					<li>Yayantique</li>
+					<li>Yucuaiquin</li>
+				</ol>
+
+                <br>
+
+		</div>
+
+		<div class="modalA-footer">
+			<a href="Depa.html?departamento=LaUnion" class="btn-primario">+Informacion</a>
+		</div>
+	</div>
+	
+
+
+	<!-- Configuracion JS -->
+	<script src="js/main.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>

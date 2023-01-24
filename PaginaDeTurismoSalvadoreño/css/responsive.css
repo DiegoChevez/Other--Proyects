@@ -1,0 +1,192 @@
+.contenedor,
+.NosotrosContainer,
+.ContactosContainer,
+.DepaContainer {
+    /**Configuracion del contenedor principal y congifuracion de nuestro grid**/
+    width: 95%;
+    max-width: 1500px;
+    min-width: 700px;
+    margin: 10px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+/** CONFIGUARION RESPONSIVE **/
+.contenedor{
+    grid-template-areas: "header header header"
+    "contenido contenido contenido"
+    "footer footer footer";
+}
+.NosotrosContainer{
+    grid-template-areas: "header header header"
+    "sidebar contenido contenido"
+    "footer footer footer";
+}
+.ContactosContainer{
+    grid-template-areas: "header header header"
+    "contenido contenido contenido"
+    "sidebar sidebar sidebar"
+    "widget-1 widget-1 widget-1"
+    "footer footer footer";
+}
+.DepaContainer{
+    grid-template-areas: "header header header"
+    "widget-3 widget-3 widget-3"
+    "contenido contenido widget-1"
+    "contenido contenido widget-2"
+    "footer footer footer";
+}
+
+
+/********** FIN ***************/
+
+.contenedor>div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer,
+
+.NosotrosContainer>div,
+.NosotrosContainer .header,
+.NosotrosContainer .contenido,
+.NosotrosContainer .sidebar,
+.NosotrosContainer .footer,
+
+.ContactosContainer>div,
+.ContactosContainer .header,
+.ContactosContainer .contenido,
+.ContactosContainer .sidebar,
+.ContactosContainer .footer,
+
+.DepaContainer>div,
+.DepaContainer .header,
+.DepaContainer .contenido,
+.DepaContainer .sidebar,
+.DepaContainer .footer{
+    /**Configuracion basica de aspecto en los contenedores hijos**/
+    background: #fff;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+
+.contenedor .header,
+.NosotrosContainer .header,
+.ContactosContainer .header,
+.DepaContainer .header{
+    /**Configuracion Basica de aspecto y relacion grid -- HEADER**/
+    background: #12203E;
+    color: #fff;
+    grid-area: header;
+}
+
+.contenedor .contenido,
+.NosotrosContainer .contenido,
+.ContactosContainer .contenido,
+.DepaContainer .contenido{
+    /**Configuracion Basica de aspecto y relacion grid -- Contenido**/
+    grid-area: contenido;
+}
+
+.contenedor .sidebar,
+.NosotrosContainer .sidebar,
+.ContactosContainer .sidebar,
+.DepaContainer .sidebar {
+    /**Configuracion Basica de aspecto y relacion grid -- Sidebar**/
+    grid-column: 3 / 4;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    grid-area: sidebar;
+}
+
+.contenedor .widget-1,
+.contenedor .widget-2,
+.contenedor .widget-3,
+.NosotrosContainer .widget-1,
+.NosotrosContainer .widget-2,
+.NosotrosContainer .widget-3,
+.ContactosContainer .widget-1,
+.ContactosContainer .widget-2,
+.ContactosContainer .widget-3,
+.DepaContainer .widget-1,
+.DepaContainer .widget-2,
+.DepaContainer .widget-3{
+    /**Configuracion Basica de aspecto -- BOXS RESPONSIVE 1 y 2**/
+    background: #ffffff;
+    color: black;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 6px 10px;
+}
+
+.contenedor .widget-1,
+.NosotrosContainer .widget-1,
+.ContactosContainer .widget-1,
+.DepaContainer .widget-1 {
+    /**Confi Relacion Grid**/
+    grid-area: widget-1;
+}
+
+.contenedor .widget-2,
+.NosotrosContainer .widget-2,
+.ContactosContainer .widget-2,
+.DepaContainer .widget-2{
+    /**Confi Relacion Grid**/
+    grid-area: widget-2;
+}
+
+.contenedor .widget-3,
+.NosotrosContainer .widget-3
+.ContactosContainer .widget-3,
+.DepaContainer .widget-3{
+    /**Configuracion Basica de aspecto y relacion grid -- BOXS RESPONSIVE 3**/
+    grid-area: widget-3;
+}
+
+.contenedor .footer,
+.NosotrosContainer .footer,
+.ContactosContainer .footer,
+.DepaContainer .footer{
+    /**Configuracion Basica de aspecto y relacion grid -- FOOTER 3**/
+    background: #12203E;
+    color: #fff;
+    grid-area: footer;
+}
+
+@media screen and (max-width: 768px) {
+
+    /**Configuracion de los limites del visor**/
+    .contenedor {
+        /**Confi. de organizacion de las nuevas medidas**/
+        grid-template-areas: "header header header"
+            "contenido contenido contenido"
+            "footer footer footer";
+    }
+    .NosotrosContainer {
+        grid-template-areas: "header header header"
+            "contenido contenido contenido"
+            "sidebar sidebar sidebar"
+            "footer footer footer";
+    }
+    .ContactosContainer {
+        grid-template-areas: "header header header"
+            "contenido contenido contenido"
+            "sidebar sidebar sidebar"
+            "footer footer footer";
+    }
+    .DepaContainer {
+        grid-template-areas: "header header header"
+        "widget-3 widget-3 widget-3"
+        "contenido contenido contenido"
+        "widget-1 widget-2 widget-2"
+        "footer footer footer";
+    }
+}

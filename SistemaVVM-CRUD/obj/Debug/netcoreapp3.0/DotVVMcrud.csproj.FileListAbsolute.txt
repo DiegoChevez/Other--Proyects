@@ -1,0 +1,175 @@
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\bower.json
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVMcrud.exe
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVMcrud.deps.json
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.json
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.dev.json
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Ben.Demystifier.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVM.Framework.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVM.Framework.Hosting.AspNetCore.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\DotVVM.Core.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.csprojAssemblyReference.cache
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\staticwebassets\DotVVMcrud.StaticWebAssets.Manifest.cache
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\staticwebassets\DotVVMcrud.StaticWebAssets.xml
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.GenerateResource.cache
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfoInputs.cache
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfo.cs
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.RazorTargetAssemblyInfo.cache
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.CopyComplete
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Daniel\source\repos\DotVVMcrud\DotVVMcrud\obj\Debug\netcoreapp3.0\DotVVMcrud.Resources.Texts.resources
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\bower.json
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVMcrud.exe
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVMcrud.deps.json
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.json
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Ben.Demystifier.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVM.Framework.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVM.Framework.Hosting.AspNetCore.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\DotVVM.Core.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.Resources.Texts.resources
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfo.cs
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\staticwebassets\DotVVMcrud.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\staticwebassets\DotVVMcrud.StaticWebAssets.xml
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\scopedcss\bundle\DotVVMcrud.styles.css
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.CopyComplete
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Admin\Desktop\UDB\DotVVMcrud-master\obj\Debug\netcoreapp3.0\DotVVMcrud.genruntimeconfig.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.Resources.Texts.resources
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfo.cs
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\bower.json
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.exe
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.deps.json
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.json
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Ben.Demystifier.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVM.Framework.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVM.Framework.Hosting.AspNetCore.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVM.Core.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\staticwebassets\DotVVMcrud.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.CopyComplete
+C:\Users\Admin\Desktop\UDB\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.genruntimeconfig.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\bower.json
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.exe
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.deps.json
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.json
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Ben.Demystifier.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVM.Framework.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVM.Framework.Hosting.AspNetCore.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\DotVVM.Core.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.Resources.Texts.resources
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.AssemblyInfo.cs
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\staticwebassets\DotVVMcrud.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.csproj.CopyComplete
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.dll
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.pdb
+C:\Users\Admin\Desktop\UDB-ciclo2\Investigacion DSP2\obj\Debug\netcoreapp3.0\DotVVMcrud.genruntimeconfig.cache
